@@ -1,0 +1,6 @@
+# A list of the IDs of markers to be detected.
+int32[] marker_ids
+
+# The marker dictionary that describes the appearance of each marker. Example: "aruco4x4_50".
+string marker_dictionary
+

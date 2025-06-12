@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.056s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.080s] [ 12%] Built target gui_autogen
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.143s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[4.598s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:35:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    35 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.598s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.598s] 
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:33:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* Form::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    33 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.598s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    10 | [01;35m[KForm[m[K::Form(
+[4.598s]       | [01;35m[K^~~~[m[K
+[4.598s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:33:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    33 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.598s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    16 |     ui(new Ui::Form[01;35m[K)[m[K
+[4.598s]       |                    [01;35m[K^[m[K
+[4.598s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.598s]    10 | [01;35m[KForm[m[K::Form(
+[4.599s]       | [01;35m[K^~~~[m[K
+[4.611s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::openRviz(QWidget*)[m[K’:
+[4.611s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager_[m[K’ was not declared in this scope
+[4.611s]    49 |     [01;31m[Kmanager_[m[K = new rviz_common::VisualizationManager(render_panel_, rviz_ros_node_, this, clock);
+[4.611s]       |     [01;31m[K^~~~~~~~[m[K
+[4.626s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:49:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krender_panel_[m[K’ was not declared in this scope
+[4.626s]    49 |     manager_ = new rviz_common::VisualizationManager([01;31m[Krender_panel_[m[K, rviz_ros_node_, this, clock);
+[4.626s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[4.640s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:49:69:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_ros_node_[m[K’ was not declared in this scope
+[4.640s]    49 | ger_ = new rviz_common::VisualizationManager(render_panel_, [01;31m[Krviz_ros_node_[m[K, this, clock);
+[4.640s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.641s] 
+[5.555s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[5.556s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.556s] gmake: *** [Makefile:146: all] Error 2
+[5.558s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

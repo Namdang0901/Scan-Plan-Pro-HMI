@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000163] (-) JobUnselected: {'identifier': 'gui'}
+[0.000179] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000191] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000204] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000217] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000230] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000242] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000254] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000266] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000278] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000291] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000304] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000317] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000331] (pointcloud_marker) JobQueued: {'identifier': 'pointcloud_marker', 'dependencies': OrderedDict()}
+[0.000346] (pointcloud_marker) JobStarted: {'identifier': 'pointcloud_marker'}
+[0.008764] (pointcloud_marker) JobProgress: {'identifier': 'pointcloud_marker', 'progress': 'cmake'}
+[0.010061] (pointcloud_marker) JobProgress: {'identifier': 'pointcloud_marker', 'progress': 'build'}
+[0.010091] (pointcloud_marker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/pointcloud_marker', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/pointcloud_marker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/home/hoapham/ur_ws/install/ur_robot_driver/lib:/home/hoapham/ur_ws/install/ur_controllers/lib:/home/hoapham/ur_ws/install/ur_msgs/lib:/home/hoapham/ur_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install:/home/hoapham/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2679,unix/hoapham:/tmp/.ICE-unix/2679'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d64464b2_e830_448b_9bb2_255c1af88ff0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.321'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/pointcloud_marker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble')]), 'shell': False}
+[0.068689] (pointcloud_marker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_marker_node\x1b[0m\n'}
+[0.096771] (pointcloud_marker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o\x1b[0m\n'}
+[0.099189] (-) TimerEvent: {}
+[0.199559] (-) TimerEvent: {}
+[0.300056] (-) TimerEvent: {}
+[0.400465] (-) TimerEvent: {}
+[0.500918] (-) TimerEvent: {}
+[0.601322] (-) TimerEvent: {}
+[0.701753] (-) TimerEvent: {}
+[0.802220] (-) TimerEvent: {}
+[0.902685] (-) TimerEvent: {}
+[1.003343] (-) TimerEvent: {}
+[1.103983] (-) TimerEvent: {}
+[1.204495] (-) TimerEvent: {}
+[1.305003] (-) TimerEvent: {}
+[1.405515] (-) TimerEvent: {}
+[1.505984] (-) TimerEvent: {}
+[1.606419] (-) TimerEvent: {}
+[1.706777] (-) TimerEvent: {}
+[1.807286] (-) TimerEvent: {}
+[1.907593] (-) TimerEvent: {}
+[2.007932] (-) TimerEvent: {}
+[2.108234] (-) TimerEvent: {}
+[2.208573] (-) TimerEvent: {}
+[2.308932] (-) TimerEvent: {}
+[2.409315] (-) TimerEvent: {}
+[2.509708] (-) TimerEvent: {}
+[2.609993] (-) TimerEvent: {}
+[2.710308] (-) TimerEvent: {}
+[2.810570] (-) TimerEvent: {}
+[2.910887] (-) TimerEvent: {}
+[3.011316] (-) TimerEvent: {}
+[3.111730] (-) TimerEvent: {}
+[3.212109] (-) TimerEvent: {}
+[3.312431] (-) TimerEvent: {}
+[3.412743] (-) TimerEvent: {}
+[3.513191] (-) TimerEvent: {}
+[3.599102] (pointcloud_marker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:200:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.599397] (pointcloud_marker) StderrLine: {'line': b'  200 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (point_log_.is_open()) {\n'}
+[3.599498] (pointcloud_marker) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.613322] (-) TimerEvent: {}
+[3.713720] (-) TimerEvent: {}
+[3.814191] (-) TimerEvent: {}
+[3.914601] (-) TimerEvent: {}
+[4.015055] (-) TimerEvent: {}
+[4.115491] (-) TimerEvent: {}
+[4.215921] (-) TimerEvent: {}
+[4.316440] (-) TimerEvent: {}
+[4.416866] (-) TimerEvent: {}
+[4.517246] (-) TimerEvent: {}
+[4.617550] (-) TimerEvent: {}
+[4.717894] (-) TimerEvent: {}
+[4.818219] (-) TimerEvent: {}
+[4.918598] (-) TimerEvent: {}
+[5.018939] (-) TimerEvent: {}
+[5.119300] (-) TimerEvent: {}
+[5.219641] (-) TimerEvent: {}
+[5.319983] (-) TimerEvent: {}
+[5.420358] (-) TimerEvent: {}
+[5.520622] (-) TimerEvent: {}
+[5.620971] (-) TimerEvent: {}
+[5.721290] (-) TimerEvent: {}
+[5.821654] (-) TimerEvent: {}
+[5.922005] (-) TimerEvent: {}
+[6.022336] (-) TimerEvent: {}
+[6.122662] (-) TimerEvent: {}
+[6.222988] (-) TimerEvent: {}
+[6.323352] (-) TimerEvent: {}
+[6.404360] (pointcloud_marker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pointcloud_marker_node.dir/build.make:76: CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o] Error 1\n'}
+[6.404804] (pointcloud_marker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pointcloud_marker_node.dir/all] Error 2\n'}
+[6.405165] (pointcloud_marker) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.408159] (pointcloud_marker) CommandEnded: {'returncode': 2}
+[6.414873] (pointcloud_marker) JobEnded: {'identifier': 'pointcloud_marker', 'rc': 2}
+[6.423540] (-) TimerEvent: {}
+[6.425627] (-) EventReactorShutdown: {}

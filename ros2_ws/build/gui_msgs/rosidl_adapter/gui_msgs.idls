@@ -1,0 +1,8 @@
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:msg/SettingParams.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:msg/SettingTool.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:msg/TrajectorySetting.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:msg/AutoProcess.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:srv/SettingParams.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:srv/SettingTool.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:srv/TrajectorySetting.idl
+/home/hoapham/ros2_ws/build/gui_msgs/rosidl_adapter/gui_msgs:srv/AutoProcess.idl

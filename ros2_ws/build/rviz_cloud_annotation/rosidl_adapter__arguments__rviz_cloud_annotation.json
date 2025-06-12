@@ -1,0 +1,7 @@
+{
+  "package_name": "rviz_cloud_annotation",
+  "non_idl_tuples": [
+    "/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_cloud_annotation:msg/UndoRedoState.msg",
+    "/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_cloud_annotation:msg/RectangleSelectionViewport.msg"
+  ]
+}

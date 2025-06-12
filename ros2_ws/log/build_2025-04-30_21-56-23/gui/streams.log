@@ -1,0 +1,168 @@
+[0.022s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui
+[0.046s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.214s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.241s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.282s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.283s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.295s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.299s] -- Looking for pthread.h
+[0.354s] -- Looking for pthread.h - found
+[0.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.419s] -- Found Threads: TRUE  
+[0.449s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.473s] -- Found action_tutorials_interfaces: 0.20.5 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)
+[0.482s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.488s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.495s] -- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[0.645s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.649s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.652s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.654s] -- Found OGRE
+[0.654s] --   static     : OFF
+[0.654s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.654s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.654s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.654s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.654s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.655s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.655s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.655s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.655s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.655s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.655s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.665s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.667s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.740s] -- Found X11: /usr/include   
+[0.740s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.800s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.800s] -- Looking for gethostbyname
+[0.860s] -- Looking for gethostbyname - found
+[0.860s] -- Looking for connect
+[0.919s] -- Looking for connect - found
+[0.919s] -- Looking for remove
+[0.975s] -- Looking for remove - found
+[0.975s] -- Looking for shmat
+[1.034s] -- Looking for shmat - found
+[1.035s] -- Looking for IceConnectionNumber in ICE
+[1.096s] -- Looking for IceConnectionNumber in ICE - found
+[1.107s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.107s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.150s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.198s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.199s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.199s] -- Configured cppcheck include dirs: /home/hoapham/ros2_ws/src/gui/include
+[1.199s] -- Configured cppcheck exclude dirs and/or files: 
+[1.200s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.200s] -- Configured cpplint exclude dirs and/or files: 
+[1.200s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.200s] -- Added test 'lint_cmake' to check CMake code style
+[1.201s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.202s] -- Added test 'uncrustify' to check C / C++ code style
+[1.202s] -- Configured uncrustify additional arguments: 
+[1.202s] -- Added test 'xmllint' to check XML markup files
+[1.203s] -- Configuring done
+[1.234s] -- Generating done
+[1.238s] -- Build files have been written to: /home/hoapham/ros2_ws/build/gui
+[1.248s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui
+[1.250s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[1.291s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[1.711s] [ 14%] Built target gui_autogen
+[1.731s] [ 85%] [32mBuilding CXX object CMakeFiles/gui.dir/src/rvizpanel.cpp.o[0m
+[1.731s] [ 85%] [32mBuilding CXX object CMakeFiles/gui.dir/src/rrjoystick.cpp.o[0m
+[1.731s] [ 85%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[1.731s] [ 85%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[1.731s] [ 85%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[2.468s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:[m[K In member function ‘[01m[Kvirtual void RRJoystick::paintEvent(QPaintEvent*)[m[K’:
+[2.469s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:155:37:[m[K [01;35m[Kwarning: [m[K‘[01m[KQPainter::HighQualityAntialiasing[m[K’ is deprecated: Use Antialiasing instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.469s]   155 |     painter.setRenderHint(QPainter::[01;35m[KHighQualityAntialiasing[m[K);
+[2.469s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter:1[m[K,
+[2.469s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:3[m[K:
+[2.469s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.469s]    92 |         [01;36m[KHighQualityAntialiasing[m[K Q_DECL_ENUMERATOR_DEPRECATED_X("Use Antialiasing instead") = 0x08,
+[2.469s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:155:37:[m[K [01;35m[Kwarning: [m[K‘[01m[KQPainter::HighQualityAntialiasing[m[K’ is deprecated: Use Antialiasing instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.469s]   155 |     painter.setRenderHint(QPainter::[01;35m[KHighQualityAntialiasing[m[K);
+[2.469s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter:1[m[K,
+[2.469s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:3[m[K:
+[2.469s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.469s]    92 |         [01;36m[KHighQualityAntialiasing[m[K Q_DECL_ENUMERATOR_DEPRECATED_X("Use Antialiasing instead") = 0x08,
+[2.469s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.615s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:1[m[K:
+[4.615s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:[m[K In constructor ‘[01m[KRvizPanel::RvizPanel(QApplication*, QWidget*)[m[K’:
+[4.615s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:65:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KRvizPanel::app_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.615s]    65 |   QApplication * [01;35m[Kapp_[m[K;
+[4.615s]       |                  [01;35m[K^~~~[m[K
+[4.615s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:16:34:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.615s]    16 |   : app_(app), QMainWindow(parent[01;35m[K)[m[K
+[4.615s]       |                                  [01;35m[K^[m[K
+[4.615s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.615s]    13 | [01;35m[KRvizPanel[m[K::RvizPanel(
+[4.615s]       | [01;35m[K^~~~~~~~~[m[K
+[4.620s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:[m[K In member function ‘[01m[Kvirtual rviz_common::PanelDockWidget* RvizPanel::addPane(const QString&, QWidget*, Qt::DockWidgetArea, bool)[m[K’:
+[4.620s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:133:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.620s]   133 |   [01;35m[Kconst QString & name[m[K,
+[4.620s]       |   [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[4.620s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:134:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpane[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.620s]   134 |   [01;35m[KQWidget * pane[m[K,
+[4.620s]       |   [01;35m[K~~~~~~~~~~^~~~[m[K
+[4.620s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:135:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.621s]   135 |   [01;35m[KQt::DockWidgetArea area[m[K,
+[4.621s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.621s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:136:8:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfloating[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.621s]   136 |   [01;35m[Kbool floating[m[K) {
+[4.621s]       |   [01;35m[K~~~~~^~~~~~~~[m[K
+[4.621s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:[m[K In member function ‘[01m[Kvirtual void RvizPanel::setStatus(const QString&)[m[K’:
+[4.621s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:141:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.621s]   141 | void RvizPanel::setStatus([01;35m[Kconst QString & message[m[K) {
+[4.621s]       |                           [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.956s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.956s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[5.956s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:64:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.956s]    64 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.956s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.957s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:17:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.957s]    17 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[5.957s]       |                          [01;35m[K^[m[K
+[5.957s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.957s]    12 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.957s]       | [01;35m[K^~~~~~~~[m[K
+[12.189s] [100%] [32m[1mLinking CXX executable gui[0m
+[13.778s] [100%] Built target gui
+[13.788s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[13.789s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[13.795s] -- Install configuration: ""
+[13.795s] -- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui
+[13.799s] -- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""
+[13.799s] -- Installing: /home/hoapham/ros2_ws/install/gui/include
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/include/gui
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui//launch
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh
+[13.800s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake
+[13.801s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml
+[13.803s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui

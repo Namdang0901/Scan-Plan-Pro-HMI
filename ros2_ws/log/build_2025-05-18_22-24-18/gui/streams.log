@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.077s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.115s] [ 12%] Built target gui_autogen
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.188s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[5.528s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.529s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[5.529s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:32:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.529s]    32 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.529s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.529s] 
+[5.529s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:15:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.529s]    15 |     ui(new Ui::Form[01;35m[K)[m[K
+[5.529s]       |                    [01;35m[K^[m[K
+[5.529s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.529s]    10 | [01;35m[KForm[m[K::Form(
+[5.529s]       | [01;35m[K^~~~[m[K
+[5.530s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In lambda function:
+[5.530s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::Form[m[K’ has no member named ‘[01m[Krviz_widget[m[K’
+[5.530s]    19 |         ui->[01;31m[Krviz_widget[m[K->hide();
+[5.530s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.511s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[6.511s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[6.512s] gmake: *** [Makefile:146: all] Error 2
+[6.514s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

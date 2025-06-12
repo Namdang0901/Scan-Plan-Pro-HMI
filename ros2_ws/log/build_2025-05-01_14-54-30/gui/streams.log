@@ -1,0 +1,39 @@
+[0.028s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.066s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.095s] [ 14%] Built target gui_autogen
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.155s] [ 28%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[4.217s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.217s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[4.217s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:70:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.217s]    70 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.217s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.217s] 
+[4.217s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.217s]    19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[4.217s]       |                          [01;35m[K^[m[K
+[4.217s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.217s]    14 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.217s]       | [01;35m[K^~~~~~~~[m[K
+[4.224s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:71:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::ifstream infile[m[K’
+[4.224s]    71 |     std::ifstream [01;31m[Kinfile[m[K("data/tool.txt");
+[4.224s]       |                   [01;31m[K^~~~~~[m[K
+[4.224s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:35:19:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ifstream infile[m[K’ previously declared here
+[4.224s]    35 |     std::ifstream [01;36m[Kinfile[m[K("data/param.txt");
+[4.224s]       |                   [01;36m[K^~~~~~[m[K
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:300:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.662s]   300 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+[4.662s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:310:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.662s]   310 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+[4.662s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[4.665s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::save_combobox_value_to_txt(const QString&)[m[K’:
+[4.665s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:320:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.665s]   320 | void HelloGui::save_combobox_value_to_txt([01;35m[Kconst QString& value[m[K)
+[4.666s]       |                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[6.994s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[6.994s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[6.994s] gmake: *** [Makefile:146: all] Error 2
+[6.997s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

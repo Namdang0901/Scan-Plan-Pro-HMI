@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.085s] [ 12%] Built target gui_autogen
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.146s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.844s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.844s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:43:128:[m[K [01;31m[Kerror: [m[K‘[01m[KFalse[m[K’ was not declared in this scope; did you mean ‘[01m[KQCborSimpleType::False[m[K’?
+[4.844s]    43 | createDisplay("rviz_default_plugins/RobotModel", "Robot Model", [01;31m[KFalse[m[K);
+[4.844s]       |                                                                 [01;31m[K^~~~~[m[K
+[4.844s]       |                                                                 [32m[KQCborSimpleType::False[m[K
+[4.844s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+[4.844s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborarray.h:43[m[K,
+[4.844s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:38[m[K,
+[4.844s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QtMultimediaDepends:3[m[K,
+[4.844s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QtMultimedia:3[m[K,
+[4.844s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:6[m[K,
+[4.844s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[4.845s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:61:5:[m[K [01;36m[Knote: [m[K‘[01m[KQCborSimpleType::False[m[K’ declared here
+[4.845s]    61 |     [01;36m[KFalse[m[K = 20,
+[4.845s]       |     [01;36m[K^~~~~[m[K
+[4.845s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:53:117:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope; did you mean ‘[01m[KQCborSimpleType::True[m[K’?
+[4.845s]    53 | >createDisplay("rviz_default_plugins/RobotModel", "Robot Model", [01;31m[KTrue[m[K);
+[4.845s]       |                                                                  [01;31m[K^~~~[m[K
+[4.845s]       |                                                                  [32m[KQCborSimpleType::True[m[K
+[4.845s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+[4.846s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborarray.h:43[m[K,
+[4.846s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:38[m[K,
+[4.846s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QtMultimediaDepends:3[m[K,
+[4.846s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QtMultimedia:3[m[K,
+[4.846s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:6[m[K,
+[4.846s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[4.846s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:62:5:[m[K [01;36m[Knote: [m[K‘[01m[KQCborSimpleType::True[m[K’ declared here
+[4.846s]    62 |     [01;36m[KTrue[m[K = 21,
+[4.846s]       |     [01;36m[K^~~~[m[K
+[5.705s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.705s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.705s] gmake: *** [Makefile:146: all] Error 2
+[5.708s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

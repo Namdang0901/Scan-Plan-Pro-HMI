@@ -1,0 +1,30 @@
+[ 25%] [34m[1mAutomatic MOC for target rviz_3d_view_controller[0m
+[ 25%] Built target rviz_3d_view_controller_autogen
+[35m[1mConsolidate compiler generated dependencies of target rviz_3d_view_controller[0m
+[100%] Built target rviz_3d_view_controller
+-- Install configuration: ""
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/rviz_plugin/plugin_description.xml
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/librviz_3d_view_controller.so
+-- Set runtime path of "/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/librviz_3d_view_controller.so" to ""
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/library_path.sh
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/library_path.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/ament_index/resource_index/package_run_dependencies/rviz_3d_view_controller
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/ament_index/resource_index/parent_prefix_path/rviz_3d_view_controller
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/ament_prefix_path.sh
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/path.sh
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/environment/path.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/local_setup.bash
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/local_setup.sh
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/local_setup.zsh
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/local_setup.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/ament_index/resource_index/packages/rviz_3d_view_controller
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_3d_view_controller
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/export_rviz_3d_view_controllerExport.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/export_rviz_3d_view_controllerExport-noconfig.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/rviz_3d_view_controllerConfig.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/cmake/rviz_3d_view_controllerConfig-version.cmake
+-- Installing: /home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.xml

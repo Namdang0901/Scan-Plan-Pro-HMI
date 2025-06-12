@@ -1,0 +1,43 @@
+[ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[ 12%] Built target gui_autogen
+[35m[1mConsolidate compiler generated dependencies of target gui[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:36:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* Form::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KForm[m[K::Form(
+      | [01;35m[K^~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |     ui(new Ui::Form[01;35m[K)[m[K
+      |                    [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KForm[m[K::Form(
+      | [01;35m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’; did you mean ‘[01m[Kjoint_subscription_[m[K’?
+   25 |     joint_subscription_ = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::JointState>(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kjoint_subscription_[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:25:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   25 | ubscription_ = this->create_subscription<sensor_msgs::msg::JointState[01;31m[K>[m[K(
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:26:5:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   26 |     [01;35m[K"/joint_states"[m[K, 10,
+      |     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateSubscriber[m[K’ has not been declared
+   27 |     std::bind(&[01;31m[KJointStateSubscriber[m[K::topic_callback, this, std::placeholders::_1));
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

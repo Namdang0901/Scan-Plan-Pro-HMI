@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000217] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000247] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000361] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000411] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000437] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000461] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000484] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000508] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000533] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000557] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000579] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000613] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000674] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000703] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000730] (gui) JobStarted: {'identifier': 'gui'}
+[0.007032] (gui) JobProgress: {'identifier': 'gui', 'progress': 'cmake'}
+[0.007517] (gui) JobProgress: {'identifier': 'gui', 'progress': 'build'}
+[0.007965] (gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2583,unix/hoapham:/tmp/.ICE-unix/2583'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/594f8eb7_1dd4_43d7_b9c1_d81b4986031c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[0.044933] (gui) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099438] (-) TimerEvent: {}
+[0.124683] (gui) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.137827] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.139170] (gui) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.142305] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.147479] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.154108] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.171735] (gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.172642] (gui) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.182200] (gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199566] (-) TimerEvent: {}
+[0.207947] (gui) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.228832] (gui) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.5 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[0.236101] (gui) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.240563] (gui) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.247360] (gui) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[0.299725] (-) TimerEvent: {}
+[0.340787] (gui) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.342760] (gui) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.346143] (gui) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.346889] (gui) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.347118] (gui) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.347252] (gui) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.347291] (gui) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.347326] (gui) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.347357] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.347389] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.347419] (gui) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.347450] (gui) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.347480] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.347510] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.347539] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.347570] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.382750] (gui) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.399865] (-) TimerEvent: {}
+[0.416348] (gui) StdoutLine: {'line': b'-- Found gui_msgs: 1.1.0 (/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake)\n'}
+[0.428817] (gui) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.442818] (gui) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:58 (find_package):\n'}
+[0.443158] (gui) StderrLine: {'line': b'  By not providing "FindQwt.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.443250] (gui) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Qwt", but\n'}
+[0.443325] (gui) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.443391] (gui) StderrLine: {'line': b'\n'}
+[0.443454] (gui) StderrLine: {'line': b'  Could not find a package configuration file provided by "Qwt" with any of\n'}
+[0.443523] (gui) StderrLine: {'line': b'  the following names:\n'}
+[0.443587] (gui) StderrLine: {'line': b'\n'}
+[0.443676] (gui) StderrLine: {'line': b'    QwtConfig.cmake\n'}
+[0.443735] (gui) StderrLine: {'line': b'    qwt-config.cmake\n'}
+[0.443803] (gui) StderrLine: {'line': b'\n'}
+[0.443868] (gui) StderrLine: {'line': b'  Add the installation prefix of "Qwt" to CMAKE_PREFIX_PATH or set "Qwt_DIR"\n'}
+[0.443930] (gui) StderrLine: {'line': b'  to a directory containing one of the above files.  If "Qwt" provides a\n'}
+[0.444008] (gui) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[0.444075] (gui) StderrLine: {'line': b'\n'}
+[0.444141] (gui) StderrLine: {'line': b'\x1b[0m\n'}
+[0.444207] (gui) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.444284] (gui) StdoutLine: {'line': b'See also "/home/hoapham/ros2_ws/build/gui/CMakeFiles/CMakeOutput.log".\n'}
+[0.452838] (gui) StderrLine: {'line': b'gmake: *** [Makefile:443: cmake_check_build_system] Error 1\n'}
+[0.455285] (gui) CommandEnded: {'returncode': 2}
+[0.461455] (gui) JobEnded: {'identifier': 'gui', 'rc': 2}
+[0.471916] (-) EventReactorShutdown: {}

@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000535] (-) JobUnselected: {'identifier': 'gui'}
+[0.000553] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000602] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000613] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000624] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000638] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000651] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000662] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000677] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000689] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000700] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000806] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000818] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000830] (gui_msgs) JobQueued: {'identifier': 'gui_msgs', 'dependencies': OrderedDict()}
+[0.000844] (gui_msgs) JobStarted: {'identifier': 'gui_msgs'}
+[0.006834] (gui_msgs) JobProgress: {'identifier': 'gui_msgs', 'progress': 'cmake'}
+[0.007180] (gui_msgs) JobProgress: {'identifier': 'gui_msgs', 'progress': 'build'}
+[0.007609] (gui_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui_msgs', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2490,unix/hoapham:/tmp/.ICE-unix/2490'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30a5cdba_370d_4244_a597_971d94c14eff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[0.031815] (gui_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099814] (-) TimerEvent: {}
+[0.109325] (gui_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.125419] (gui_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.126702] (gui_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.129922] (gui_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.134984] (gui_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141596] (gui_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.147468] (gui_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.160767] (gui_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.164508] (gui_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.199984] (-) TimerEvent: {}
+[0.300380] (-) TimerEvent: {}
+[0.377075] (gui_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400503] (-) TimerEvent: {}
+[0.500791] (-) TimerEvent: {}
+[0.601082] (-) TimerEvent: {}
+[0.653592] (gui_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701225] (-) TimerEvent: {}
+[0.763848] (gui_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.778839] (gui_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.794240] (gui_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.794456] (gui_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.794554] (gui_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.801311] (-) TimerEvent: {}
+[0.825189] (gui_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.854550] (gui_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.863996] (gui_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/hoapham/ros2_ws/build/gui_msgs\n'}
+[0.884689] (gui_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.892184] (gui_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.901432] (-) TimerEvent: {}
+[0.903030] (gui_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_gui_msgs\n'}
+[1.001519] (-) TimerEvent: {}
+[1.047639] (gui_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.048066] (gui_msgs) StdoutLine: {'line': b'writing gui_msgs.egg-info/PKG-INFO\n'}
+[1.048195] (gui_msgs) StdoutLine: {'line': b'writing dependency_links to gui_msgs.egg-info/dependency_links.txt\n'}
+[1.048295] (gui_msgs) StdoutLine: {'line': b'writing top-level names to gui_msgs.egg-info/top_level.txt\n'}
+[1.049651] (gui_msgs) StdoutLine: {'line': b"reading manifest file 'gui_msgs.egg-info/SOURCES.txt'\n"}
+[1.049952] (gui_msgs) StdoutLine: {'line': b"writing manifest file 'gui_msgs.egg-info/SOURCES.txt'\n"}
+[1.070061] (gui_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_gui_msgs_egg\n'}
+[1.101675] (-) TimerEvent: {}
+[1.202036] (-) TimerEvent: {}
+[1.233098] (gui_msgs) StdoutLine: {'line': b'[  2%] Built target gui_msgs__cpp\n'}
+[1.236456] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.241171] (gui_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.241361] (gui_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.241445] (gui_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.246702] (gui_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/msg/detail/setting_tool__functions.c.o\x1b[0m\n'}
+[1.246891] (gui_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/msg/detail/trajectory_setting__functions.c.o\x1b[0m\n'}
+[1.247061] (gui_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/msg/detail/setting_params__functions.c.o\x1b[0m\n'}
+[1.247167] (gui_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/srv/detail/setting_params__functions.c.o\x1b[0m\n'}
+[1.247242] (gui_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/srv/detail/setting_tool__functions.c.o\x1b[0m\n'}
+[1.248282] (gui_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_c.dir/rosidl_generator_c/gui_msgs/srv/detail/trajectory_setting__functions.c.o\x1b[0m\n'}
+[1.302127] (-) TimerEvent: {}
+[1.312242] (gui_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libgui_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.350148] (gui_msgs) StdoutLine: {'line': b'[ 16%] Built target gui_msgs__rosidl_generator_c\n'}
+[1.358997] (gui_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.359168] (gui_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.359237] (gui_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.402227] (-) TimerEvent: {}
+[1.470313] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.484483] (gui_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/srv/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.484658] (gui_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/msg/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.484717] (gui_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/srv/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.484777] (gui_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/msg/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.484821] (gui_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/srv/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.484864] (gui_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gui_msgs/msg/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.504495] (-) TimerEvent: {}
+[1.531559] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.546576] (gui_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/srv/detail/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.546784] (gui_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/msg/detail/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.547104] (gui_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/msg/detail/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.548625] (gui_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/msg/detail/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.550266] (gui_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/srv/detail/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.551537] (gui_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gui_msgs/srv/detail/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.604614] (-) TimerEvent: {}
+[1.705065] (-) TimerEvent: {}
+[1.708550] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.723238] (gui_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/msg/detail/dds_fastrtps/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.739561] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.748794] (gui_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/msg/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.750280] (gui_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/msg/detail/dds_fastrtps/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.751066] (gui_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/msg/detail/dds_fastrtps/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.758128] (gui_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/srv/detail/dds_fastrtps/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.758803] (gui_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/msg/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.760351] (gui_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/srv/detail/dds_fastrtps/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.787607] (gui_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libgui_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.792798] (gui_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gui_msgs/srv/detail/dds_fastrtps/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.796502] (gui_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/msg/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.805195] (-) TimerEvent: {}
+[1.821233] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.842586] (gui_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/srv/setting_params__type_support.cpp.o\x1b[0m\n'}
+[1.842833] (gui_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/msg/detail/setting_params__type_support_c.cpp.o\x1b[0m\n'}
+[1.851474] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.862238] (gui_msgs) StdoutLine: {'line': b'[ 54%] Built target gui_msgs__rosidl_typesupport_cpp\n'}
+[1.871727] (gui_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/msg/detail/setting_params__type_support.c.o\x1b[0m\n'}
+[1.875016] (gui_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/srv/setting_tool__type_support.cpp.o\x1b[0m\n'}
+[1.878008] (gui_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/msg/detail/setting_tool__type_support_c.cpp.o\x1b[0m\n'}
+[1.905341] (-) TimerEvent: {}
+[1.910400] (gui_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gui_msgs/srv/trajectory_setting__type_support.cpp.o\x1b[0m\n'}
+[1.914320] (gui_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/msg/detail/trajectory_setting__type_support.c.o\x1b[0m\n'}
+[1.914551] (gui_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/srv/detail/setting_params__type_support.c.o\x1b[0m\n'}
+[1.914639] (gui_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/msg/detail/trajectory_setting__type_support_c.cpp.o\x1b[0m\n'}
+[1.920533] (gui_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/msg/detail/setting_tool__type_support.c.o\x1b[0m\n'}
+[1.921273] (gui_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/srv/detail/setting_params__type_support_c.cpp.o\x1b[0m\n'}
+[1.930569] (gui_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libgui_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.931807] (gui_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/srv/detail/setting_tool__type_support.c.o\x1b[0m\n'}
+[1.959490] (gui_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gui_msgs/srv/detail/trajectory_setting__type_support.c.o\x1b[0m\n'}
+[1.964666] (gui_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/srv/detail/setting_tool__type_support_c.cpp.o\x1b[0m\n'}
+[1.994968] (gui_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libgui_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.002642] (gui_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gui_msgs/srv/detail/trajectory_setting__type_support_c.cpp.o\x1b[0m\n'}
+[2.005345] (gui_msgs) StdoutLine: {'line': b'[ 76%] Built target gui_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.005561] (-) TimerEvent: {}
+[2.039105] (gui_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library libgui_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.064898] (gui_msgs) StdoutLine: {'line': b'[ 77%] Built target gui_msgs__rosidl_typesupport_c\n'}
+[2.103332] (gui_msgs) StdoutLine: {'line': b'[ 77%] Built target gui_msgs__rosidl_typesupport_introspection_c\n'}
+[2.105682] (-) TimerEvent: {}
+[2.206096] (-) TimerEvent: {}
+[2.238678] (gui_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libgui_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.299731] (gui_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libgui_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.306195] (-) TimerEvent: {}
+[2.310171] (gui_msgs) StdoutLine: {'line': b'[ 80%] Built target gui_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.359931] (gui_msgs) StdoutLine: {'line': b'[ 80%] Built target gui_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.378322] (gui_msgs) StdoutLine: {'line': b'[ 80%] Built target gui_msgs\n'}
+[2.396244] (gui_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.406289] (-) TimerEvent: {}
+[2.506494] (-) TimerEvent: {}
+[2.606766] (-) TimerEvent: {}
+[2.707023] (-) TimerEvent: {}
+[2.807297] (-) TimerEvent: {}
+[2.907634] (-) TimerEvent: {}
+[2.917590] (gui_msgs) StdoutLine: {'line': b'[ 81%] Built target gui_msgs__py\n'}
+[2.927269] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_generator_py\x1b[0m\n'}
+[2.938702] (gui_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/srv/_setting_tool_s.c.o\x1b[0m\n'}
+[2.938920] (gui_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/msg/_setting_tool_s.c.o\x1b[0m\n'}
+[2.939007] (gui_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/msg/_setting_params_s.c.o\x1b[0m\n'}
+[2.939082] (gui_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/msg/_trajectory_setting_s.c.o\x1b[0m\n'}
+[2.939324] (gui_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/srv/_setting_params_s.c.o\x1b[0m\n'}
+[2.939787] (gui_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_generator_py.dir/rosidl_generator_py/gui_msgs/srv/_trajectory_setting_s.c.o\x1b[0m\n'}
+[3.007751] (-) TimerEvent: {}
+[3.029004] (gui_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gui_msgs/libgui_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.064918] (gui_msgs) StdoutLine: {'line': b'[ 91%] Built target gui_msgs__rosidl_generator_py\n'}
+[3.073315] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.073493] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.073551] (gui_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.083571] (gui_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.083770] (gui_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.083856] (gui_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gui_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.107924] (-) TimerEvent: {}
+[3.165363] (gui_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gui_msgs/gui_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.165534] (gui_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gui_msgs/gui_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.165587] (gui_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gui_msgs/gui_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.197958] (gui_msgs) StdoutLine: {'line': b'[100%] Built target gui_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.198170] (gui_msgs) StdoutLine: {'line': b'[100%] Built target gui_msgs__rosidl_typesupport_c__pyext\n'}
+[3.198231] (gui_msgs) StdoutLine: {'line': b'[100%] Built target gui_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.208005] (-) TimerEvent: {}
+[3.208979] (gui_msgs) CommandEnded: {'returncode': 0}
+[3.209435] (gui_msgs) JobProgress: {'identifier': 'gui_msgs', 'progress': 'install'}
+[3.218446] (gui_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hoapham/ros2_ws/build/gui_msgs'], 'cwd': '/home/hoapham/ros2_ws/build/gui_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2490,unix/hoapham:/tmp/.ICE-unix/2490'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/30a5cdba_370d_4244_a597_971d94c14eff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[3.226080] (gui_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.226460] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/ament_index/resource_index/rosidl_interfaces/gui_msgs\n'}
+[3.226587] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.226681] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.226752] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.226825] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__functions.c\n'}
+[3.226910] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__functions.h\n'}
+[3.226941] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__functions.c\n'}
+[3.226973] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__struct.h\n'}
+[3.227019] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__type_support.h\n'}
+[3.227049] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__functions.h\n'}
+[3.227094] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__struct.h\n'}
+[3.227181] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__functions.c\n'}
+[3.227300] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__struct.h\n'}
+[3.227392] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__type_support.h\n'}
+[3.227505] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__functions.h\n'}
+[3.227621] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__type_support.h\n'}
+[3.227713] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/trajectory_setting.h\n'}
+[3.227816] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/setting_params.h\n'}
+[3.227929] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.227961] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/setting_tool.h\n'}
+[3.228030] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.228095] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.228156] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__functions.c\n'}
+[3.228259] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__functions.h\n'}
+[3.228359] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__functions.c\n'}
+[3.228448] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__struct.h\n'}
+[3.228529] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__type_support.h\n'}
+[3.228611] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__functions.h\n'}
+[3.228710] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__struct.h\n'}
+[3.228785] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__functions.c\n'}
+[3.228887] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__struct.h\n'}
+[3.228964] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__type_support.h\n'}
+[3.229046] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__functions.h\n'}
+[3.229144] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__type_support.h\n'}
+[3.229216] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/trajectory_setting.h\n'}
+[3.229298] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/setting_params.h\n'}
+[3.229382] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/setting_tool.h\n'}
+[3.229498] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/library_path.sh\n'}
+[3.229552] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/library_path.dsv\n'}
+[3.229759] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_generator_c.so\n'}
+[3.230057] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_generator_c.so" to ""\n'}
+[3.230101] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.230146] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.230190] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.230221] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230289] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230402] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230507] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.230545] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.230605] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.230638] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230694] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230763] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__rosidl_typesupport_fastrtps_c.h\n'}
+[3.230953] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.231253] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.231327] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.231393] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.231456] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.231494] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__type_support.hpp\n'}
+[3.231546] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__struct.hpp\n'}
+[3.231622] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__traits.hpp\n'}
+[3.231731] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__type_support.hpp\n'}
+[3.231837] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__traits.hpp\n'}
+[3.231951] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__type_support.hpp\n'}
+[3.232064] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__builder.hpp\n'}
+[3.232158] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__traits.hpp\n'}
+[3.232256] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__struct.hpp\n'}
+[3.232364] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__builder.hpp\n'}
+[3.232485] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__struct.hpp\n'}
+[3.232592] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__builder.hpp\n'}
+[3.232700] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/trajectory_setting.hpp\n'}
+[3.232804] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/setting_tool.hpp\n'}
+[3.232908] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.232959] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/setting_params.hpp\n'}
+[3.233040] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.233116] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.233158] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__type_support.hpp\n'}
+[3.233226] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__struct.hpp\n'}
+[3.233314] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__traits.hpp\n'}
+[3.233402] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__type_support.hpp\n'}
+[3.233493] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__traits.hpp\n'}
+[3.233587] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__type_support.hpp\n'}
+[3.233670] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__builder.hpp\n'}
+[3.233758] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__traits.hpp\n'}
+[3.233849] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__struct.hpp\n'}
+[3.233940] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__builder.hpp\n'}
+[3.234023] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__struct.hpp\n'}
+[3.234115] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__builder.hpp\n'}
+[3.234210] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/trajectory_setting.hpp\n'}
+[3.234293] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/setting_tool.hpp\n'}
+[3.234379] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/setting_params.hpp\n'}
+[3.234501] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.234548] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.234597] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.234628] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.234705] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/dds_fastrtps\n'}
+[3.234764] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.234850] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.234954] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.235018] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.235059] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.235089] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.235140] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/dds_fastrtps\n'}
+[3.235202] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.235296] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.235509] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.235831] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.235876] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.235920] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.235965] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.236009] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__type_support.c\n'}
+[3.236076] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__rosidl_typesupport_introspection_c.h\n'}
+[3.236175] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__type_support.c\n'}
+[3.236290] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__rosidl_typesupport_introspection_c.h\n'}
+[3.236383] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__rosidl_typesupport_introspection_c.h\n'}
+[3.236506] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__type_support.c\n'}
+[3.236630] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.236669] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.236721] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.236752] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__type_support.c\n'}
+[3.236797] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__rosidl_typesupport_introspection_c.h\n'}
+[3.236882] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__type_support.c\n'}
+[3.236984] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__rosidl_typesupport_introspection_c.h\n'}
+[3.237068] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__rosidl_typesupport_introspection_c.h\n'}
+[3.237150] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__type_support.c\n'}
+[3.237347] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.237634] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.237723] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_c.so\n'}
+[3.238006] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.238085] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs\n'}
+[3.238123] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg\n'}
+[3.238180] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail\n'}
+[3.238217] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__type_support.cpp\n'}
+[3.238296] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__type_support.cpp\n'}
+[3.238386] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.238515] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_tool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.238692] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/trajectory_setting__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.238788] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/msg/detail/setting_params__type_support.cpp\n'}
+[3.238917] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv\n'}
+[3.238985] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail\n'}
+[3.239058] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__type_support.cpp\n'}
+[3.239147] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__type_support.cpp\n'}
+[3.239212] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.239312] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_tool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.239376] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/trajectory_setting__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.239434] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/include/gui_msgs/gui_msgs/srv/detail/setting_params__type_support.cpp\n'}
+[3.239759] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.240177] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.240283] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_cpp.so\n'}
+[3.240564] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.240627] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/pythonpath.sh\n'}
+[3.240665] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/pythonpath.dsv\n'}
+[3.240744] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs-1.1.0-py3.10.egg-info\n'}
+[3.240811] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs-1.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.240873] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs-1.1.0-py3.10.egg-info/top_level.txt\n'}
+[3.240974] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs-1.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.241068] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs-1.1.0-py3.10.egg-info/PKG-INFO\n'}
+[3.241189] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs\n'}
+[3.241246] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg\n'}
+[3.241278] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_params_s.c\n'}
+[3.241353] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/__init__.py\n'}
+[3.241452] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_tool.py\n'}
+[3.241613] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_params.py\n'}
+[3.241746] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_trajectory_setting.py\n'}
+[3.241861] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_tool_s.c\n'}
+[3.242007] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_trajectory_setting_s.c\n'}
+[3.242089] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/__init__.py\n'}
+[3.242187] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/libgui_msgs__rosidl_generator_py.so\n'}
+[3.242267] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv\n'}
+[3.242337] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_params_s.c\n'}
+[3.242441] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/__init__.py\n'}
+[3.242510] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_tool.py\n'}
+[3.242568] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_params.py\n'}
+[3.242620] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_trajectory_setting.py\n'}
+[3.242693] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_tool_s.c\n'}
+[3.242775] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_trajectory_setting_s.c\n'}
+[3.242853] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.242996] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.243123] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.243257] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/_gui_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.243391] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.243535] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.269265] (gui_msgs) StdoutLine: {'line': b"Listing '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs'...\n"}
+[3.269460] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/__init__.py'...\n"}
+[3.269549] (gui_msgs) StdoutLine: {'line': b"Listing '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg'...\n"}
+[3.269628] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/__init__.py'...\n"}
+[3.269693] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_params.py'...\n"}
+[3.269757] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_setting_tool.py'...\n"}
+[3.269820] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/msg/_trajectory_setting.py'...\n"}
+[3.269883] (gui_msgs) StdoutLine: {'line': b"Listing '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv'...\n"}
+[3.269941] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/__init__.py'...\n"}
+[3.269998] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_params.py'...\n"}
+[3.270055] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_setting_tool.py'...\n"}
+[3.270110] (gui_msgs) StdoutLine: {'line': b"Compiling '/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/srv/_trajectory_setting.py'...\n"}
+[3.272656] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.272938] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.273076] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.273330] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.273467] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.273738] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages/gui_msgs/gui_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.273831] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_generator_py.so\n'}
+[3.274127] (gui_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui_msgs/lib/libgui_msgs__rosidl_generator_py.so" to ""\n'}
+[3.274205] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/SettingParams.idl\n'}
+[3.274240] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/SettingTool.idl\n'}
+[3.274273] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/TrajectorySetting.idl\n'}
+[3.274329] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingParams.idl\n'}
+[3.274395] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingTool.idl\n'}
+[3.274495] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/TrajectorySetting.idl\n'}
+[3.274582] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/SettingParams.msg\n'}
+[3.274636] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/SettingTool.msg\n'}
+[3.274678] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/msg/TrajectorySetting.msg\n'}
+[3.274710] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingParams.srv\n'}
+[3.274771] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingParams_Request.msg\n'}
+[3.274853] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingParams_Response.msg\n'}
+[3.274941] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingTool.srv\n'}
+[3.275024] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingTool_Request.msg\n'}
+[3.275119] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/SettingTool_Response.msg\n'}
+[3.275196] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/TrajectorySetting.srv\n'}
+[3.275291] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/TrajectorySetting_Request.msg\n'}
+[3.275372] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/srv/TrajectorySetting_Response.msg\n'}
+[3.275471] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/ament_index/resource_index/package_run_dependencies/gui_msgs\n'}
+[3.275518] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/ament_index/resource_index/parent_prefix_path/gui_msgs\n'}
+[3.275572] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/ament_prefix_path.sh\n'}
+[3.275603] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/ament_prefix_path.dsv\n'}
+[3.275686] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/path.sh\n'}
+[3.275725] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/environment/path.dsv\n'}
+[3.275823] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/local_setup.bash\n'}
+[3.275856] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/local_setup.sh\n'}
+[3.275896] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/local_setup.zsh\n'}
+[3.275942] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/local_setup.dsv\n'}
+[3.276008] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.dsv\n'}
+[3.276114] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/ament_index/resource_index/packages/gui_msgs\n'}
+[3.276180] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_generator_cExport.cmake\n'}
+[3.276231] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.276280] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.276323] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.276365] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.276415] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.276458] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.276511] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.276541] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.276578] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.276617] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.276655] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.276706] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.276735] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.276775] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.276814] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.276855] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/export_gui_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.276884] (gui_msgs) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.276959] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.277009] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.277048] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.277088] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.277118] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.277168] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.277198] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgsConfig.cmake\n'}
+[3.277226] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake/gui_msgsConfig-version.cmake\n'}
+[3.277256] (gui_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.xml\n'}
+[3.279123] (gui_msgs) CommandEnded: {'returncode': 0}
+[3.290454] (gui_msgs) JobEnded: {'identifier': 'gui_msgs', 'rc': 0}
+[3.290969] (-) EventReactorShutdown: {}

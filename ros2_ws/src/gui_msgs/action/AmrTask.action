@@ -1,0 +1,9 @@
+string action_name
+string action_params
+bool is_need_feedback
+---
+int8 result # 0 SUCCEEDED
+            # 1 FAILED
+            # 2 CANCEL
+---
+string feedback

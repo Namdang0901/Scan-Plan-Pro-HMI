@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000261] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000287] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000311] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000332] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000355] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000376] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000399] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000420] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000442] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000463] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000486] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000507] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000528] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000552] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000578] (gui) JobStarted: {'identifier': 'gui'}
+[0.006488] (gui) JobProgress: {'identifier': 'gui', 'progress': 'cmake'}
+[0.007299] (gui) JobProgress: {'identifier': 'gui', 'progress': 'build'}
+[0.007334] (gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2583,unix/hoapham:/tmp/.ICE-unix/2583'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/594f8eb7_1dd4_43d7_b9c1_d81b4986031c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[0.043623] (gui) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099497] (-) TimerEvent: {}
+[0.122164] (gui) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.135276] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.136503] (gui) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.139659] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.144760] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.151321] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.168670] (gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.169589] (gui) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.179147] (gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199620] (-) TimerEvent: {}
+[0.204911] (gui) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.224028] (gui) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.5 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[0.232613] (gui) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.236958] (gui) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.243621] (gui) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[0.299738] (-) TimerEvent: {}
+[0.335333] (gui) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.337757] (gui) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.341270] (gui) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.342134] (gui) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.342298] (gui) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.342400] (gui) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.342488] (gui) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.342569] (gui) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.342652] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.342731] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.342806] (gui) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.342900] (gui) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.342956] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.342988] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.343018] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.343048] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.375222] (gui) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.399896] (-) TimerEvent: {}
+[0.408823] (gui) StdoutLine: {'line': b'-- Found gui_msgs: 1.1.0 (/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake)\n'}
+[0.420198] (gui) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.433920] (gui) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.479637] (gui) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.480922] (gui) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.481028] (gui) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hoapham/ros2_ws/src/gui/include\n'}
+[0.481074] (gui) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.482174] (gui) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.482213] (gui) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.482409] (gui) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.482778] (gui) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.483020] (gui) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.484154] (gui) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.484236] (gui) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.484381] (gui) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.484992] (gui) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.500019] (-) TimerEvent: {}
+[0.517694] (gui) StdoutLine: {'line': b'-- Generating done\n'}
+[0.522371] (gui) StdoutLine: {'line': b'-- Build files have been written to: /home/hoapham/ros2_ws/build/gui\n'}
+[0.558222] (gui) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target gui\x1b[0m\n'}
+[0.600157] (-) TimerEvent: {}
+[0.700602] (-) TimerEvent: {}
+[0.801329] (-) TimerEvent: {}
+[0.902173] (-) TimerEvent: {}
+[0.997479] (gui) StdoutLine: {'line': b'[ 11%] Built target gui_autogen\n'}
+[1.002215] (-) TimerEvent: {}
+[1.012867] (gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui\x1b[0m\n'}
+[1.056868] (gui) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.057056] (gui) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o\x1b[0m\n'}
+[1.057430] (gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/rrjoystick.cpp.o\x1b[0m\n'}
+[1.057500] (gui) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o\x1b[0m\n'}
+[1.058408] (gui) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/rvizpanel.cpp.o\x1b[0m\n'}
+[1.058616] (gui) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o\x1b[0m\n'}
+[1.059433] (gui) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/ExecutePage.cpp.o\x1b[0m\n'}
+[1.102344] (-) TimerEvent: {}
+[1.202636] (-) TimerEvent: {}
+[1.302946] (-) TimerEvent: {}
+[1.403339] (-) TimerEvent: {}
+[1.503647] (-) TimerEvent: {}
+[1.603943] (-) TimerEvent: {}
+[1.704296] (-) TimerEvent: {}
+[1.804628] (-) TimerEvent: {}
+[1.845617] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RRJoystick::paintEvent(QPaintEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.845939] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:155:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQPainter::HighQualityAntialiasing\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use Antialiasing instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.846058] (gui) StderrLine: {'line': b'  155 |     painter.setRenderHint(QPainter::\x1b[01;35m\x1b[KHighQualityAntialiasing\x1b[m\x1b[K);\n'}
+[1.846124] (gui) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846180] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter:1\x1b[m\x1b[K,\n'}
+[1.846238] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:3\x1b[m\x1b[K:\n'}
+[1.846292] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h:92:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.846349] (gui) StderrLine: {'line': b'   92 |         \x1b[01;36m\x1b[KHighQualityAntialiasing\x1b[m\x1b[K Q_DECL_ENUMERATOR_DEPRECATED_X("Use Antialiasing instead") = 0x08,\n'}
+[1.846405] (gui) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846460] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:155:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQPainter::HighQualityAntialiasing\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use Antialiasing instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.846520] (gui) StderrLine: {'line': b'  155 |     painter.setRenderHint(QPainter::\x1b[01;35m\x1b[KHighQualityAntialiasing\x1b[m\x1b[K);\n'}
+[1.846577] (gui) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.846631] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter:1\x1b[m\x1b[K,\n'}
+[1.846687] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rrjoystick.cpp:3\x1b[m\x1b[K:\n'}
+[1.846743] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h:92:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.846798] (gui) StderrLine: {'line': b'   92 |         \x1b[01;36m\x1b[KHighQualityAntialiasing\x1b[m\x1b[K Q_DECL_ENUMERATOR_DEPRECATED_X("Use Antialiasing instead") = 0x08,\n'}
+[1.846865] (gui) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904765] (-) TimerEvent: {}
+[2.005118] (-) TimerEvent: {}
+[2.105503] (-) TimerEvent: {}
+[2.205934] (-) TimerEvent: {}
+[2.306270] (-) TimerEvent: {}
+[2.406600] (-) TimerEvent: {}
+[2.506911] (-) TimerEvent: {}
+[2.607240] (-) TimerEvent: {}
+[2.707558] (-) TimerEvent: {}
+[2.807887] (-) TimerEvent: {}
+[2.908215] (-) TimerEvent: {}
+[3.008539] (-) TimerEvent: {}
+[3.108875] (-) TimerEvent: {}
+[3.209223] (-) TimerEvent: {}
+[3.309578] (-) TimerEvent: {}
+[3.409907] (-) TimerEvent: {}
+[3.510229] (-) TimerEvent: {}
+[3.610584] (-) TimerEvent: {}
+[3.711059] (-) TimerEvent: {}
+[3.811394] (-) TimerEvent: {}
+[3.911719] (-) TimerEvent: {}
+[4.012040] (-) TimerEvent: {}
+[4.100884] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:1\x1b[m\x1b[K:\n'}
+[4.101125] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRvizPanel::RvizPanel(QApplication*, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.101193] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:67:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPanel::app_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.101264] (gui) StderrLine: {'line': b'   67 |   QApplication * \x1b[01;35m\x1b[Kapp_\x1b[m\x1b[K;\n'}
+[4.101326] (gui) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.101380] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:16:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  base \xe2\x80\x98\x1b[01m\x1b[KQMainWindow\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.101435] (gui) StderrLine: {'line': b'   16 |   : app_(app), QMainWindow(parent\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.101491] (gui) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.101546] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:13:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.101600] (gui) StderrLine: {'line': b'   13 | \x1b[01;35m\x1b[KRvizPanel\x1b[m\x1b[K::RvizPanel(\n'}
+[4.101644] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.107405] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::PanelDockWidget* RvizPanel::addPane(const QString&, QWidget*, Qt::DockWidgetArea, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.107617] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:153:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.107698] (gui) StderrLine: {'line': b'  153 |   \x1b[01;35m\x1b[Kconst QString & name\x1b[m\x1b[K,\n'}
+[4.107748] (gui) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.107797] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:154:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpane\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.107870] (gui) StderrLine: {'line': b'  154 |   \x1b[01;35m\x1b[KQWidget * pane\x1b[m\x1b[K,\n'}
+[4.107924] (gui) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.107970] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:155:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.108018] (gui) StderrLine: {'line': b'  155 |   \x1b[01;35m\x1b[KQt::DockWidgetArea area\x1b[m\x1b[K,\n'}
+[4.108062] (gui) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.108101] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:156:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfloating\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.108160] (gui) StderrLine: {'line': b'  156 |   \x1b[01;35m\x1b[Kbool floating\x1b[m\x1b[K) {\n'}
+[4.108208] (gui) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.108263] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RvizPanel::setStatus(const QString&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.108323] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:161:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.108370] (gui) StderrLine: {'line': b'  161 | void RvizPanel::setStatus(\x1b[01;35m\x1b[Kconst QString & message\x1b[m\x1b[K) {\n'}
+[4.108419] (gui) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.112164] (-) TimerEvent: {}
+[4.173686] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:1\x1b[m\x1b[K:\n'}
+[4.173944] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KFormHau::FormHau(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.174088] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:51:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFormHau::rviz_widget\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.174174] (gui) StderrLine: {'line': b'   51 |     QWidget* \x1b[01;35m\x1b[Krviz_widget\x1b[m\x1b[K = nullptr;\n'}
+[4.174260] (gui) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.174304] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:24:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  base \xe2\x80\x98\x1b[01m\x1b[KQMainWindow\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.174362] (gui) StderrLine: {'line': b'   24 |     , ui(new Ui::FormHau\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.174407] (gui) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.174451] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.174496] (gui) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[KFormHau\x1b[m\x1b[K::FormHau(\n'}
+[4.174552] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.185367] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FormHau::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.185565] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:94:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.185636] (gui) StderrLine: {'line': b'   94 | void FormHau::topic_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::JointState::SharedPtr msg\x1b[m\x1b[K)\n'}
+[4.185692] (gui) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.212299] (-) TimerEvent: {}
+[4.312621] (-) TimerEvent: {}
+[4.412937] (-) TimerEvent: {}
+[4.513239] (-) TimerEvent: {}
+[4.613542] (-) TimerEvent: {}
+[4.713835] (-) TimerEvent: {}
+[4.814202] (-) TimerEvent: {}
+[4.914515] (-) TimerEvent: {}
+[5.014805] (-) TimerEvent: {}
+[5.115123] (-) TimerEvent: {}
+[5.215419] (-) TimerEvent: {}
+[5.315709] (-) TimerEvent: {}
+[5.416039] (-) TimerEvent: {}
+[5.516308] (-) TimerEvent: {}
+[5.616600] (-) TimerEvent: {}
+[5.716935] (-) TimerEvent: {}
+[5.817255] (-) TimerEvent: {}
+[5.917617] (-) TimerEvent: {}
+[6.017936] (-) TimerEvent: {}
+[6.118272] (-) TimerEvent: {}
+[6.191552] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1\x1b[m\x1b[K:\n'}
+[6.191858] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.191991] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KForm::node_weak_ptr_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192137] (gui) StderrLine: {'line': b'   42 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr \x1b[01;35m\x1b[Knode_weak_ptr_\x1b[m\x1b[K;\n'}
+[6.192240] (gui) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.192282] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:40:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KQWidget* Form::rviz_widget\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192373] (gui) StderrLine: {'line': b'   40 |     QWidget* \x1b[01;35m\x1b[Krviz_widget\x1b[m\x1b[K = nullptr;\n'}
+[6.192417] (gui) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.192479] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192521] (gui) StderrLine: {'line': b'   10 | \x1b[01;35m\x1b[KForm\x1b[m\x1b[K::Form(\n'}
+[6.192561] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.192602] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1\x1b[m\x1b[K:\n'}
+[6.192642] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:40:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KForm::rviz_widget\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192684] (gui) StderrLine: {'line': b'   40 |     QWidget* \x1b[01;35m\x1b[Krviz_widget\x1b[m\x1b[K = nullptr;\n'}
+[6.192723] (gui) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.192763] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  base \xe2\x80\x98\x1b[01m\x1b[KQMainWindow\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192805] (gui) StderrLine: {'line': b'   16 |     ui(new Ui::Form\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[6.192858] (gui) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.192903] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.192954] (gui) StderrLine: {'line': b'   10 | \x1b[01;35m\x1b[KForm\x1b[m\x1b[K::Form(\n'}
+[6.192995] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.218412] (-) TimerEvent: {}
+[6.272734] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3\x1b[m\x1b[K:\n'}
+[6.272949] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.273013] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:88:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHelloGui::node_weak_ptr_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273060] (gui) StderrLine: {'line': b'   88 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr \x1b[01;35m\x1b[Knode_weak_ptr_\x1b[m\x1b[K;\n'}
+[6.273136] (gui) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.273179] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:86:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KQWidget* HelloGui::rviz_widget\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273255] (gui) StderrLine: {'line': b'   86 |     QWidget* \x1b[01;35m\x1b[Krviz_widget\x1b[m\x1b[K = nullptr;\n'}
+[6.273297] (gui) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.273337] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273411] (gui) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KHelloGui\x1b[m\x1b[K::HelloGui(\n'}
+[6.273469] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.273510] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3\x1b[m\x1b[K:\n'}
+[6.273552] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:86:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHelloGui::rviz_widget\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273595] (gui) StderrLine: {'line': b'   86 |     QWidget* \x1b[01;35m\x1b[Krviz_widget\x1b[m\x1b[K = nullptr;\n'}
+[6.273635] (gui) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.273675] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:21:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  base \xe2\x80\x98\x1b[01m\x1b[KQMainWindow\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273731] (gui) StderrLine: {'line': b'   21 |     , ui(new Ui::HelloGui\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[6.273772] (gui) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.273824] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.273880] (gui) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KHelloGui\x1b[m\x1b[K::HelloGui(\n'}
+[6.273921] (gui) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.296947] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloGui::on_combo_box1_changed(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.297225] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:182:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.297360] (gui) StderrLine: {'line': b'  182 | void HelloGui::on_combo_box1_changed(\x1b[01;35m\x1b[Kint index\x1b[m\x1b[K)\n'}
+[6.297478] (gui) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.298580] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloGui::on_combo_box2_changed(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.298638] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:197:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.298695] (gui) StderrLine: {'line': b'  197 | void HelloGui::on_combo_box2_changed(\x1b[01;35m\x1b[Kint index\x1b[m\x1b[K)\n'}
+[6.298735] (gui) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.299365] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloGui::on_combo_box0_changed(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.299429] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:216:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.299482] (gui) StderrLine: {'line': b'  216 | void HelloGui::on_combo_box0_changed(\x1b[01;35m\x1b[Kint index\x1b[m\x1b[K)\n'}
+[6.299524] (gui) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.318549] (-) TimerEvent: {}
+[6.349003] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.349286] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:296:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.349412] (gui) StderrLine: {'line': b'  296 | void HelloGui::TrajectorySettingSrv(\x1b[01;35m\x1b[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request\x1b[m\x1b[K,\n'}
+[6.349537] (gui) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.349592] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:297:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.349634] (gui) StderrLine: {'line': b'  297 |             \x1b[01;35m\x1b[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response\x1b[m\x1b[K)\n'}
+[6.349675] (gui) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.418690] (-) TimerEvent: {}
+[6.519056] (-) TimerEvent: {}
+[6.619367] (-) TimerEvent: {}
+[6.719725] (-) TimerEvent: {}
+[6.820087] (-) TimerEvent: {}
+[6.920417] (-) TimerEvent: {}
+[7.020723] (-) TimerEvent: {}
+[7.121104] (-) TimerEvent: {}
+[7.221432] (-) TimerEvent: {}
+[7.321777] (-) TimerEvent: {}
+[7.422131] (-) TimerEvent: {}
+[7.522469] (-) TimerEvent: {}
+[7.622811] (-) TimerEvent: {}
+[7.723115] (-) TimerEvent: {}
+[7.823457] (-) TimerEvent: {}
+[7.923888] (-) TimerEvent: {}
+[8.024298] (-) TimerEvent: {}
+[8.124625] (-) TimerEvent: {}
+[8.225070] (-) TimerEvent: {}
+[8.325451] (-) TimerEvent: {}
+[8.425906] (-) TimerEvent: {}
+[8.526254] (-) TimerEvent: {}
+[8.626594] (-) TimerEvent: {}
+[8.726906] (-) TimerEvent: {}
+[8.827179] (-) TimerEvent: {}
+[8.927483] (-) TimerEvent: {}
+[9.027782] (-) TimerEvent: {}
+[9.128102] (-) TimerEvent: {}
+[9.228378] (-) TimerEvent: {}
+[9.328719] (-) TimerEvent: {}
+[9.429112] (-) TimerEvent: {}
+[9.529507] (-) TimerEvent: {}
+[9.629769] (-) TimerEvent: {}
+[9.730096] (-) TimerEvent: {}
+[9.830408] (-) TimerEvent: {}
+[9.930715] (-) TimerEvent: {}
+[10.031047] (-) TimerEvent: {}
+[10.131369] (-) TimerEvent: {}
+[10.231709] (-) TimerEvent: {}
+[10.332057] (-) TimerEvent: {}
+[10.432392] (-) TimerEvent: {}
+[10.532778] (-) TimerEvent: {}
+[10.583940] (gui) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gui\x1b[0m\n'}
+[10.632889] (-) TimerEvent: {}
+[10.733197] (-) TimerEvent: {}
+[10.833546] (-) TimerEvent: {}
+[10.933913] (-) TimerEvent: {}
+[11.034266] (-) TimerEvent: {}
+[11.134588] (-) TimerEvent: {}
+[11.234932] (-) TimerEvent: {}
+[11.335246] (-) TimerEvent: {}
+[11.435541] (-) TimerEvent: {}
+[11.535872] (-) TimerEvent: {}
+[11.636224] (-) TimerEvent: {}
+[11.736585] (-) TimerEvent: {}
+[11.836955] (-) TimerEvent: {}
+[11.937308] (-) TimerEvent: {}
+[12.037662] (-) TimerEvent: {}
+[12.138019] (-) TimerEvent: {}
+[12.238324] (-) TimerEvent: {}
+[12.338672] (-) TimerEvent: {}
+[12.439350] (-) TimerEvent: {}
+[12.539666] (-) TimerEvent: {}
+[12.639991] (-) TimerEvent: {}
+[12.739316] (gui) StdoutLine: {'line': b'[100%] Built target gui\n'}
+[12.740056] (-) TimerEvent: {}
+[12.748014] (gui) CommandEnded: {'returncode': 0}
+[12.748666] (gui) JobProgress: {'identifier': 'gui', 'progress': 'install'}
+[12.755417] (gui) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hoapham/ros2_ws/build/gui'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2583,unix/hoapham:/tmp/.ICE-unix/2583'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/594f8eb7_1dd4_43d7_b9c1_d81b4986031c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[12.761090] (gui) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.761650] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui\n'}
+[12.770579] (gui) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""\n'}
+[12.770688] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include\n'}
+[12.770744] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui\n'}
+[12.770781] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h\n'}
+[12.770814] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/preparation.h\n'}
+[12.770917] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h\n'}
+[12.770953] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h\n'}
+[12.771031] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/parser.h\n'}
+[12.771079] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/ExecutePage.h\n'}
+[12.771136] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch\n'}
+[12.771168] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py\n'}
+[12.771199] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config\n'}
+[12.771228] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config/params.yaml\n'}
+[12.771288] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui\n'}
+[12.771328] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui\n'}
+[12.771387] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh\n'}
+[12.771471] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv\n'}
+[12.771504] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh\n'}
+[12.771536] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv\n'}
+[12.771590] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash\n'}
+[12.771634] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh\n'}
+[12.771665] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh\n'}
+[12.771695] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv\n'}
+[12.771740] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv\n'}
+[12.771798] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui\n'}
+[12.771830] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.771899] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.771937] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake\n'}
+[12.771969] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake\n'}
+[12.772000] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml\n'}
+[12.775059] (gui) CommandEnded: {'returncode': 0}
+[12.784917] (gui) JobEnded: {'identifier': 'gui', 'rc': 0}
+[12.785349] (-) EventReactorShutdown: {}

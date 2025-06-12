@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/add_collision_object
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target add_collision_object_node[0m
+[0.068s] [ 33%] [32mBuilding CXX object CMakeFiles/add_collision_object_node.dir/src/add_collision_object.cpp.o[0m
+[5.271s] [ 66%] [32m[1mLinking CXX executable add_collision_object_node[0m
+[5.525s] [100%] Built target add_collision_object_node
+[5.536s] Invoked command in '/home/hoapham/ur_ws/build/add_collision_object' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/add_collision_object
+[5.546s] Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/add_collision_object
+[5.551s] -- Install configuration: ""
+[5.551s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/lib/add_collision_object/add_collision_object_node
+[5.551s] -- Set runtime path of "/home/hoapham/ur_ws/install/add_collision_object/lib/add_collision_object/add_collision_object_node" to ""
+[5.551s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/include/
+[5.551s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/include//add_collision_object
+[5.551s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/include//add_collision_object/add_collision_object.hpp
+[5.551s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/package_run_dependencies/add_collision_object
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/parent_prefix_path/add_collision_object
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/ament_prefix_path.sh
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/ament_prefix_path.dsv
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/path.sh
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/path.dsv
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.bash
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.sh
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.zsh
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.dsv
+[5.552s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/package.dsv
+[5.553s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/packages/add_collision_object
+[5.553s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/cmake/add_collision_objectConfig.cmake
+[5.553s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/cmake/add_collision_objectConfig-version.cmake
+[5.553s] -- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/package.xml
+[5.554s] Invoked command in '/home/hoapham/ur_ws/build/add_collision_object' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/add_collision_object

@@ -1,0 +1,2 @@
+source;share/fake_livox_publisher/environment/ament_prefix_path.sh
+source;share/fake_livox_publisher/environment/path.sh

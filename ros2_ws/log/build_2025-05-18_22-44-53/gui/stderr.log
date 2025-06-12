@@ -1,0 +1,89 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, QWidget*, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:27:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::app_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   27 |     QApplication * [01;35m[Kapp_[m[K;
+      |                    [01;35m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:15:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     ui(new Ui::Form[01;35m[K)[m[K
+      |                    [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KForm[m[K::Form(
+      | [01;35m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:26:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KForm::Form(QApplication*, QWidget**)[m[K’
+   26 |     auto second_window = new Form(&app, &rviz_widget[01;31m[K)[m[K;
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:31[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:18:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KForm::Form(QApplication*, QWidget*, QWidget*)[m[K’
+   18 |     [01;36m[KForm[m[K(QApplication *app,
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:19:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KQWidget**[m[K’ to ‘[01m[KQWidget*[m[K’
+   19 |         [01;36m[KQWidget *rviz_widget[m[K,
+      |         [01;36m[K~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:84:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:20:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:189:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:204:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  204 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:223:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  223 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:303:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  303 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:304:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  304 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+                 from [01m[K/usr/include/c++/11/functional:61[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RvizPanel; _Args = {QApplication&}; _Tp = RvizPanel][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RvizPanel; _Args = {QApplication&}; _Tp = RvizPanel; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<RvizPanel>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {QApplication&}; _Tp = RvizPanel; _Alloc = std::allocator<RvizPanel>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RvizPanel; _Alloc = std::allocator<RvizPanel>; _Args = {QApplication&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RvizPanel>; _Args = {QApplication&}; _Tp = RvizPanel; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RvizPanel>; _Args = {QApplication&}; _Tp = RvizPanel][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RvizPanel; _Alloc = std::allocator<RvizPanel>; _Args = {QApplication&}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RvizPanel; _Args = {QApplication&}][m[K’
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:20:45:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRvizPanel::RvizPanel(QApplication&)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:28[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:35:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KRvizPanel::RvizPanel(QApplication*, QWidget*)[m[K’
+   35 |   [01;36m[KRvizPanel[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:36:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQApplication[m[K’ to ‘[01m[KQApplication*[m[K’
+   36 |     [01;36m[KQApplication *app[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

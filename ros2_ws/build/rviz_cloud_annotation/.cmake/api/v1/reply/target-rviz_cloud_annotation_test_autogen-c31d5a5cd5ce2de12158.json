@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/rviz_cloud_annotation_points/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "rviz_cloud_annotation_points::@381ded7e77906d6a850f"
+		}
+	],
+	"id" : "rviz_cloud_annotation_test_autogen::@381ded7e77906d6a850f",
+	"isGeneratorProvided" : true,
+	"name" : "rviz_cloud_annotation_test_autogen",
+	"paths" : 
+	{
+		"build" : "src/rviz_cloud_annotation_points",
+		"source" : "src/rviz_cloud_annotation_points"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/hoapham/ros2_ws/build/rviz_cloud_annotation/src/rviz_cloud_annotation_points/CMakeFiles/rviz_cloud_annotation_test_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/hoapham/ros2_ws/build/rviz_cloud_annotation/src/rviz_cloud_annotation_points/CMakeFiles/rviz_cloud_annotation_test_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

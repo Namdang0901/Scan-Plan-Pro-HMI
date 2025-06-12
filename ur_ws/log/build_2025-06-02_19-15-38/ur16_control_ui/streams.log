@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/ur16_control_ui.dir/src/ur16_control_ui_node.cpp.o[0m
+[5.850s] [100%] [32m[1mLinking CXX executable ur16_control_ui[0m
+[6.073s] [100%] Built target ur16_control_ui
+[6.082s] Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui
+[6.083s] Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/ur16_control_ui
+[6.090s] -- Install configuration: ""
+[6.090s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/lib/ur16_control_ui/ur16_control_ui
+[6.091s] -- Set runtime path of "/home/hoapham/ur_ws/install/ur16_control_ui/lib/ur16_control_ui/ur16_control_ui" to ""
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/include
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/include/ur16_control_ui
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/include/ur16_control_ui/parser.h
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/config
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/config/config.yaml
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/package_run_dependencies/ur16_control_ui
+[6.091s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/parent_prefix_path/ur16_control_ui
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/ament_prefix_path.sh
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/ament_prefix_path.dsv
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/path.sh
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/path.dsv
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.bash
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.sh
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.zsh
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.dsv
+[6.092s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/package.dsv
+[6.093s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/packages/ur16_control_ui
+[6.093s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.093s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ur16_control_uiConfig.cmake
+[6.093s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ur16_control_uiConfig-version.cmake
+[6.093s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/package.xml
+[6.095s] Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/ur16_control_ui

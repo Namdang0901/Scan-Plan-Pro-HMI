@@ -1,0 +1,72 @@
+[0.012s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.077s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.112s] [ 11%] Built target gui_autogen
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.193s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[5.199s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, std::shared_ptr<RvizPanel>, QWidget*)[m[K’:
+[5.199s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:21:82:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KHelloGui[m[K’ does not have any field named ‘[01m[Kshared_rviz_panel_[m[K’
+[5.199s]    21 | _weak_ptr_(rviz_ros_node), rviz_widget(shared_rviz_widget), [01;31m[Kshared_rviz_panel_[m[K(shared_rviz_panel_), QMainWindow(parent)
+[5.199s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.199s] 
+[5.212s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:21:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_rviz_panel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kshared_rviz_panel[m[K’?
+[5.213s]    21 | _node), rviz_widget(shared_rviz_widget), shared_rviz_panel_([01;31m[Kshared_rviz_panel_[m[K), QMainWindow(parent)
+[5.213s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.213s]       |                                                             [32m[Kshared_rviz_panel[m[K
+[5.213s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.213s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:90:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.213s]    90 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.213s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.213s] 
+[5.213s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:88:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* HelloGui::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.213s]    88 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[5.213s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[5.214s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.214s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.214s]       | [01;35m[K^~~~~~~~[m[K
+[5.214s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.214s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:88:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.214s]    88 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[5.214s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[5.214s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:22:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.214s]    22 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[5.214s]       |                          [01;35m[K^[m[K
+[5.214s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.214s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.214s]       | [01;35m[K^~~~~~~~[m[K
+[5.239s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshared_rviz_panel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.239s]    19 |     [01;35m[Kstd::shared_ptr<RvizPanel> shared_rviz_panel[m[K,
+[5.239s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[5.256s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_click_point_clicked()[m[K’:
+[5.256s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:121:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_rviz_panel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kshared_rviz_panel[m[K’?
+[5.256s]   121 |     if (![01;31m[Kshared_rviz_panel_[m[K || !node) {
+[5.257s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.257s]       |          [32m[Kshared_rviz_panel[m[K
+[5.268s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:126:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_rviz_panel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kshared_rviz_panel[m[K’?
+[5.268s]   126 |     auto tool_manager = [01;31m[Kshared_rviz_panel_[m[K->getToolManager();
+[5.268s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.268s]       |                         [32m[Kshared_rviz_panel[m[K
+[5.273s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[5.274s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:200:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.274s]   200 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+[5.274s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.276s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[5.276s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:215:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.276s]   215 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+[5.276s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.276s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[5.276s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:234:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.277s]   234 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+[5.277s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.337s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[5.337s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:314:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.338s]   314 | [01;35m[Knst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+[5.338s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.338s] 
+[5.338s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:315:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.338s]   315 |   [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+[5.338s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.338s] 
+[7.159s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[7.159s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[7.160s] gmake: *** [Makefile:146: all] Error 2
+[7.162s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

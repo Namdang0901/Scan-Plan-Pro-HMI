@@ -1,0 +1,6 @@
+Invoking command in '/home/hoapham/ros2_ws/build/gui_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui_msgs -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui_msgs
+Invoked command in '/home/hoapham/ros2_ws/build/gui_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui_msgs -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui_msgs
+Invoking command in '/home/hoapham/ros2_ws/build/gui_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui_msgs -- -j16 -l16
+Invoked command in '/home/hoapham/ros2_ws/build/gui_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui_msgs -- -j16 -l16
+Invoking command in '/home/hoapham/ros2_ws/build/gui_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui_msgs
+Invoked command in '/home/hoapham/ros2_ws/build/gui_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui_msgs

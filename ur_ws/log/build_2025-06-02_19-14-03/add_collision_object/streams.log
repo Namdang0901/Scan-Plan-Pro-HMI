@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/add_collision_object -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/add_collision_object
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.443s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.448s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.500s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.502s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.521s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.529s] -- Looking for pthread.h
+[0.585s] -- Looking for pthread.h - found
+[0.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.639s] -- Found Threads: TRUE  
+[0.677s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.698s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.827s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.865s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.875s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.876s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.896s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.972s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.997s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.100s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.121s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.184s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.263s] -- Configuring done
+[1.287s] -- Generating done
+[1.292s] -- Build files have been written to: /home/hoapham/ur_ws/build/add_collision_object
+[1.305s] Invoked command in '/home/hoapham/ur_ws/build/add_collision_object' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/add_collision_object -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/add_collision_object
+[1.307s] Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/add_collision_object -- -j16 -l16
+[1.347s] [ 66%] [32mBuilding CXX object CMakeFiles/add_collision_object_node.dir/src/add_collision_object.cpp.o[0m
+[1.347s] [ 66%] [32mBuilding CXX object CMakeFiles/add_collision_object_node.dir/src/main.cpp.o[0m
+[6.734s] gmake[2]: *** [CMakeFiles/add_collision_object_node.dir/build.make:90: CMakeFiles/add_collision_object_node.dir/src/add_collision_object.cpp.o] Interrupt
+[6.734s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_collision_object_node.dir/all] Interrupt
+[6.734s] gmake: *** [Makefile:146: all] Interrupt

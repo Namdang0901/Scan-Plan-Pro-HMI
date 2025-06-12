@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target add_collision_object_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/add_collision_object_node.dir/src/add_collision_object.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable add_collision_object_node[0m
+[100%] Built target add_collision_object_node
+-- Install configuration: ""
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/lib/add_collision_object/add_collision_object_node
+-- Set runtime path of "/home/hoapham/ur_ws/install/add_collision_object/lib/add_collision_object/add_collision_object_node" to ""
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/include/
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/include//add_collision_object
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/include//add_collision_object/add_collision_object.hpp
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/package_run_dependencies/add_collision_object
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/parent_prefix_path/add_collision_object
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/ament_prefix_path.sh
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/ament_prefix_path.dsv
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/path.sh
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/environment/path.dsv
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.bash
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.sh
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.zsh
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/local_setup.dsv
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/package.dsv
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/ament_index/resource_index/packages/add_collision_object
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/cmake/add_collision_objectConfig.cmake
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/cmake/add_collision_objectConfig-version.cmake
+-- Installing: /home/hoapham/ur_ws/install/add_collision_object/share/add_collision_object/package.xml

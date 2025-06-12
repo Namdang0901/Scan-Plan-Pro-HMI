@@ -1,0 +1,1 @@
+Invoking command in '/home/hoapham/ros2_ws/build/rviz_embed_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_embed_test -- -j16 -l16

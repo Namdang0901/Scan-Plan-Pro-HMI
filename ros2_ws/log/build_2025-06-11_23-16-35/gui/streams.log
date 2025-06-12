@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.064s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.100s] [ 11%] Built target gui_autogen
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.166s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[6.128s] [ 33%] [32m[1mLinking CXX executable gui[0m
+[8.592s] [100%] Built target gui
+[8.602s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[8.610s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[8.616s] -- Install configuration: ""
+[8.616s] -- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui
+[8.630s] -- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/preparation.h
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h
+[8.630s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/parser.h
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/ExecutePage.h
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config/params.yaml
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv
+[8.631s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv
+[8.631s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui
+[8.632s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.632s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.632s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake
+[8.632s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake
+[8.632s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml
+[8.632s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui

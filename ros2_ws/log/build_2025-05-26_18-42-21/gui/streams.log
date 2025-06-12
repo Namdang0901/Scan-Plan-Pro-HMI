@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.063s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.089s] [ 11%] Built target gui_autogen
+[0.130s] [ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[0.130s] [ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[0.131s] [ 44%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[0.131s] [ 55%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[0.132s] [ 66%] [32mBuilding CXX object CMakeFiles/gui.dir/src/ExecutePage.cpp.o[0m
+[0.525s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/ExecutePage.cpp:1[m[K:
+[0.525s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:15:10:[m[K [01;31m[Kfatal error: [m[Kqwt_plot.h: No such file or directory
+[0.525s]    15 | #include [01;31m[K<qwt_plot.h>[m[K
+[0.525s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.525s] compilation terminated.
+[0.526s] In file included from [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_ExecutePage.cpp:10[m[K,
+[0.526s]                  from [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2[m[K:
+[0.526s] [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/ExecutePage.h:15:10:[m[K [01;31m[Kfatal error: [m[Kqwt_plot.h: No such file or directory
+[0.527s]    15 | #include [01;31m[K<qwt_plot.h>[m[K
+[0.527s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.527s] compilation terminated.
+[0.530s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/ExecutePage.cpp.o] Error 1
+[0.530s] gmake[2]: *** Waiting for unfinished jobs....
+[0.530s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:76: CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o] Error 1
+[0.760s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:32[m[K,
+[0.760s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[0.760s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:15:10:[m[K [01;31m[Kfatal error: [m[Kqwt_plot.h: No such file or directory
+[0.760s]    15 | #include [01;31m[K<qwt_plot.h>[m[K
+[0.760s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.760s] compilation terminated.
+[0.762s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:32[m[K,
+[0.762s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[0.762s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:15:10:[m[K [01;31m[Kfatal error: [m[Kqwt_plot.h: No such file or directory
+[0.762s]    15 | #include [01;31m[K<qwt_plot.h>[m[K
+[0.762s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.762s] compilation terminated.
+[0.767s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[0.769s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[0.783s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:32[m[K,
+[0.783s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[0.783s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/ExecutePage.h:15:10:[m[K [01;31m[Kfatal error: [m[Kqwt_plot.h: No such file or directory
+[0.783s]    15 | #include [01;31m[K<qwt_plot.h>[m[K
+[0.783s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.783s] compilation terminated.
+[0.791s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[0.792s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[0.792s] gmake: *** [Makefile:146: all] Error 2
+[0.795s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

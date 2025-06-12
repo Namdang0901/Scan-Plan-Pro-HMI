@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_marker_node[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o[0m
+[3.940s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:197:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[3.941s]   197 |     [01;31m[Kif[m[K (point_log_.is_open()) {
+[3.941s]       |     [01;31m[K^~[m[K
+[3.960s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:[m[K In constructor ‘[01m[KPointLabeler::PointLabeler()[m[K’:
+[3.960s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_log_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_id_[m[K’?
+[3.960s]    66 |         [01;31m[Kpoint_log_[m[K.open("logs/clicked_points.csv", std::ios::app);
+[3.961s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.961s]       |         [32m[Kpoint_id_[m[K
+[3.967s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:[m[K In destructor ‘[01m[Kvirtual PointLabeler::~PointLabeler()[m[K’:
+[3.967s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:77:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_log_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_id_[m[K’?
+[3.967s]    77 |         if ([01;31m[Kpoint_log_[m[K.is_open()) {
+[3.967s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.967s]       |             [32m[Kpoint_id_[m[K
+[7.166s] gmake[2]: *** [CMakeFiles/pointcloud_marker_node.dir/build.make:76: CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o] Error 1
+[7.166s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pointcloud_marker_node.dir/all] Error 2
+[7.166s] gmake: *** [Makefile:146: all] Error 2
+[7.169s] Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000619] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000632] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000644] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000655] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000671] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000683] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000696] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000706] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000720] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000731] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000743] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000754] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000765] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000779] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000793] (gui) JobStarted: {'identifier': 'gui'}
+[0.008458] (gui) JobProgress: {'identifier': 'gui', 'progress': 'cmake'}
+[0.008898] (gui) JobProgress: {'identifier': 'gui', 'progress': 'build'}
+[0.009386] (gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/home/hoapham/ur_ws/install/ur_robot_driver/lib:/home/hoapham/ur_ws/install/ur_controllers/lib:/home/hoapham/ur_ws/install/ur_msgs/lib:/home/hoapham/ur_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install:/home/hoapham/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2733,unix/hoapham:/tmp/.ICE-unix/2733'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d926bed_5113_431b_aec7_d053f5465f61'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble')]), 'shell': False}
+[0.067134] (gui) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target gui\x1b[0m\n'}
+[0.095185] (gui) StdoutLine: {'line': b'[ 11%] Built target gui_autogen\n'}
+[0.099785] (-) TimerEvent: {}
+[0.114584] (gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui\x1b[0m\n'}
+[0.160947] (gui) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199913] (-) TimerEvent: {}
+[0.300262] (-) TimerEvent: {}
+[0.400597] (-) TimerEvent: {}
+[0.500988] (-) TimerEvent: {}
+[0.601252] (-) TimerEvent: {}
+[0.701588] (-) TimerEvent: {}
+[0.802221] (-) TimerEvent: {}
+[0.902527] (-) TimerEvent: {}
+[1.002840] (-) TimerEvent: {}
+[1.103220] (-) TimerEvent: {}
+[1.203535] (-) TimerEvent: {}
+[1.303833] (-) TimerEvent: {}
+[1.404194] (-) TimerEvent: {}
+[1.504525] (-) TimerEvent: {}
+[1.604927] (-) TimerEvent: {}
+[1.705239] (-) TimerEvent: {}
+[1.805585] (-) TimerEvent: {}
+[1.905887] (-) TimerEvent: {}
+[2.006215] (-) TimerEvent: {}
+[2.106633] (-) TimerEvent: {}
+[2.206993] (-) TimerEvent: {}
+[2.307309] (-) TimerEvent: {}
+[2.407588] (-) TimerEvent: {}
+[2.507933] (-) TimerEvent: {}
+[2.608286] (-) TimerEvent: {}
+[2.708631] (-) TimerEvent: {}
+[2.809005] (-) TimerEvent: {}
+[2.909326] (-) TimerEvent: {}
+[3.009638] (-) TimerEvent: {}
+[3.109946] (-) TimerEvent: {}
+[3.210335] (-) TimerEvent: {}
+[3.310623] (-) TimerEvent: {}
+[3.410933] (-) TimerEvent: {}
+[3.511215] (-) TimerEvent: {}
+[3.611532] (-) TimerEvent: {}
+[3.711844] (-) TimerEvent: {}
+[3.812147] (-) TimerEvent: {}
+[3.912484] (-) TimerEvent: {}
+[4.012771] (-) TimerEvent: {}
+[4.113017] (-) TimerEvent: {}
+[4.213239] (-) TimerEvent: {}
+[4.313554] (-) TimerEvent: {}
+[4.413837] (-) TimerEvent: {}
+[4.514147] (-) TimerEvent: {}
+[4.614455] (-) TimerEvent: {}
+[4.714716] (-) TimerEvent: {}
+[4.815026] (-) TimerEvent: {}
+[4.915359] (-) TimerEvent: {}
+[5.015759] (-) TimerEvent: {}
+[5.116039] (-) TimerEvent: {}
+[5.216358] (-) TimerEvent: {}
+[5.316640] (-) TimerEvent: {}
+[5.417014] (-) TimerEvent: {}
+[5.517480] (-) TimerEvent: {}
+[5.617856] (-) TimerEvent: {}
+[5.718326] (-) TimerEvent: {}
+[5.818766] (-) TimerEvent: {}
+[5.919112] (-) TimerEvent: {}
+[6.019442] (-) TimerEvent: {}
+[6.117700] (gui) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable gui\x1b[0m\n'}
+[6.119505] (-) TimerEvent: {}
+[6.219754] (-) TimerEvent: {}
+[6.320110] (-) TimerEvent: {}
+[6.420546] (-) TimerEvent: {}
+[6.520851] (-) TimerEvent: {}
+[6.621246] (-) TimerEvent: {}
+[6.721587] (-) TimerEvent: {}
+[6.821923] (-) TimerEvent: {}
+[6.922214] (-) TimerEvent: {}
+[7.022498] (-) TimerEvent: {}
+[7.122785] (-) TimerEvent: {}
+[7.223147] (-) TimerEvent: {}
+[7.323469] (-) TimerEvent: {}
+[7.423792] (-) TimerEvent: {}
+[7.524182] (-) TimerEvent: {}
+[7.624494] (-) TimerEvent: {}
+[7.724819] (-) TimerEvent: {}
+[7.825099] (-) TimerEvent: {}
+[7.925528] (-) TimerEvent: {}
+[8.025857] (-) TimerEvent: {}
+[8.126251] (-) TimerEvent: {}
+[8.226687] (-) TimerEvent: {}
+[8.327042] (-) TimerEvent: {}
+[8.427303] (-) TimerEvent: {}
+[8.527629] (-) TimerEvent: {}
+[8.627961] (-) TimerEvent: {}
+[8.639742] (gui) StdoutLine: {'line': b'[100%] Built target gui\n'}
+[8.648898] (gui) CommandEnded: {'returncode': 0}
+[8.649820] (gui) JobProgress: {'identifier': 'gui', 'progress': 'install'}
+[8.657138] (gui) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hoapham/ros2_ws/build/gui'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/home/hoapham/ur_ws/install/ur_robot_driver/lib:/home/hoapham/ur_ws/install/ur_controllers/lib:/home/hoapham/ur_ws/install/ur_msgs/lib:/home/hoapham/ur_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install:/home/hoapham/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2733,unix/hoapham:/tmp/.ICE-unix/2733'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d926bed_5113_431b_aec7_d053f5465f61'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble')]), 'shell': False}
+[8.663383] (gui) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.663637] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui\n'}
+[8.673750] (gui) StdoutLine: {'line': b'-- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""\n'}
+[8.673976] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include\n'}
+[8.674070] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui\n'}
+[8.674153] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h\n'}
+[8.674318] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/preparation.h\n'}
+[8.674364] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h\n'}
+[8.674438] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h\n'}
+[8.674508] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/parser.h\n'}
+[8.674598] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/ExecutePage.h\n'}
+[8.674654] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch\n'}
+[8.674692] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py\n'}
+[8.674728] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config\n'}
+[8.674772] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config/params.yaml\n'}
+[8.674846] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui\n'}
+[8.674920] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui\n'}
+[8.674992] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh\n'}
+[8.675065] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv\n'}
+[8.675140] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh\n'}
+[8.675223] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv\n'}
+[8.675290] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash\n'}
+[8.675353] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh\n'}
+[8.675422] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh\n'}
+[8.675489] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv\n'}
+[8.675555] (gui) StdoutLine: {'line': b'-- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv\n'}
+[8.675625] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui\n'}
+[8.675697] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.675768] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.675838] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake\n'}
+[8.675907] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake\n'}
+[8.675974] (gui) StdoutLine: {'line': b'-- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml\n'}
+[8.676661] (gui) CommandEnded: {'returncode': 0}
+[8.685253] (gui) JobEnded: {'identifier': 'gui', 'rc': 0}
+[8.685916] (-) EventReactorShutdown: {}

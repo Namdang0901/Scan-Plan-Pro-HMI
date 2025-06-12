@@ -1,0 +1,21 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:14:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KForm[m[K’ does not have any field named ‘[01m[Kapp_[m[K’
+   14 |     [01;31m[Kapp_[m[K(app), node_weak_ptr_(rviz_ros_node), QMainWindow(parent),
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:14:16:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KForm[m[K’ does not have any field named ‘[01m[Knode_weak_ptr_[m[K’
+   14 |     app_(app), [01;31m[Knode_weak_ptr_[m[K(rviz_ros_node), QMainWindow(parent),
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_panel[m[K’ was not declared in this scope; did you mean ‘[01m[KRvizPanel[m[K’?
+   22 |     [01;31m[Krviz_panel[m[K = std::make_shared<RvizPanel>(app_);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[KRvizPanel[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:22:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp_[m[K’ was not declared in this scope; did you mean ‘[01m[Kapp[m[K’?
+   22 |     rviz_panel = std::make_shared<RvizPanel>([01;31m[Kapp_[m[K);
+      |                                              [01;31m[K^~~~[m[K
+      |                                              [32m[Kapp[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:23:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_weak_ptr_[m[K’ was not declared in this scope
+   23 |     QWidget *rviz_widget = rviz_panel->initializeWidget([01;31m[Knode_weak_ptr_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

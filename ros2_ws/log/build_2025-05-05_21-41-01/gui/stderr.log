@@ -1,0 +1,104 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:72:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   72 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:20:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:39:16:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   39 |         return [01;31m[K-1[m[K;
+      |                [01;31m[K^~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:43:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst QString&[m[K’
+   43 |     ui->rb_linear_text->setText([01;31m[Kconfig.get("Params", "linear")[m[K);
+      |                                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:44:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst QString&[m[K’
+   44 |     ui->rb_rotation_text->setText([01;31m[Kconfig.get("Params", "linear")[m[K);
+      |                                   [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:45:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst QString&[m[K’
+   45 |     ui->grinding_speed_text->setText([01;31m[Kconfig.get("Params", "linear")[m[K);
+      |                                      [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:46:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst QString&[m[K’
+   46 |     ui->grinding_force_text->setText([01;31m[Kconfig.get("Params", "linear")[m[K);
+      |                                      [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:47:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst QString&[m[K’
+   47 |     ui->spindle_speed_text->setText([01;31m[Kconfig.get("Params", "linear")[m[K);
+      |                                     [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfile[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfile1[m[K’?
+   89 |         [01;31m[Kinfile[m[K.close();
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kinfile1[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:288:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  288 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:298:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  298 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::save_combobox_value_to_txt(const QString&)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:308:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void HelloGui::save_combobox_value_to_txt([01;35m[Kconst QString& value[m[K)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

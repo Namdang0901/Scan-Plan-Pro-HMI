@@ -1,0 +1,49 @@
+[0.023s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.072s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.108s] [ 14%] Built target gui_autogen
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.161s] [ 28%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[4.446s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.446s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[4.446s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:64:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.446s]    64 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.446s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.446s] 
+[4.446s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:18:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.446s]    18 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[4.446s]       |                          [01;35m[K^[m[K
+[4.446s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.446s]    13 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.446s]       | [01;35m[K^~~~~~~~[m[K
+[11.284s] [ 42%] [32m[1mLinking CXX executable gui[0m
+[13.258s] [100%] Built target gui
+[13.267s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[13.269s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[13.275s] -- Install configuration: ""
+[13.275s] -- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui
+[13.281s] -- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui
+[13.281s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv
+[13.282s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake
+[13.282s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml
+[13.283s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui

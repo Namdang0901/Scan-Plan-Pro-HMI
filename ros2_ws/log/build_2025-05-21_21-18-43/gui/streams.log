@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.087s] [ 12%] Built target gui_autogen
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.155s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[4.953s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.953s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[4.953s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.953s]    42 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.953s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.953s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:40:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* Form::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.953s]    40 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.953s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.953s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.953s]    10 | [01;35m[KForm[m[K::Form(
+[4.953s]       | [01;35m[K^~~~[m[K
+[4.954s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.954s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.954s]    40 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.954s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.954s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.954s]    16 |     ui(new Ui::Form[01;35m[K)[m[K
+[4.954s]       |                    [01;35m[K^[m[K
+[4.954s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.954s]    10 | [01;35m[KForm[m[K::Form(
+[4.954s]       | [01;35m[K^~~~[m[K
+[4.965s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::on_save_joint_btn_clicked()[m[K’:
+[4.965s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:64:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KForm::checkFileChange(const char [24])[m[K’
+[4.965s]    64 |     [01;31m[KcheckFileChange("config/joint_state.conf")[m[K;
+[4.965s]       |     [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.965s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.965s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:48:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Form::checkFileChange()[m[K’
+[4.965s]    48 |     void [01;36m[KcheckFileChange[m[K();
+[4.965s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.965s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:48:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.984s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::checkFileChange()[m[K’:
+[4.984s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:87:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig_filename[m[K’ was not declared in this scope
+[4.984s]    87 |     auto new_time = std::filesystem::last_write_time([01;31m[Kconfig_filename[m[K);
+[4.984s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.984s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:89:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInitConfig::load()[m[K’
+[4.984s]    89 |         [01;31m[Kconfig.load()[m[K;
+[4.984s]       |         [01;31m[K~~~~~~~~~~~^~[m[K
+[4.984s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:9[m[K,
+[4.984s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[4.984s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/parser.h:17:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool InitConfig::load(const string&)[m[K’
+[4.985s]    17 |         bool [01;36m[Kload[m[K(const std::string& filename) {
+[4.985s]       |              [01;36m[K^~~~[m[K
+[4.985s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/parser.h:17:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.049s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[7.049s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[7.050s] gmake: *** [Makefile:146: all] Error 2
+[7.052s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

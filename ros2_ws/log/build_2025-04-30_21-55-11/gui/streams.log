@@ -1,0 +1,19 @@
+[0.021s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui
+[0.040s] [31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package):
+[0.040s]   Could not find a package configuration file provided by "Qt5Multimedia"
+[0.040s]   with any of the following names:
+[0.040s] 
+[0.040s]     Qt5MultimediaConfig.cmake
+[0.040s]     qt5multimedia-config.cmake
+[0.040s] 
+[0.040s]   Add the installation prefix of "Qt5Multimedia" to CMAKE_PREFIX_PATH or set
+[0.040s]   "Qt5Multimedia_DIR" to a directory containing one of the above files.  If
+[0.040s]   "Qt5Multimedia" provides a separate development package or SDK, be sure it
+[0.040s]   has been installed.
+[0.040s] Call Stack (most recent call first):
+[0.041s]   CMakeLists.txt:18 (find_package)
+[0.041s] 
+[0.041s] [0m
+[0.041s] -- Configuring incomplete, errors occurred!
+[0.041s] See also "/home/hoapham/ros2_ws/build/gui/CMakeFiles/CMakeOutput.log".
+[0.043s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui

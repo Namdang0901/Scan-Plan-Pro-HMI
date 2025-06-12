@@ -1,0 +1,184 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.468s] [ 12%] Built target gui_autogen
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.533s] [ 50%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[0.533s] [ 50%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[0.533s] [ 50%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[0.533s] [ 62%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[5.964s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.964s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[5.964s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:36:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.964s]    36 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.964s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.964s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* Form::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.964s]    34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[5.964s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[5.964s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.964s]    10 | [01;35m[KForm[m[K::Form(
+[5.965s]       | [01;35m[K^~~~[m[K
+[5.965s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.965s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.965s]    34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[5.965s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[5.965s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.965s]    16 |     ui(new Ui::Form[01;35m[K)[m[K
+[5.965s]       |                    [01;35m[K^[m[K
+[5.965s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.965s]    10 | [01;35m[KForm[m[K::Form(
+[5.965s]       | [01;35m[K^~~~[m[K
+[5.969s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’; did you mean ‘[01m[Kjoint_subscription_[m[K’?
+[5.969s]    25 |     joint_subscription_ = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::JointState>(
+[5.970s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.970s]       |                                 [32m[Kjoint_subscription_[m[K
+[5.970s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:25:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.970s]    25 |     joint_subscription_ = this->create_subscription<sensor_msgs::msg::JointState[01;31m[K>[m[K(
+[5.970s]       |                                                                                 [01;31m[K^[m[K
+[5.970s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:26:5:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.970s]    26 |     [01;35m[K"/joint_states"[m[K, 10,
+[5.970s]       |     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.970s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateSubscriber[m[K’ has not been declared
+[5.970s]    27 |     std::bind(&[01;31m[KJointStateSubscriber[m[K::topic_callback, this, std::placeholders::_1));
+[5.970s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.972s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:45[m[K,
+[5.972s]                  from [01m[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:40[m[K,
+[5.972s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5[m[K,
+[5.973s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.973s]    38 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Received joint state:");
+[5.973s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.973s]    38 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received joint state:");
+[5.973s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.973s]    38 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received joint state:");
+[5.973s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.973s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.973s]    38 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received joint state:");
+[5.973s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.973s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.973s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:45[m[K,
+[5.974s]                  from [01m[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:40[m[K,
+[5.974s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5[m[K,
+[5.974s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.974s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.974s]    38 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Received joint state:");
+[5.974s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[5.974s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.974s]    38 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Received joint state:");
+[5.974s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[5.975s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:45[m[K,
+[5.975s]                  from [01m[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:40[m[K,
+[5.975s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5[m[K,
+[5.975s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.975s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.975s]    40 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.975s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[5.975s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.975s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.975s]    40 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.976s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.976s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.976s]    40 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.976s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.976s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.976s]    40 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.976s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.976s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:45[m[K,
+[5.976s]                  from [01m[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:40[m[K,
+[5.977s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5[m[K,
+[5.977s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[5.977s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.977s]    40 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.977s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[5.977s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Form[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.977s]    40 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "  %s: %f", msg->name[i].c_str(), msg->position[i]);
+[5.977s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[6.023s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[6.023s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[6.024s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:87:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.024s]    87 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[6.024s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.024s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:85:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* HelloGui::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.024s]    85 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[6.024s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[6.024s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.024s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[6.024s]       | [01;35m[K^~~~~~~~[m[K
+[6.024s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[6.024s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:85:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.025s]    85 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[6.025s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[6.025s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:21:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.025s]    21 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[6.025s]       |                          [01;35m[K^[m[K
+[6.025s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.025s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[6.025s]       | [01;35m[K^~~~~~~~[m[K
+[6.049s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[6.049s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:182:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.049s]   182 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+[6.049s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[6.050s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[6.050s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:197:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.050s]   197 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+[6.051s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[6.051s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[6.051s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:216:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.051s]   216 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+[6.051s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[6.100s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[6.100s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:296:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.100s]   296 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+[6.100s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.100s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:297:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.100s]   297 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+[6.100s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.003s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[7.003s] gmake[2]: *** Waiting for unfinished jobs....
+[9.873s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[9.873s] gmake: *** [Makefile:146: all] Error 2
+[9.877s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

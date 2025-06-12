@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (-) JobUnselected: {'identifier': 'add_collision_object'}
+[0.000227] (-) JobUnselected: {'identifier': 'ur'}
+[0.000258] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000286] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000312] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000338] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000363] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000387] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000411] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000435] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.000461] (ur16_control_ui) JobQueued: {'identifier': 'ur16_control_ui', 'dependencies': OrderedDict()}
+[0.000490] (ur16_control_ui) JobStarted: {'identifier': 'ur16_control_ui'}
+[0.006140] (ur16_control_ui) JobProgress: {'identifier': 'ur16_control_ui', 'progress': 'cmake'}
+[0.006331] (ur16_control_ui) Command: {'cmd': ['/usr/bin/cmake', '/home/hoapham/ur_ws/src/ur16_control_ui', '-DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/ur16_control_ui'], 'cwd': '/home/hoapham/ur_ws/build/ur16_control_ui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/lib:/home/hoapham/ur_ws/install/ur_controllers/lib:/home/hoapham/ur_ws/install/ur_msgs/lib:/home/hoapham/ur_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '6880'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2756,unix/hoapham:/tmp/.ICE-unix/2756'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d8719a39_af7b_4b10_a147_432d30886e02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ur_ws/build/ur16_control_ui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble')]), 'shell': False}
+[0.052323] (ur16_control_ui) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094523] (ur16_control_ui) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099400] (-) TimerEvent: {}
+[0.099620] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.156785] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161097] (ur16_control_ui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161406] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161538] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163237] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199497] (-) TimerEvent: {}
+[0.230496] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.235018] (ur16_control_ui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.235216] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.235466] (ur16_control_ui) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.238614] (ur16_control_ui) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299627] (-) TimerEvent: {}
+[0.351288] (ur16_control_ui) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399754] (-) TimerEvent: {}
+[0.433339] (ur16_control_ui) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.474210] (ur16_control_ui) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.479635] (ur16_control_ui) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.487182] (ur16_control_ui) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.497659] (ur16_control_ui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499848] (-) TimerEvent: {}
+[0.511519] (ur16_control_ui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.551847] (ur16_control_ui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.555577] (ur16_control_ui) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.573924] (ur16_control_ui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.582105] (ur16_control_ui) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599969] (-) TimerEvent: {}
+[0.639872] (ur16_control_ui) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.640203] (ur16_control_ui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700068] (-) TimerEvent: {}
+[0.701923] (ur16_control_ui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.702546] (ur16_control_ui) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.740280] (ur16_control_ui) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.763439] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.800187] (-) TimerEvent: {}
+[0.886607] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.900279] (-) TimerEvent: {}
+[0.927994] (ur16_control_ui) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.938511] (ur16_control_ui) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.941254] (ur16_control_ui) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.960110] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.000396] (-) TimerEvent: {}
+[1.045930] (ur16_control_ui) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.072042] (ur16_control_ui) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100534] (-) TimerEvent: {}
+[1.186071] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.200631] (-) TimerEvent: {}
+[1.207293] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.289814] (ur16_control_ui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.300787] (-) TimerEvent: {}
+[1.310375] (ur16_control_ui) StdoutLine: {'line': b'-- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[1.369112] (ur16_control_ui) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.387964] (ur16_control_ui) StdoutLine: {'line': b'-- Generating done\n'}
+[1.393749] (ur16_control_ui) StdoutLine: {'line': b'-- Build files have been written to: /home/hoapham/ur_ws/build/ur16_control_ui\n'}
+[1.400922] (-) TimerEvent: {}
+[1.405907] (ur16_control_ui) CommandEnded: {'returncode': 0}
+[1.406624] (ur16_control_ui) JobProgress: {'identifier': 'ur16_control_ui', 'progress': 'build'}
+[1.407485] (ur16_control_ui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ur_ws/build/ur16_control_ui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ur_ws/build/ur16_control_ui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/lib:/home/hoapham/ur_ws/install/ur_controllers/lib:/home/hoapham/ur_ws/install/ur_msgs/lib:/home/hoapham/ur_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '6880'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hoapham/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2756,unix/hoapham:/tmp/.ICE-unix/2756'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d8719a39_af7b_4b10_a147_432d30886e02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ur_ws/build/ur16_control_ui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/hoapham/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ur_ws/install/ur_simulation_gazebo:/home/hoapham/ur_ws/install/ur:/home/hoapham/ur_ws/install/ur_calibration:/home/hoapham/ur_ws/install/ur_robot_driver:/home/hoapham/ur_ws/install/ur_bringup:/home/hoapham/ur_ws/install/ur_controllers:/home/hoapham/ur_ws/install/ur_msgs:/home/hoapham/ur_ws/install/ur_moveit_config:/home/hoapham/ur_ws/install/ur_dashboard_msgs:/home/hoapham/ur_ws/install/ur16_control_ui:/home/hoapham/ur_ws/install/add_collision_object:/opt/ros/humble')]), 'shell': False}
+[1.447614] (ur16_control_ui) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ur16_control_ui\x1b[0m\n'}
+[1.470024] (ur16_control_ui) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ur16_control_ui.dir/src/ur16_control_ui_node.cpp.o\x1b[0m\n'}
+[1.501026] (-) TimerEvent: {}
+[1.601298] (-) TimerEvent: {}
+[1.701554] (-) TimerEvent: {}
+[1.801841] (-) TimerEvent: {}
+[1.902137] (-) TimerEvent: {}
+[2.002417] (-) TimerEvent: {}
+[2.102679] (-) TimerEvent: {}
+[2.202913] (-) TimerEvent: {}
+[2.303147] (-) TimerEvent: {}
+[2.403392] (-) TimerEvent: {}
+[2.503629] (-) TimerEvent: {}
+[2.603969] (-) TimerEvent: {}
+[2.704218] (-) TimerEvent: {}
+[2.804503] (-) TimerEvent: {}
+[2.904735] (-) TimerEvent: {}
+[3.004988] (-) TimerEvent: {}
+[3.105294] (-) TimerEvent: {}
+[3.205569] (-) TimerEvent: {}
+[3.305968] (-) TimerEvent: {}
+[3.406281] (-) TimerEvent: {}
+[3.506596] (-) TimerEvent: {}
+[3.606855] (-) TimerEvent: {}
+[3.707182] (-) TimerEvent: {}
+[3.807485] (-) TimerEvent: {}
+[3.907809] (-) TimerEvent: {}
+[4.008145] (-) TimerEvent: {}
+[4.108525] (-) TimerEvent: {}
+[4.208936] (-) TimerEvent: {}
+[4.309330] (-) TimerEvent: {}
+[4.409681] (-) TimerEvent: {}
+[4.510017] (-) TimerEvent: {}
+[4.610433] (-) TimerEvent: {}
+[4.710761] (-) TimerEvent: {}
+[4.811122] (-) TimerEvent: {}
+[4.911447] (-) TimerEvent: {}
+[5.011734] (-) TimerEvent: {}
+[5.112004] (-) TimerEvent: {}
+[5.212302] (-) TimerEvent: {}
+[5.312598] (-) TimerEvent: {}
+[5.412851] (-) TimerEvent: {}
+[5.513167] (-) TimerEvent: {}
+[5.613518] (-) TimerEvent: {}
+[5.713783] (-) TimerEvent: {}
+[5.814051] (-) TimerEvent: {}
+[5.914346] (-) TimerEvent: {}
+[6.014663] (-) TimerEvent: {}
+[6.114955] (-) TimerEvent: {}
+[6.215214] (-) TimerEvent: {}
+[6.315462] (-) TimerEvent: {}
+[6.374322] (ur16_control_ui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid JointMoveServer::trigger_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.374501] (ur16_control_ui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_state\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.374545] (ur16_control_ui) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[Krobot_state\x1b[m\x1b[K::RobotStatePtr current_state = move_group_->setStartStateToCurrentState();\n'}
+[6.374581] (ur16_control_ui) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.383485] (ur16_control_ui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:53:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.383617] (ur16_control_ui) StderrLine: {'line': b'   53 |     if (\x1b[01;31m\x1b[Kcurrent_state\x1b[m\x1b[K) {\n'}
+[6.383657] (ur16_control_ui) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.415578] (-) TimerEvent: {}
+[6.515961] (-) TimerEvent: {}
+[6.616308] (-) TimerEvent: {}
+[6.716638] (-) TimerEvent: {}
+[6.816928] (-) TimerEvent: {}
+[6.917194] (-) TimerEvent: {}
+[7.017605] (-) TimerEvent: {}
+[7.117967] (-) TimerEvent: {}
+[7.218237] (-) TimerEvent: {}
+[7.318494] (-) TimerEvent: {}
+[7.418756] (-) TimerEvent: {}
+[7.519019] (-) TimerEvent: {}
+[7.619320] (-) TimerEvent: {}
+[7.719619] (-) TimerEvent: {}
+[7.819961] (-) TimerEvent: {}
+[7.920281] (-) TimerEvent: {}
+[8.020636] (-) TimerEvent: {}
+[8.120991] (-) TimerEvent: {}
+[8.186743] (ur16_control_ui) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur16_control_ui.dir/build.make:76: CMakeFiles/ur16_control_ui.dir/src/ur16_control_ui_node.cpp.o] Error 1\n'}
+[8.187086] (ur16_control_ui) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur16_control_ui.dir/all] Error 2\n'}
+[8.187402] (ur16_control_ui) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.190074] (ur16_control_ui) CommandEnded: {'returncode': 2}
+[8.196526] (ur16_control_ui) JobEnded: {'identifier': 'ur16_control_ui', 'rc': 2}
+[8.207134] (-) EventReactorShutdown: {}

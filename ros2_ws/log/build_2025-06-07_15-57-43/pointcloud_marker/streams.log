@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_marker_node[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o[0m
+[3.419s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:[m[K In lambda function:
+[3.419s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:42:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_id_[m[K’ was not declared in this scope
+[3.419s]    42 |                 for (int i = 0; i < [01;31m[Kpoint_id_[m[K; ++i) {
+[3.419s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[3.429s] [01m[K/home/hoapham/ros2_ws/src/pointcloud_marker/src/pointcloud_marker_node.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_id_[m[K’ was not declared in this scope
+[3.429s]    62 |                 [01;31m[Kpoint_id_[m[K = 1000;
+[3.429s]       |                 [01;31m[K^~~~~~~~~[m[K
+[6.168s] gmake[2]: *** [CMakeFiles/pointcloud_marker_node.dir/build.make:76: CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o] Error 1
+[6.168s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pointcloud_marker_node.dir/all] Error 2
+[6.168s] gmake: *** [Makefile:146: all] Error 2
+[6.171s] Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16

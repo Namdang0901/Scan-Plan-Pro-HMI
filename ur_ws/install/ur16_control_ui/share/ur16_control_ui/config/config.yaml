@@ -1,0 +1,3 @@
+ur_moveit_joint_control:
+  ros__parameters:
+    joint_goal: [-0.76, -1.11, 0.0, 0.0, 0.0, 0.0]

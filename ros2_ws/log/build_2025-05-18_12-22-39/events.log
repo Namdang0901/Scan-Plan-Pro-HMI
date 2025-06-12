@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000201] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000217] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000232] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000243] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000255] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000267] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000279] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000299] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000316] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000329] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000340] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000351] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000365] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000378] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000392] (gui) JobStarted: {'identifier': 'gui'}
+[0.007430] (gui) JobProgress: {'identifier': 'gui', 'progress': 'cmake'}
+[0.008225] (gui) JobProgress: {'identifier': 'gui', 'progress': 'build'}
+[0.008732] (gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2587,unix/hoapham:/tmp/.ICE-unix/2587'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4157cd5_b0e6_496a_9643_5cf98d45b7a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.262'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[0.062218] (gui) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target gui\x1b[0m\n'}
+[0.089772] (gui) StdoutLine: {'line': b'[ 11%] Built target gui_autogen\n'}
+[0.099180] (-) TimerEvent: {}
+[0.109666] (gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui\x1b[0m\n'}
+[0.152121] (gui) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o\x1b[0m\n'}
+[0.199325] (-) TimerEvent: {}
+[0.299600] (-) TimerEvent: {}
+[0.399917] (-) TimerEvent: {}
+[0.500183] (-) TimerEvent: {}
+[0.600518] (-) TimerEvent: {}
+[0.700813] (-) TimerEvent: {}
+[0.801192] (-) TimerEvent: {}
+[0.901743] (-) TimerEvent: {}
+[1.002068] (-) TimerEvent: {}
+[1.102448] (-) TimerEvent: {}
+[1.202859] (-) TimerEvent: {}
+[1.303236] (-) TimerEvent: {}
+[1.403715] (-) TimerEvent: {}
+[1.504020] (-) TimerEvent: {}
+[1.604315] (-) TimerEvent: {}
+[1.704778] (-) TimerEvent: {}
+[1.805218] (-) TimerEvent: {}
+[1.905663] (-) TimerEvent: {}
+[2.006069] (-) TimerEvent: {}
+[2.106381] (-) TimerEvent: {}
+[2.206693] (-) TimerEvent: {}
+[2.306994] (-) TimerEvent: {}
+[2.407348] (-) TimerEvent: {}
+[2.507612] (-) TimerEvent: {}
+[2.607977] (-) TimerEvent: {}
+[2.708414] (-) TimerEvent: {}
+[2.808941] (-) TimerEvent: {}
+[2.909373] (-) TimerEvent: {}
+[2.909809] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.910146] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:28:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Krviz_common::DisplayContext\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.910249] (gui) StderrLine: {'line': b'   28 |     rviz_common::DisplayContext* context = new rviz_common::DisplayContext(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.910349] (gui) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.910426] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:44\x1b[m\x1b[K,\n'}
+[2.910498] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5\x1b[m\x1b[K,\n'}
+[2.910565] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1\x1b[m\x1b[K:\n'}
+[2.910633] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:98:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Krviz_common::DisplayContext\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.910701] (gui) StderrLine: {'line': b'   98 | class RVIZ_COMMON_PUBLIC \x1b[01;36m\x1b[KDisplayContext\x1b[m\x1b[K : public QObject\n'}
+[2.910766] (gui) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.910831] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:113:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual Ogre::SceneManager* rviz_common::DisplayContext::getSceneManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.910899] (gui) StderrLine: {'line': b'  113 |   virtual Ogre::SceneManager * \x1b[01;36m\x1b[KgetSceneManager\x1b[m\x1b[K() const = 0;\n'}
+[2.910963] (gui) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911026] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:118:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::WindowManagerInterface* rviz_common::DisplayContext::getWindowManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911088] (gui) StderrLine: {'line': b'  118 |   \x1b[01;36m\x1b[KgetWindowManager\x1b[m\x1b[K() const = 0;\n'}
+[2.911117] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911147] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:123:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<rviz_common::interaction::SelectionManagerIface> rviz_common::DisplayContext::getSelectionManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911196] (gui) StderrLine: {'line': b'  123 |   \x1b[01;36m\x1b[KgetSelectionManager\x1b[m\x1b[K() const = 0;\n'}
+[2.911225] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911255] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:128:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<rviz_common::interaction::HandlerManagerIface> rviz_common::DisplayContext::getHandlerManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911291] (gui) StderrLine: {'line': b'  128 |   \x1b[01;36m\x1b[KgetHandlerManager\x1b[m\x1b[K() const = 0;\n'}
+[2.911324] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911352] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:133:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<rviz_common::interaction::ViewPickerIface> rviz_common::DisplayContext::getViewPicker() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911383] (gui) StderrLine: {'line': b'  133 |   \x1b[01;36m\x1b[KgetViewPicker\x1b[m\x1b[K() const = 0;\n'}
+[2.911412] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911441] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:138:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::FrameManagerIface* rviz_common::DisplayContext::getFrameManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911471] (gui) StderrLine: {'line': b'  138 |   \x1b[01;36m\x1b[KgetFrameManager\x1b[m\x1b[K() const = 0;\n'}
+[2.911500] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911529] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:143:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual QString rviz_common::DisplayContext::getFixedFrame() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911564] (gui) StderrLine: {'line': b'  143 |   \x1b[01;36m\x1b[KgetFixedFrame\x1b[m\x1b[K() const = 0;\n'}
+[2.911595] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911624] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:154:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual uint64_t rviz_common::DisplayContext::getFrameCount() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911659] (gui) StderrLine: {'line': b'  154 |   \x1b[01;36m\x1b[KgetFrameCount\x1b[m\x1b[K() const = 0;\n'}
+[2.911687] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911716] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::DisplayFactory* rviz_common::DisplayContext::getDisplayFactory() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911751] (gui) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KgetDisplayFactory\x1b[m\x1b[K() const = 0;\n'}
+[2.911781] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911811] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:164:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr rviz_common::DisplayContext::getRosNodeAbstraction() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911840] (gui) StderrLine: {'line': b'  164 |   \x1b[01;36m\x1b[KgetRosNodeAbstraction\x1b[m\x1b[K() const = 0;\n'}
+[2.911874] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911903] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:174:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::handleChar(QKeyEvent*, rviz_common::RenderPanel*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.911933] (gui) StderrLine: {'line': b'  174 |   \x1b[01;36m\x1b[KhandleChar\x1b[m\x1b[K(QKeyEvent * event, RenderPanel * panel) = 0;\n'}
+[2.911963] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911992] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:179:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::handleMouseEvent(const rviz_common::ViewportMouseEvent&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912022] (gui) StderrLine: {'line': b'  179 |   \x1b[01;36m\x1b[KhandleMouseEvent\x1b[m\x1b[K(const ViewportMouseEvent & event) = 0;\n'}
+[2.912052] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912080] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::ToolManager* rviz_common::DisplayContext::getToolManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912110] (gui) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[KgetToolManager\x1b[m\x1b[K() const = 0;\n'}
+[2.912140] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912168] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:189:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::ViewManager* rviz_common::DisplayContext::getViewManager() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912197] (gui) StderrLine: {'line': b'  189 |   \x1b[01;36m\x1b[KgetViewManager\x1b[m\x1b[K() const = 0;\n'}
+[2.912226] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912255] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::transformation::TransformationManager* rviz_common::DisplayContext::getTransformationManager()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912293] (gui) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[KgetTransformationManager\x1b[m\x1b[K() = 0;\n'}
+[2.912326] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912381] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::DisplayGroup* rviz_common::DisplayContext::getRootDisplayGroup() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912410] (gui) StderrLine: {'line': b'  198 |   \x1b[01;36m\x1b[KgetRootDisplayGroup\x1b[m\x1b[K() const = 0;\n'}
+[2.912440] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912470] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:203:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual uint32_t rviz_common::DisplayContext::getDefaultVisibilityBit() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912501] (gui) StderrLine: {'line': b'  203 |   \x1b[01;36m\x1b[KgetDefaultVisibilityBit\x1b[m\x1b[K() const = 0;\n'}
+[2.912529] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912559] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:208:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual rviz_common::BitAllocator* rviz_common::DisplayContext::visibilityBits()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912602] (gui) StderrLine: {'line': b'  208 |   \x1b[01;36m\x1b[KvisibilityBits\x1b[m\x1b[K() = 0;\n'}
+[2.912629] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912657] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::setStatus(const QString&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912688] (gui) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[KsetStatus\x1b[m\x1b[K(const QString & message) = 0;\n'}
+[2.912717] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912746] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual QString rviz_common::DisplayContext::getHelpPath() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912776] (gui) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[KgetHelpPath\x1b[m\x1b[K() const = 0;\n'}
+[2.912805] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912839] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::shared_ptr<rclcpp::Clock> rviz_common::DisplayContext::getClock()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912869] (gui) StderrLine: {'line': b'  221 |   \x1b[01;36m\x1b[KgetClock\x1b[m\x1b[K() = 0;\n'}
+[2.912908] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.912939] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:225:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::lockRender()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.912970] (gui) StderrLine: {'line': b'  225 |   \x1b[01;36m\x1b[KlockRender\x1b[m\x1b[K() = 0;\n'}
+[2.913002] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.913036] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::unlockRender()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.913074] (gui) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[KunlockRender\x1b[m\x1b[K() = 0;\n'}
+[2.913111] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.913145] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:240:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rviz_common::DisplayContext::queueRender()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.913182] (gui) StderrLine: {'line': b'  240 |   \x1b[01;36m\x1b[KqueueRender\x1b[m\x1b[K() = 0;\n'}
+[2.913214] (gui) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.913245] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:29:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rviz_common::DisplayContext\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetSceneManager\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KgetSceneManager\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.913276] (gui) StderrLine: {'line': b'   29 |     context->\x1b[01;31m\x1b[KsetSceneManager\x1b[m\x1b[K(viz_manager_->getSceneManager());\n'}
+[2.913320] (gui) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.913370] (gui) StderrLine: {'line': b'      |              \x1b[32m\x1b[KgetSceneManager\x1b[m\x1b[K\n'}
+[3.009490] (-) TimerEvent: {}
+[3.109787] (-) TimerEvent: {}
+[3.210078] (-) TimerEvent: {}
+[3.310411] (-) TimerEvent: {}
+[3.410744] (-) TimerEvent: {}
+[3.511050] (-) TimerEvent: {}
+[3.609345] (gui) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1\n'}
+[3.609642] (gui) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2\n'}
+[3.609786] (gui) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.611138] (-) TimerEvent: {}
+[3.611799] (gui) CommandEnded: {'returncode': 2}
+[3.618515] (gui) JobEnded: {'identifier': 'gui', 'rc': 2}
+[3.628859] (-) EventReactorShutdown: {}

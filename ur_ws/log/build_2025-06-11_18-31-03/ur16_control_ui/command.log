@@ -1,0 +1,4 @@
+Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/ur16_control_ui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/ur16_control_ui
+Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/ur16_control_ui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/ur16_control_ui
+Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui -- -j16 -l16
+Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui -- -j16 -l16

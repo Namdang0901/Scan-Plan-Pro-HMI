@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.084s] [ 11%] Built target gui_autogen
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.143s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[0.143s] [ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[2.734s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:6:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KForm::Form(QWidget*)[m[K’
+[2.734s]     6 | [01;31m[KForm[m[K::Form(
+[2.734s]       | [01;31m[K^~~~[m[K
+[2.734s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[2.734s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KForm::Form(const Form&)[m[K’
+[2.734s]    12 | class [01;36m[KForm[m[K : public QMainWindow
+[2.735s]       |       [01;36m[K^~~~[m[K
+[2.735s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:17:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’
+[2.735s]    17 |     explicit [01;36m[KForm[m[K(QWidget *parent, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node);
+[2.735s]       |              [01;36m[K^~~~[m[K
+[2.735s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Form[m[K’ defined here
+[2.735s]    12 | class [01;36m[KForm[m[K : public QMainWindow
+[2.735s]       |       [01;36m[K^~~~[m[K
+[3.410s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[3.410s] gmake[2]: *** Waiting for unfinished jobs....
+[4.691s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.691s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:21:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KForm::Form()[m[K’
+[4.691s]    21 |     auto second_window = new Form([01;31m[K)[m[K;
+[4.691s]       |                                   [01;31m[K^[m[K
+[4.691s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:31[m[K,
+[4.691s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[4.691s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:17:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’
+[4.691s]    17 |     explicit [01;36m[KForm[m[K(QWidget *parent, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node);
+[4.691s]       |              [01;36m[K^~~~[m[K
+[4.691s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:17:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[5.568s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.569s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.569s] gmake: *** [Makefile:146: all] Error 2
+[5.572s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

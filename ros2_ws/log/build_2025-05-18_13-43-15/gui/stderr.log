@@ -1,0 +1,167 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:[m[K In constructor ‘[01m[KRvizPanel::RvizPanel(QApplication*, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:65:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KRvizPanel::app_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   65 |   QApplication * [01;35m[Kapp_[m[K;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:16:34:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |   : app_(app), QMainWindow(parent[01;35m[K)[m[K
+      |                                  [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 | [01;35m[KRvizPanel[m[K::RvizPanel(
+      | [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:[m[K In member function ‘[01m[Kvirtual rviz_common::PanelDockWidget* RvizPanel::addPane(const QString&, QWidget*, Qt::DockWidgetArea, bool)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:147:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  147 |   [01;35m[Kconst QString & name[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:148:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpane[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  148 |   [01;35m[KQWidget * pane[m[K,
+      |   [01;35m[K~~~~~~~~~~^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:149:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  149 |   [01;35m[KQt::DockWidgetArea area[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:150:8:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfloating[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |   [01;35m[Kbool floating[m[K) {
+      |   [01;35m[K~~~~~^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:[m[K In member function ‘[01m[Kvirtual void RvizPanel::setStatus(const QString&)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:155:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  155 | void RvizPanel::setStatus([01;35m[Kconst QString & message[m[K) {
+      |                           [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:[m[K In member function ‘[01m[Kvoid RvizPanel::shutdown()[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:161:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_manager_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmanager_[m[K’?
+  161 |     if ([01;31m[Kviz_manager_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Kmanager_[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rvizpanel.cpp:165:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[K((RvizPanel*)this)->RvizPanel::render_panel_[m[K’, which is of pointer type ‘[01m[Krviz_common::RenderPanel*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  165 |     render_panel_.[01;31m[Kreset[m[K();  // Destroys the render panel
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:28:76:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krviz_common::DisplayContext[m[K’
+   28 |     rviz_common::DisplayContext* context = new rviz_common::DisplayContext([01;31m[K)[m[K;
+      |                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:44[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:5[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:98:26:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krviz_common::DisplayContext[m[K’:
+   98 | class RVIZ_COMMON_PUBLIC [01;36m[KDisplayContext[m[K : public QObject
+      |                          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:113:32:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual Ogre::SceneManager* rviz_common::DisplayContext::getSceneManager() const[m[K’
+  113 |   virtual Ogre::SceneManager * [01;36m[KgetSceneManager[m[K() const = 0;
+      |                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:118:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::WindowManagerInterface* rviz_common::DisplayContext::getWindowManager() const[m[K’
+  118 |   [01;36m[KgetWindowManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:123:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::shared_ptr<rviz_common::interaction::SelectionManagerIface> rviz_common::DisplayContext::getSelectionManager() const[m[K’
+  123 |   [01;36m[KgetSelectionManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:128:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::shared_ptr<rviz_common::interaction::HandlerManagerIface> rviz_common::DisplayContext::getHandlerManager() const[m[K’
+  128 |   [01;36m[KgetHandlerManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:133:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::shared_ptr<rviz_common::interaction::ViewPickerIface> rviz_common::DisplayContext::getViewPicker() const[m[K’
+  133 |   [01;36m[KgetViewPicker[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:138:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::FrameManagerIface* rviz_common::DisplayContext::getFrameManager() const[m[K’
+  138 |   [01;36m[KgetFrameManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:143:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual QString rviz_common::DisplayContext::getFixedFrame() const[m[K’
+  143 |   [01;36m[KgetFixedFrame[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:154:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual uint64_t rviz_common::DisplayContext::getFrameCount() const[m[K’
+  154 |   [01;36m[KgetFrameCount[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:159:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::DisplayFactory* rviz_common::DisplayContext::getDisplayFactory() const[m[K’
+  159 |   [01;36m[KgetDisplayFactory[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:164:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr rviz_common::DisplayContext::getRosNodeAbstraction() const[m[K’
+  164 |   [01;36m[KgetRosNodeAbstraction[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:174:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::handleChar(QKeyEvent*, rviz_common::RenderPanel*)[m[K’
+  174 |   [01;36m[KhandleChar[m[K(QKeyEvent * event, RenderPanel * panel) = 0;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:179:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::handleMouseEvent(const rviz_common::ViewportMouseEvent&)[m[K’
+  179 |   [01;36m[KhandleMouseEvent[m[K(const ViewportMouseEvent & event) = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:184:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::ToolManager* rviz_common::DisplayContext::getToolManager() const[m[K’
+  184 |   [01;36m[KgetToolManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:189:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::ViewManager* rviz_common::DisplayContext::getViewManager() const[m[K’
+  189 |   [01;36m[KgetViewManager[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:193:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::transformation::TransformationManager* rviz_common::DisplayContext::getTransformationManager()[m[K’
+  193 |   [01;36m[KgetTransformationManager[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:198:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::DisplayGroup* rviz_common::DisplayContext::getRootDisplayGroup() const[m[K’
+  198 |   [01;36m[KgetRootDisplayGroup[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:203:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual uint32_t rviz_common::DisplayContext::getDefaultVisibilityBit() const[m[K’
+  203 |   [01;36m[KgetDefaultVisibilityBit[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:208:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual rviz_common::BitAllocator* rviz_common::DisplayContext::visibilityBits()[m[K’
+  208 |   [01;36m[KvisibilityBits[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:213:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::setStatus(const QString&)[m[K’
+  213 |   [01;36m[KsetStatus[m[K(const QString & message) = 0;
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:217:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual QString rviz_common::DisplayContext::getHelpPath() const[m[K’
+  217 |   [01;36m[KgetHelpPath[m[K() const = 0;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:221:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual std::shared_ptr<rclcpp::Clock> rviz_common::DisplayContext::getClock()[m[K’
+  221 |   [01;36m[KgetClock[m[K() = 0;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:225:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::lockRender()[m[K’
+  225 |   [01;36m[KlockRender[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:229:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::unlockRender()[m[K’
+  229 |   [01;36m[KunlockRender[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp:240:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rviz_common::DisplayContext::queueRender()[m[K’
+  240 |   [01;36m[KqueueRender[m[K() = 0;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:29:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz_common::DisplayContext[m[K’ has no member named ‘[01m[KsetSceneManager[m[K’; did you mean ‘[01m[KgetSceneManager[m[K’?
+   29 |     context->[01;31m[KsetSceneManager[m[K(viz_manager_->getSceneManager());
+      |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |              [32m[KgetSceneManager[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:132: CMakeFiles/gui.dir/src/rvizpanel.cpp.o] Error 1
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:84:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:20:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:189:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:204:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  204 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:223:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  223 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:303:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  303 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:304:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  304 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::closeRviz()[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:313:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid RvizPanel::shutdown()[m[K’ is private within this context
+  313 |         [01;31m[Krviz_panel->shutdown()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:28[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rvizpanel.h:79:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   79 |   void [01;36m[Kshutdown[m[K();
+      |        [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

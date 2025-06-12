@@ -1,0 +1,7 @@
+[0.025s] Invoking command in '/home/hoapham/ros2_ws/build/rviz_embed_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_embed_test -- -j16 -l16
+[0.061s] [ 20%] [34m[1mGenerating include/myviz/moc_myviz.cpp[0m
+[0.458s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_embed_test.dir/src/myviz.cpp.o[0m
+[0.458s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_embed_test.dir/src/main.cpp.o[0m
+[0.458s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_embed_test.dir/include/myviz/moc_myviz.cpp.o[0m
+[11.794s] [100%] [32m[1mLinking CXX executable rviz_embed_test[0m
+[13.235s] [100%] Built target rviz_embed_test

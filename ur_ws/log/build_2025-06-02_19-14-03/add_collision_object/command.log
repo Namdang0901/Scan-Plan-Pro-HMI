@@ -1,0 +1,3 @@
+Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/add_collision_object -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/add_collision_object
+Invoked command in '/home/hoapham/ur_ws/build/add_collision_object' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/add_collision_object -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/add_collision_object
+Invoking command in '/home/hoapham/ur_ws/build/add_collision_object': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/add_collision_object -- -j16 -l16

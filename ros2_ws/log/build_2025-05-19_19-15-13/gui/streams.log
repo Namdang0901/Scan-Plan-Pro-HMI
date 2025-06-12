@@ -1,0 +1,39 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.060s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.086s] [ 12%] Built target gui_autogen
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.147s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.657s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.658s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:16:14:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHelloGui::HelloGui()[m[K’
+[4.658s]    16 |     HelloGui [01;31m[Kgui[m[K;
+[4.658s]       |              [01;31m[K^~~[m[K
+[4.658s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[4.658s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:44:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’
+[4.658s]    44 |     [01;36m[KHelloGui[m[K(QApplication *app,
+[4.658s]       |     [01;36m[K^~~~~~~~[m[K
+[4.659s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:44:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgui[m[K’ is not captured
+[4.662s]    42 |             [01;31m[Kgui[m[K.closeRviz();
+[4.662s]       |             [01;31m[K^~~[m[K
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.662s]    39 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+[4.662s]       |                                                             [01;36m[K^[m[K
+[4.662s] 
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:16:14:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui gui[m[K’ declared here
+[4.662s]    16 |     HelloGui [01;36m[Kgui[m[K;
+[4.662s]       |              [01;36m[K^~~[m[K
+[4.662s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgui[m[K’ is not captured
+[4.663s]    45 |             [01;31m[Kgui[m[K.openRviz();
+[4.663s]       |             [01;31m[K^~~[m[K
+[4.663s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.663s]    39 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+[4.663s]       |                                                             [01;36m[K^[m[K
+[4.663s] 
+[4.663s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:16:14:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui gui[m[K’ declared here
+[4.663s]    16 |     HelloGui [01;36m[Kgui[m[K;
+[4.663s]       |              [01;36m[K^~~[m[K
+[5.523s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.523s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.523s] gmake: *** [Makefile:146: all] Error 2
+[5.526s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

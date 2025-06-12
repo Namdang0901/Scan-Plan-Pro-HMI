@@ -1,0 +1,69 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:70:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   70 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:102:70:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQString[m[K’ to ‘[01m[Kint[m[K’
+  102 |              ui->comboBox_dir->setCurrentIndex([01;31m[KQString::number(value)[m[K);
+      |                                                [01;31m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+      |                                                               [01;31m[K|[m[K
+      |                                                               [01;31m[KQString[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:227:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QComboBox::setCurrentIndex(int)[m[K’
+  227 |     void setCurrentIndex([01;36m[Kint index[m[K);
+      |                          [01;36m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:104:75:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQString[m[K’ to ‘[01m[Kint[m[K’
+  104 |         ui->comboBox_tooltype->setCurrentIndex([01;31m[KQString::number(value)[m[K);
+      |                                                [01;31m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+      |                                                               [01;31m[K|[m[K
+      |                                                               [01;31m[KQString[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:227:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QComboBox::setCurrentIndex(int)[m[K’
+  227 |     void setCurrentIndex([01;36m[Kint index[m[K);
+      |                          [01;36m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:106:79:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KQString[m[K’ to ‘[01m[Kint[m[K’
+  106 |     ui->comboBox_toolgeometry->setCurrentIndex([01;31m[KQString::number(value)[m[K);
+      |                                                [01;31m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+      |                                                               [01;31m[K|[m[K
+      |                                                               [01;31m[KQString[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:227:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QComboBox::setCurrentIndex(int)[m[K’
+  227 |     void setCurrentIndex([01;36m[Kint index[m[K);
+      |                          [01;36m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:311:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  311 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:321:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  321 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::save_combobox_value_to_txt(const QString&)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:331:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  331 | void HelloGui::save_combobox_value_to_txt([01;35m[Kconst QString& value[m[K)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

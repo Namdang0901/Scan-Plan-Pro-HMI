@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.064s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.092s] [ 14%] Built target gui_autogen
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.155s] [ 28%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[4.156s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.156s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[4.157s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:67:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.157s]    67 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.157s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.157s] 
+[4.157s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.157s]    19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[4.157s]       |                          [01;35m[K^[m[K
+[4.157s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.157s]    14 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.157s]       | [01;35m[K^~~~~~~~[m[K
+[4.611s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::load_combobox_value_from_txt()[m[K’:
+[4.611s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:262:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcombobox_value[m[K’ was not declared in this scope
+[4.611s]   262 |     QFile file([01;31m[Kcombobox_value[m[K.txt);
+[4.611s]       |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.808s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[6.808s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[6.808s] gmake: *** [Makefile:146: all] Error 2
+[6.811s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-20fa9d05a1284a388a4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "zivid_interfaces__py",
+					"jsonFile" : "directory-zivid_interfaces__py-ae34c66ce4b93f576464.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hoapham/ros2_ws/build/zivid_interfaces/zivid_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zivid_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_zivid_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_zivid_interfaces_egg-621cefa169da3975eed7.json",
+					"name" : "ament_cmake_python_build_zivid_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_zivid_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_zivid_interfaces-9b80b990217fd18db62d.json",
+					"name" : "ament_cmake_python_copy_zivid_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-55aa934ae1dece3027dd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces-988018c5286cfdc52658.json",
+					"name" : "zivid_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__cpp-a8b2cc93ebd71a1b6e42.json",
+					"name" : "zivid_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zivid_interfaces__py::@c26d2a93df131603dba4",
+					"jsonFile" : "target-zivid_interfaces__py-925ce57bf4d31ad19943.json",
+					"name" : "zivid_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_generator_c-3d58c5fde8af81df5818.json",
+					"name" : "zivid_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_generator_py-362df5b0f406b364f32e.json",
+					"name" : "zivid_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_c-f30e2b19649c5caa330f.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_c__pyext-9d638efe97e79a1b7150.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_cpp-107902a58ed5f373a614.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_fastrtps_c-b34286235696ce7c7270.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_fastrtps_c__pyext-7b6151f89b702b9f53dd.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_fastrtps_cpp-aa2d9b253830aacf1b75.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_introspection_c-79a2b28b599bbdcf88a2.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_introspection_c__pyext-4918201d53ff2451698b.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces__rosidl_typesupport_introspection_cpp-a49d3bd749353b82fbad.json",
+					"name" : "zivid_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_interfaces_uninstall-65fa6a7409096549173b.json",
+					"name" : "zivid_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hoapham/ros2_ws/build/zivid_interfaces",
+		"source" : "/home/hoapham/ros2_ws/src/zivid-ros/zivid_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

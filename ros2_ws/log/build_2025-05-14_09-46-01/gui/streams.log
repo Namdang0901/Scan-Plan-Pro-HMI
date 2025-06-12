@@ -1,0 +1,65 @@
+[0.008s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui
+[0.068s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.655s] [ 14%] Built target gui_autogen
+[0.693s] [ 28%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[0.694s] [ 57%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[0.694s] [ 57%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[5.903s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.903s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[5.903s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:75:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.903s]    75 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.903s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.903s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:20:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.903s]    20 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[5.903s]       |                          [01;35m[K^[m[K
+[5.903s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.903s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.903s]       | [01;35m[K^~~~~~~~[m[K
+[5.926s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[5.926s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:176:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.926s]   176 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+[5.926s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.927s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[5.928s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:191:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.928s]   191 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+[5.928s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.928s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[5.928s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:210:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.928s]   210 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+[5.928s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.943s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_start_btn_clicked()[m[K’:
+[5.943s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:241:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[5.943s]   241 |     auto client = node->create_client<[01;31m[Kstd_srvs[m[K::srv::Trigger>("capture");
+[5.943s]       |                                       [01;31m[K^~~~~~~~[m[K
+[5.943s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:241:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.944s]   241 |     auto client = node->[01;31m[Kcreate_client<std_srvs::srv::Trigger>[m[K("capture");
+[5.944s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.944s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:241:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [8])[m[K’
+[5.944s]   241 |     auto client = [01;31m[Knode->create_client<std_srvs::srv::Trigger>("capture")[m[K;
+[5.944s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.944s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.944s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:9[m[K,
+[5.944s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.944s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.944s]   252 |   [01;36m[Kcreate_client[m[K(
+[5.944s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.944s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.944s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:241:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.945s]   241 |     auto client = [01;31m[Knode->create_client<std_srvs::srv::Trigger>("capture")[m[K;
+[5.945s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.955s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:244:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfatal_error[m[K’ was not declared in this scope
+[5.955s]   244 |         [01;31m[Kfatal_error[m[K(node->get_logger(), "Client interrupted while waiting for service to appear.");
+[5.955s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.963s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[5.963s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:276:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.963s]   276 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+[5.963s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.963s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:277:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.963s]   277 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+[5.963s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.521s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[7.522s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[7.522s] gmake: *** [Makefile:146: all] Error 2
+[7.524s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui

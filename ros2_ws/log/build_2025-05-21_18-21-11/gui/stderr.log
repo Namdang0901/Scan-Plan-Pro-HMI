@@ -1,0 +1,139 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:[m[K In constructor ‘[01m[KForm::Form(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:36:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* Form::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KForm[m[K::Form(
+      | [01;35m[K^~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:34:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KForm::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:16:20:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |     ui(new Ui::Form[01;35m[K)[m[K
+      |                    [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KForm[m[K::Form(
+      | [01;35m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:38:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   38 |     [01;31m[Kui->joint1_text->setText(msg->position[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:39:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   39 |     [01;31m[Kui->joint2_text->setText(msg->position[1])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:40:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   40 |     [01;31m[Kui->joint3_text->setText(msg->position[2])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:41:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   41 |     [01;31m[Kui->joint4_text->setText(msg->position[3])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:42:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   42 |     [01;31m[Kui->joint5_text->setText(msg->position[4])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:43:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst QString&[m[K’
+   43 |     [01;31m[Kui->joint6_text->setText(msg->position[5])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:148[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgetsDepends:6[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QtMultimediaWidgets:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:7[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:188:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QLineEdit::setText(const QString&)[m[K’
+  188 |     void setText([01;36m[Kconst QString &[m[K);
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:87:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   87 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:85:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* HelloGui::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   85 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:85:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   85 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:21:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:182:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  182 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:197:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  197 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:216:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  216 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:296:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  296 | loGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:297:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  297 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

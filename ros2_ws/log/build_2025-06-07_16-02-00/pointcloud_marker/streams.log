@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_marker_node.dir/src/pointcloud_marker_node.cpp.o[0m
+[9.920s] [100%] [32m[1mLinking CXX executable pointcloud_marker_node[0m
+[10.615s] [100%] Built target pointcloud_marker_node
+[10.625s] Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+[10.636s] Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker
+[10.642s] -- Install configuration: ""
+[10.642s] -- Installing: /home/hoapham/ros2_ws/install/pointcloud_marker/lib/pointcloud_marker/pointcloud_marker_node
+[10.652s] -- Set runtime path of "/home/hoapham/ros2_ws/install/pointcloud_marker/lib/pointcloud_marker/pointcloud_marker_node" to ""
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker//launch
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker//launch/marker.launch.py
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/ament_index/resource_index/package_run_dependencies/pointcloud_marker
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/ament_index/resource_index/parent_prefix_path/pointcloud_marker
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/environment/ament_prefix_path.sh
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/environment/ament_prefix_path.dsv
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/environment/path.sh
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/environment/path.dsv
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/local_setup.bash
+[10.652s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/local_setup.sh
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/local_setup.zsh
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/local_setup.dsv
+[10.653s] -- Installing: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.dsv
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/ament_index/resource_index/packages/pointcloud_marker
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/cmake/pointcloud_markerConfig.cmake
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/cmake/pointcloud_markerConfig-version.cmake
+[10.653s] -- Up-to-date: /home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.xml
+[10.655s] Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker

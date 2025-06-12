@@ -1,0 +1,13 @@
+[0.013s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.075s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.108s] [ 12%] Built target gui_autogen
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.179s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[0.583s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Khello_gui.h: No such file or directory
+[0.583s]     2 | #include [01;31m[K"hello_gui.h"[m[K
+[0.584s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.584s] compilation terminated.
+[0.590s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[0.591s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[0.591s] gmake: *** [Makefile:146: all] Error 2
+[0.595s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

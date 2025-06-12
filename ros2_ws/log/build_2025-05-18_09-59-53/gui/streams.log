@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.076s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.403s] [ 11%] Built target gui_autogen
+[0.423s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.463s] [ 44%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[0.463s] [ 44%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[0.463s] [ 44%] [32mBuilding CXX object CMakeFiles/gui.dir/src/rviz_preparation.cpp.o[0m
+[3.466s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:1[m[K:
+[3.467s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rviz_preparation.h:[m[K In constructor ‘[01m[KRvizPreparation::RvizPreparation(QApplication*, QWidget*)[m[K’:
+[3.467s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rviz_preparation.h:65:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KRvizPreparation::app_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.467s]    65 |   QApplication * [01;35m[Kapp_[m[K;
+[3.467s]       |                  [01;35m[K^~~~[m[K
+[3.467s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:16:34:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.467s]    16 |   : app_(app), QMainWindow(parent[01;35m[K)[m[K
+[3.467s]       |                                  [01;35m[K^[m[K
+[3.467s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.467s]    13 | [01;35m[KRvizPreparation[m[K::RvizPreparation(
+[3.468s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.473s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[Kvirtual rviz_common::PanelDockWidget* RvizPreparation::addPane(const QString&, QWidget*, Qt::DockWidgetArea, bool)[m[K’:
+[3.473s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:147:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.473s]   147 |   [01;35m[Kconst QString & name[m[K,
+[3.473s]       |   [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[3.473s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:148:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpane[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.474s]   148 |   [01;35m[KQWidget * pane[m[K,
+[3.474s]       |   [01;35m[K~~~~~~~~~~^~~~[m[K
+[3.474s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:149:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.474s]   149 |   [01;35m[KQt::DockWidgetArea area[m[K,
+[3.474s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.474s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:150:8:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfloating[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.474s]   150 |   [01;35m[Kbool floating[m[K) {
+[3.474s]       |   [01;35m[K~~~~~^~~~~~~~[m[K
+[3.474s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[Kvirtual void RvizPreparation::setStatus(const QString&)[m[K’:
+[3.474s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:155:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.474s]   155 | void RvizPreparation::setStatus([01;35m[Kconst QString & message[m[K) {
+[3.474s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.275s] [ 55%] [32m[1mLinking CXX executable gui[0m
+[7.997s] [100%] Built target gui
+[8.008s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[8.018s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[8.024s] -- Install configuration: ""
+[8.025s] -- Installing: /home/hoapham/ros2_ws/install/gui/lib/gui/gui
+[8.029s] -- Set runtime path of "/home/hoapham/ros2_ws/install/gui/lib/gui/gui" to ""
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui
+[8.029s] -- Installing: /home/hoapham/ros2_ws/install/gui/include/gui/rviz_preparation.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rvizpanel.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/preparation.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/rrjoystick.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/hello_gui.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/include/gui/parser.h
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//launch/gui.launch.py
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui//config/params.yaml
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/package_run_dependencies/gui
+[8.029s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/parent_prefix_path/gui
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.sh
+[8.030s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/ament_prefix_path.dsv
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.sh
+[8.030s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/environment/path.dsv
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.bash
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.sh
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.zsh
+[8.030s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/local_setup.dsv
+[8.030s] -- Installing: /home/hoapham/ros2_ws/install/gui/share/gui/package.dsv
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/ament_index/resource_index/packages/gui
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.030s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig.cmake
+[8.031s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/cmake/guiConfig-version.cmake
+[8.031s] -- Up-to-date: /home/hoapham/ros2_ws/install/gui/share/gui/package.xml
+[8.031s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui

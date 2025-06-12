@@ -1,0 +1,18 @@
+[ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[ 12%] Built target gui_autogen
+[35m[1mConsolidate compiler generated dependencies of target gui[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:43:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_rviz_panel[m[K’ is not captured
+   43 |             auto manager = [01;31m[Kshared_rviz_panel[m[K->getManager();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:38:107:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 | urrentChanged, [hello_gui, second_window, shared_rviz_widget[01;36m[K][m[K(int index) {
+      |                                                             [01;36m[K^[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:17:10:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<RvizPanel> shared_rviz_panel[m[K’ declared here
+   17 |     auto [01;36m[Kshared_rviz_panel[m[K = std::make_shared<RvizPanel>(&app);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

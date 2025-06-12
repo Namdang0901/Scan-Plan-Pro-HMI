@@ -1,0 +1,9 @@
+tool rpm: 12000
+feed rate: 3
+tool length: 4
+tool diameter: 5
+tool pressure: 10
+sanding: 7
+comboBox dir: 0
+comboBox tooltype: 1
+comboBox toolgeometry: 0

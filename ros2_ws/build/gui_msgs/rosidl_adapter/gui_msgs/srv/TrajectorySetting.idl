@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gui_msgs/srv/TrajectorySetting.srv
+// generated code does not contain a copyright notice
+
+
+module gui_msgs {
+  module srv {
+    struct TrajectorySetting_Request {
+      boolean req;
+    };
+    struct TrajectorySetting_Response {
+      int32 tool;
+
+      int32 parameters;
+    };
+  };
+};

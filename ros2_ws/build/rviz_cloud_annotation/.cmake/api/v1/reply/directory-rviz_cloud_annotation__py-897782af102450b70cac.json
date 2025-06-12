@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rviz_cloud_annotation__py",
+		"source" : "/home/hoapham/ros2_ws/build/rviz_cloud_annotation/rviz_cloud_annotation__py"
+	}
+}

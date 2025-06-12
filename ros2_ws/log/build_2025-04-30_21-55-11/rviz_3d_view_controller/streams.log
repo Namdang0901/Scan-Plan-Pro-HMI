@@ -1,0 +1,7 @@
+[0.021s] Invoking command in '/home/hoapham/ros2_ws/build/rviz_3d_view_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_3d_view_controller -- -j16 -l16
+[0.065s] [ 25%] [34m[1mAutomatic MOC for target rviz_3d_view_controller[0m
+[0.597s] [ 25%] Built target rviz_3d_view_controller_autogen
+[0.639s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_3d_view_controller.dir/rviz_3d_view_controller_autogen/mocs_compilation.cpp.o[0m
+[0.647s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_3d_view_controller.dir/src/rviz_orbit3d_view_controller.cpp.o[0m
+[13.822s] [100%] [32m[1mLinking CXX shared library librviz_3d_view_controller.so[0m
+[14.381s] [100%] Built target rviz_3d_view_controller

@@ -1,0 +1,1 @@
+Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/ros2_qt_template

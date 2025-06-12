@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.086s] [ 11%] Built target gui_autogen
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.150s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[0.150s] [ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[2.893s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’:
+[2.894s] [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:14:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz_common::VisualizationManager[m[K’ has no member named ‘[01m[KgetDisplayContext[m[K’; did you mean ‘[01m[KDisplayContext[m[K’?
+[2.894s]    14 |     render_panel_->initialize(viz_manager_->[01;31m[KgetDisplayContext[m[K());
+[2.894s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.894s]       |                                             [32m[KDisplayContext[m[K
+[3.559s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+[3.559s] gmake[2]: *** Waiting for unfinished jobs....
+[5.931s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.931s] gmake: *** [Makefile:146: all] Error 2
+[5.933s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

@@ -1,0 +1,104 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[KHelloGui[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+   42 |     Ui::[01;31m[KHelloGui[m[K *ui;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[KRvizPanel[m[K’ was not declared in this scope
+   49 |     std::shared_ptr<[01;31m[KRvizPanel[m[K> rviz_panel;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:49:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |     std::shared_ptr<RvizPanel[01;31m[K>[m[K rviz_panel;
+      |                              [01;31m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:10:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KForm[m[K’ does not have any field named ‘[01m[Kui[m[K’
+   10 |     [01;31m[Kui[m[K(new Ui::Form)
+      |     [01;31m[K^~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope; did you mean ‘[01m[KUi[m[K’?
+   12 |     [01;31m[Kui[m[K->setupUi(this);
+      |     [01;31m[K^~[m[K
+      |     [32m[KUi[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:35:[m[K [01;31m[Kerror: [m[K‘[01m[KRvizPanel[m[K’ was not declared in this scope; did you mean ‘[01m[Krviz_panel[m[K’?
+   17 |     rviz_panel = std::make_shared<[01;31m[KRvizPanel[m[K>(app_);
+      |                                   [01;31m[K^~~~~~~~~[m[K
+      |                                   [32m[Krviz_panel[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(QApplication*&)[m[K’
+   17 |     rviz_panel = [01;31m[Kstd::make_shared<RvizPanel>(app_)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:52[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:3[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     rviz_panel = [01;31m[Kstd::make_shared<RvizPanel>(app_)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:18:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   18 |     QWidget *rviz_widget = rviz_panel[01;31m[K->[m[KinitializeWidget(node_weak_ptr_);
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In destructor ‘[01m[Kvirtual Form::~Form()[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:35:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kui[m[K’ was not declared in this scope; did you mean ‘[01m[KUi[m[K’?
+   35 |     delete [01;31m[Kui[m[K;
+      |            [01;31m[K^~[m[K
+      |            [32m[KUi[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:31[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:4[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[KHelloGui[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+   42 |     Ui::[01;31m[KHelloGui[m[K *ui;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/hello_gui.h:31[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_hello_gui.cpp:10[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[KHelloGui[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+   42 |     Ui::[01;31m[KHelloGui[m[K *ui;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:31[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[KHelloGui[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+   42 |     Ui::[01;31m[KHelloGui[m[K *ui;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:84:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:20:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:180:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  180 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:195:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  195 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:214:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  214 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:294:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  294 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:295:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  295 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:76: CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

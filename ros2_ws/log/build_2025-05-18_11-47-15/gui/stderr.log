@@ -1,0 +1,4 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:8:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 |     [01;35m[Krviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node[m[K) :
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

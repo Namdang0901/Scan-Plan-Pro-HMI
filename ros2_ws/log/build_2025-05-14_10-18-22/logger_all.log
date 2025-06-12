@@ -1,0 +1,1237 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--executor', 'sequential']
+[0.058s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72c57a490400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72c57a453e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72c57a453e50>>, mixin_verb=('build',))
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.152s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hoapham/ros2_ws'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_livox) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_livox' with type 'ros.ament_cmake' and name 'fake_livox_publisher'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui' with type 'ros.ament_cmake' and name 'gui'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_msgs) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui_msgs' with type 'ros.ament_cmake' and name 'gui_msgs'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcd_visualizer) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pcd_visualizer' with type 'ros.ament_cmake' and name 'pcd_visualizer'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_marker) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_marker' with type 'ros.ament_cmake' and name 'pointcloud_marker'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/docs/images) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_rviz2) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_qt_template/ros2_qt_rviz2' with type 'ros.ament_cmake' and name 'ros2_qt_rviz2'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_qt_template/ros2_qt_template) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_qt_template/ros2_qt_template' with type 'ros.ament_cmake' and name 'ros2_qt_template'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_3d_view_controller) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz2_cloud_annotation/rviz_3d_view_controller' with type 'ros.ament_cmake' and name 'rviz_3d_view_controller'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_cloud_annotation/rviz_cloud_annotation) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz2_cloud_annotation/rviz_cloud_annotation' with type 'ros.ament_cmake' and name 'rviz_cloud_annotation'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_embed_test) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz_embed_test' with type 'ros.ament_cmake' and name 'rviz_embed_test'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/continuous-integration/setup) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_camera) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zivid-ros/zivid_camera' with type 'ros.ament_cmake' and name 'zivid_camera'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_description) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zivid-ros/zivid_description' with type 'ros.ament_cmake' and name 'zivid_description'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_interfaces) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zivid-ros/zivid_interfaces' with type 'ros.ament_cmake' and name 'zivid_interfaces'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_rviz_plugin) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zivid-ros/zivid_rviz_plugin' with type 'ros.ament_cmake' and name 'zivid_rviz_plugin'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/zivid-ros/zivid_samples) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zivid-ros/zivid_samples' with type 'ros.ament_cmake' and name 'zivid_samples'
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/hoapham/ros2_ws/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 361 installed packages in /opt/ros/humble
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fake_livox_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'fake_livox_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/fake_livox_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/fake_livox_publisher', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/fake_livox', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/gui', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/gui', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gui_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'gui_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/gui_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/gui_msgs', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/gui_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pcd_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'pcd_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/pcd_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/pcd_visualizer', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/pcd_visualizer', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_marker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_marker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/pointcloud_marker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/pointcloud_marker', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/pointcloud_marker', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_rviz2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_qt_rviz2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/ros2_qt_rviz2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/ros2_qt_rviz2', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_rviz2', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ros2_qt_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_qt_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/ros2_qt_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/ros2_qt_template', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'rviz_3d_view_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_3d_view_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/rviz_3d_view_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/rviz_3d_view_controller', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_3d_view_controller', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_cloud_annotation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_cloud_annotation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/rviz_cloud_annotation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/rviz_cloud_annotation', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_cloud_annotation', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'rviz_embed_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_embed_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/rviz_embed_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/rviz_embed_test', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/rviz_embed_test', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'zivid_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/zivid_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/zivid_description', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/zivid-ros/zivid_description', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'zivid_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'zivid_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/zivid_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/zivid_interfaces', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/zivid-ros/zivid_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'zivid_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/zivid_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/zivid_camera', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/zivid-ros/zivid_camera', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_rviz_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'zivid_rviz_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/zivid_rviz_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/zivid_rviz_plugin', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/zivid-ros/zivid_rviz_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'zivid_samples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'zivid_samples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hoapham/ros2_ws/build/zivid_samples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hoapham/ros2_ws/install/zivid_samples', 'merge_install': False, 'path': '/home/hoapham/ros2_ws/src/zivid-ros/zivid_samples', 'symlink_install': False, 'test_result_base': None}
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.228s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'fake_livox_publisher'
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/fake_livox' with build type 'ament_cmake'
+[0.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/fake_livox'
+[0.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/fake_livox_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/fake_livox_publisher
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/fake_livox_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/fake_livox_publisher
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/fake_livox_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/fake_livox_publisher
+[0.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_livox_publisher)
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/fake_livox_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/fake_livox_publisher
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher' for CMake module files
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher' for CMake config files
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_livox_publisher', 'cmake_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.sh'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/bin'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib/pkgconfig/fake_livox_publisher.pc'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib/python3.10/site-packages'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/bin'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.bash'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.zsh'
+[0.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/fake_livox_publisher/share/colcon-core/packages/fake_livox_publisher)
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_livox_publisher)
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher' for CMake config files
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_livox_publisher', 'cmake_prefix_path')
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.dsv'
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/hook/cmake_prefix_path.sh'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/bin'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib/pkgconfig/fake_livox_publisher.pc'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/lib/python3.10/site-packages'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/fake_livox_publisher/bin'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.bash'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/fake_livox_publisher/share/fake_livox_publisher/package.zsh'
+[0.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/fake_livox_publisher/share/colcon-core/packages/fake_livox_publisher)
+[0.329s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'fake_livox_publisher' finished with '0'
+[0.329s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'gui'
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/gui' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/gui'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui
+[9.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui
+[9.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[9.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui)
+[9.974s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui' for CMake module files
+[9.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui
+[9.975s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui' for CMake config files
+[9.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'cmake_prefix_path')
+[9.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.ps1'
+[9.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.dsv'
+[9.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.sh'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/bin'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib/pkgconfig/gui.pc'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib/python3.10/site-packages'
+[9.976s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/bin'
+[9.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.ps1'
+[9.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/gui/share/gui/package.dsv'
+[9.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.sh'
+[9.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.bash'
+[9.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.zsh'
+[9.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/gui/share/colcon-core/packages/gui)
+[9.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui)
+[9.978s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui' for CMake module files
+[9.978s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui' for CMake config files
+[9.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'cmake_prefix_path')
+[9.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.ps1'
+[9.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.dsv'
+[9.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui/share/gui/hook/cmake_prefix_path.sh'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/bin'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib/pkgconfig/gui.pc'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/lib/python3.10/site-packages'
+[9.979s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui/bin'
+[9.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.ps1'
+[9.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/gui/share/gui/package.dsv'
+[9.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.sh'
+[9.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.bash'
+[9.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui/share/gui/package.zsh'
+[9.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/gui/share/colcon-core/packages/gui)
+[9.980s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'gui' finished with '0'
+[9.981s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'gui_msgs'
+[9.981s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/gui_msgs' with build type 'ament_cmake'
+[9.981s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/gui_msgs'
+[9.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/gui_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui_msgs
+[10.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/gui_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui_msgs
+[10.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/gui_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui_msgs
+[10.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui_msgs)
+[10.270s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs' for CMake module files
+[10.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/gui_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/gui_msgs
+[10.270s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs' for CMake config files
+[10.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_msgs', 'cmake_prefix_path')
+[10.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.ps1'
+[10.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.dsv'
+[10.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.sh'
+[10.272s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib'
+[10.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_msgs', 'ld_library_path_lib')
+[10.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.ps1'
+[10.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.dsv'
+[10.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.sh'
+[10.272s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/bin'
+[10.272s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib/pkgconfig/gui_msgs.pc'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib/python3.10/site-packages'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/bin'
+[10.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.ps1'
+[10.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.dsv'
+[10.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.sh'
+[10.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.bash'
+[10.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.zsh'
+[10.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/gui_msgs/share/colcon-core/packages/gui_msgs)
+[10.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui_msgs)
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs' for CMake module files
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs' for CMake config files
+[10.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_msgs', 'cmake_prefix_path')
+[10.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.ps1'
+[10.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.dsv'
+[10.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/cmake_prefix_path.sh'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib'
+[10.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_msgs', 'ld_library_path_lib')
+[10.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.ps1'
+[10.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.dsv'
+[10.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/hook/ld_library_path_lib.sh'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/bin'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib/pkgconfig/gui_msgs.pc'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/lib/python3.10/site-packages'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/gui_msgs/bin'
+[10.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.ps1'
+[10.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.dsv'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.sh'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.bash'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/package.zsh'
+[10.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/gui_msgs/share/colcon-core/packages/gui_msgs)
+[10.279s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'gui_msgs' finished with '0'
+[10.279s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pcd_visualizer'
+[10.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/pcd_visualizer' with build type 'ament_cmake'
+[10.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/pcd_visualizer'
+[10.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/pcd_visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pcd_visualizer
+[10.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/pcd_visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pcd_visualizer
+[10.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/pcd_visualizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pcd_visualizer
+[10.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcd_visualizer)
+[10.366s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer' for CMake module files
+[10.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/pcd_visualizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pcd_visualizer
+[10.367s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer' for CMake config files
+[10.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcd_visualizer', 'cmake_prefix_path')
+[10.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.ps1'
+[10.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.dsv'
+[10.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.sh'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/bin'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib/pkgconfig/pcd_visualizer.pc'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib/python3.10/site-packages'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/bin'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.ps1'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.dsv'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.sh'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.bash'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.zsh'
+[10.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/pcd_visualizer/share/colcon-core/packages/pcd_visualizer)
+[10.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcd_visualizer)
+[10.370s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer' for CMake module files
+[10.371s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer' for CMake config files
+[10.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcd_visualizer', 'cmake_prefix_path')
+[10.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.ps1'
+[10.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.dsv'
+[10.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/hook/cmake_prefix_path.sh'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/bin'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib/pkgconfig/pcd_visualizer.pc'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/lib/python3.10/site-packages'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pcd_visualizer/bin'
+[10.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.ps1'
+[10.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.dsv'
+[10.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.sh'
+[10.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.bash'
+[10.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pcd_visualizer/share/pcd_visualizer/package.zsh'
+[10.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/pcd_visualizer/share/colcon-core/packages/pcd_visualizer)
+[10.373s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pcd_visualizer' finished with '0'
+[10.373s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pointcloud_marker'
+[10.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/pointcloud_marker' with build type 'ament_cmake'
+[10.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/pointcloud_marker'
+[10.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker
+[10.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker
+[10.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker
+[10.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_marker)
+[10.463s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker' for CMake module files
+[10.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker
+[10.464s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker' for CMake config files
+[10.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_marker', 'cmake_prefix_path')
+[10.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.ps1'
+[10.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.dsv'
+[10.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.sh'
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib'
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/bin'
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib/pkgconfig/pointcloud_marker.pc'
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib/python3.10/site-packages'
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/bin'
+[10.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.ps1'
+[10.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.dsv'
+[10.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.sh'
+[10.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.bash'
+[10.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.zsh'
+[10.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/pointcloud_marker/share/colcon-core/packages/pointcloud_marker)
+[10.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_marker)
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker' for CMake module files
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker' for CMake config files
+[10.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_marker', 'cmake_prefix_path')
+[10.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.ps1'
+[10.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.dsv'
+[10.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/hook/cmake_prefix_path.sh'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/bin'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib/pkgconfig/pointcloud_marker.pc'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/lib/python3.10/site-packages'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/pointcloud_marker/bin'
+[10.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.ps1'
+[10.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.dsv'
+[10.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.sh'
+[10.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.bash'
+[10.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/pointcloud_marker/share/pointcloud_marker/package.zsh'
+[10.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/pointcloud_marker/share/colcon-core/packages/pointcloud_marker)
+[10.470s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pointcloud_marker' finished with '0'
+[10.470s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_qt_rviz2'
+[10.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_rviz2' with build type 'ament_cmake'
+[10.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_rviz2'
+[10.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/ros2_qt_rviz2
+[10.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/ros2_qt_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/ros2_qt_rviz2
+[10.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/ros2_qt_rviz2
+[10.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_qt_rviz2)
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2' for CMake module files
+[10.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/ros2_qt_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/ros2_qt_rviz2
+[10.557s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2' for CMake config files
+[10.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_qt_rviz2', 'cmake_prefix_path')
+[10.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.ps1'
+[10.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.dsv'
+[10.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.sh'
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib'
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/bin'
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib/pkgconfig/ros2_qt_rviz2.pc'
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib/python3.10/site-packages'
+[10.558s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/bin'
+[10.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.ps1'
+[10.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.dsv'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.sh'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.bash'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.zsh'
+[10.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/colcon-core/packages/ros2_qt_rviz2)
+[10.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_qt_rviz2)
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2' for CMake module files
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2' for CMake config files
+[10.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_qt_rviz2', 'cmake_prefix_path')
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.ps1'
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.dsv'
+[10.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/hook/cmake_prefix_path.sh'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/bin'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib/pkgconfig/ros2_qt_rviz2.pc'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/lib/python3.10/site-packages'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/bin'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.ps1'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.dsv'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.sh'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.bash'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/ros2_qt_rviz2/package.zsh'
+[10.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/ros2_qt_rviz2/share/colcon-core/packages/ros2_qt_rviz2)
+[10.562s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_qt_rviz2' finished with '0'
+[10.563s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_qt_template'
+[10.563s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template' with build type 'ament_cmake'
+[10.563s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template'
+[10.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/ros2_qt_template
+[10.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/ros2_qt_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/ros2_qt_template
+[10.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_template': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/ros2_qt_template
+[10.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_qt_template)
+[10.645s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template' for CMake module files
+[10.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/ros2_qt_template' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/ros2_qt_template
+[10.645s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template' for CMake config files
+[10.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_qt_template', 'cmake_prefix_path')
+[10.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.ps1'
+[10.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.dsv'
+[10.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.sh'
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib'
+[10.646s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/bin'
+[10.647s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib/pkgconfig/ros2_qt_template.pc'
+[10.647s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib/python3.10/site-packages'
+[10.647s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/bin'
+[10.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.ps1'
+[10.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.dsv'
+[10.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.sh'
+[10.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.bash'
+[10.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.zsh'
+[10.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/ros2_qt_template/share/colcon-core/packages/ros2_qt_template)
+[10.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_qt_template)
+[10.648s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template' for CMake module files
+[10.649s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template' for CMake config files
+[10.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_qt_template', 'cmake_prefix_path')
+[10.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.ps1'
+[10.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.dsv'
+[10.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/hook/cmake_prefix_path.sh'
+[10.650s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib'
+[10.650s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/bin'
+[10.650s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib/pkgconfig/ros2_qt_template.pc'
+[10.650s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/lib/python3.10/site-packages'
+[10.650s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/ros2_qt_template/bin'
+[10.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.ps1'
+[10.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.dsv'
+[10.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.sh'
+[10.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.bash'
+[10.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/ros2_qt_template/share/ros2_qt_template/package.zsh'
+[10.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/ros2_qt_template/share/colcon-core/packages/ros2_qt_template)
+[10.651s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_qt_template' finished with '0'
+[10.651s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_3d_view_controller'
+[10.651s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_3d_view_controller' with build type 'ament_cmake'
+[10.651s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_3d_view_controller'
+[10.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_3d_view_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_3d_view_controller
+[10.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_3d_view_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_3d_view_controller
+[10.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_3d_view_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_3d_view_controller
+[10.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_3d_view_controller)
+[10.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_3d_view_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_3d_view_controller
+[10.771s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller' for CMake module files
+[10.772s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller' for CMake config files
+[10.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_3d_view_controller', 'cmake_prefix_path')
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.ps1'
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.dsv'
+[10.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.sh'
+[10.773s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib'
+[10.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_3d_view_controller', 'ld_library_path_lib')
+[10.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.ps1'
+[10.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.dsv'
+[10.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.sh'
+[10.774s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/bin'
+[10.774s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/pkgconfig/rviz_3d_view_controller.pc'
+[10.774s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/python3.10/site-packages'
+[10.774s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/bin'
+[10.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.ps1'
+[10.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.dsv'
+[10.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.sh'
+[10.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.bash'
+[10.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.zsh'
+[10.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/colcon-core/packages/rviz_3d_view_controller)
+[10.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_3d_view_controller)
+[10.776s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller' for CMake module files
+[10.776s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller' for CMake config files
+[10.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_3d_view_controller', 'cmake_prefix_path')
+[10.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.ps1'
+[10.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.dsv'
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/cmake_prefix_path.sh'
+[10.777s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib'
+[10.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_3d_view_controller', 'ld_library_path_lib')
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.ps1'
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.dsv'
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/hook/ld_library_path_lib.sh'
+[10.778s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/bin'
+[10.778s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/pkgconfig/rviz_3d_view_controller.pc'
+[10.778s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib/python3.10/site-packages'
+[10.778s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/bin'
+[10.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.ps1'
+[10.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.dsv'
+[10.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.sh'
+[10.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.bash'
+[10.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/rviz_3d_view_controller/package.zsh'
+[10.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_3d_view_controller/share/colcon-core/packages/rviz_3d_view_controller)
+[10.779s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_3d_view_controller' finished with '0'
+[10.780s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_cloud_annotation'
+[10.780s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_cloud_annotation' with build type 'ament_cmake'
+[10.780s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/rviz2_cloud_annotation/rviz_cloud_annotation'
+[10.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_cloud_annotation
+[11.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_cloud_annotation
+[11.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_cloud_annotation
+[11.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_cloud_annotation)
+[11.140s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation' for CMake module files
+[11.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_cloud_annotation
+[11.141s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation' for CMake config files
+[11.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_cloud_annotation', 'cmake_prefix_path')
+[11.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.ps1'
+[11.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.dsv'
+[11.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.sh'
+[11.143s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib'
+[11.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_cloud_annotation', 'ld_library_path_lib')
+[11.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.ps1'
+[11.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.dsv'
+[11.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.sh'
+[11.144s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/bin'
+[11.144s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/pkgconfig/rviz_cloud_annotation.pc'
+[11.144s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/python3.10/site-packages'
+[11.144s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/bin'
+[11.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.ps1'
+[11.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.dsv'
+[11.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.sh'
+[11.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.bash'
+[11.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.zsh'
+[11.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/colcon-core/packages/rviz_cloud_annotation)
+[11.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_cloud_annotation)
+[11.146s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation' for CMake module files
+[11.147s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation' for CMake config files
+[11.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_cloud_annotation', 'cmake_prefix_path')
+[11.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.ps1'
+[11.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.dsv'
+[11.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/cmake_prefix_path.sh'
+[11.148s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib'
+[11.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_cloud_annotation', 'ld_library_path_lib')
+[11.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.ps1'
+[11.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.dsv'
+[11.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/hook/ld_library_path_lib.sh'
+[11.148s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/bin'
+[11.148s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/pkgconfig/rviz_cloud_annotation.pc'
+[11.149s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/python3.10/site-packages'
+[11.149s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/bin'
+[11.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.ps1'
+[11.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.dsv'
+[11.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.sh'
+[11.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.bash'
+[11.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.zsh'
+[11.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/colcon-core/packages/rviz_cloud_annotation)
+[11.150s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_cloud_annotation' finished with '0'
+[11.150s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_embed_test'
+[11.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/rviz_embed_test' with build type 'ament_cmake'
+[11.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/rviz_embed_test'
+[11.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_embed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_embed_test
+[11.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_embed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_embed_test
+[11.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/rviz_embed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_embed_test
+[11.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_embed_test)
+[11.233s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test' for CMake module files
+[11.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/rviz_embed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_embed_test
+[11.233s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test' for CMake config files
+[11.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_embed_test', 'cmake_prefix_path')
+[11.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.ps1'
+[11.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.dsv'
+[11.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.sh'
+[11.234s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib'
+[11.234s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/bin'
+[11.235s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib/pkgconfig/rviz_embed_test.pc'
+[11.235s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib/python3.10/site-packages'
+[11.235s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/bin'
+[11.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.ps1'
+[11.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.dsv'
+[11.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.sh'
+[11.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.bash'
+[11.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.zsh'
+[11.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_embed_test/share/colcon-core/packages/rviz_embed_test)
+[11.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_embed_test)
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test' for CMake module files
+[11.237s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test' for CMake config files
+[11.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_embed_test', 'cmake_prefix_path')
+[11.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.ps1'
+[11.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.dsv'
+[11.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/hook/cmake_prefix_path.sh'
+[11.238s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib'
+[11.238s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/bin'
+[11.238s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib/pkgconfig/rviz_embed_test.pc'
+[11.238s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/lib/python3.10/site-packages'
+[11.238s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/rviz_embed_test/bin'
+[11.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.ps1'
+[11.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.dsv'
+[11.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.sh'
+[11.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.bash'
+[11.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/rviz_embed_test/share/rviz_embed_test/package.zsh'
+[11.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/rviz_embed_test/share/colcon-core/packages/rviz_embed_test)
+[11.240s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rviz_embed_test' finished with '0'
+[11.240s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_description'
+[11.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_description' with build type 'ament_cmake'
+[11.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_description'
+[11.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_description
+[11.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_description
+[11.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_description
+[11.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_description)
+[11.293s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description' for CMake module files
+[11.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_description
+[11.293s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description' for CMake config files
+[11.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_description', 'cmake_prefix_path')
+[11.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.ps1'
+[11.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.dsv'
+[11.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.sh'
+[11.294s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/bin'
+[11.294s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/lib/pkgconfig/zivid_description.pc'
+[11.295s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/lib/python3.10/site-packages'
+[11.295s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/bin'
+[11.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.ps1'
+[11.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.dsv'
+[11.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.sh'
+[11.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.bash'
+[11.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.zsh'
+[11.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_description/share/colcon-core/packages/zivid_description)
+[11.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_description)
+[11.296s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description' for CMake module files
+[11.297s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description' for CMake config files
+[11.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_description', 'cmake_prefix_path')
+[11.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.ps1'
+[11.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.dsv'
+[11.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/hook/cmake_prefix_path.sh'
+[11.298s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/bin'
+[11.298s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/lib/pkgconfig/zivid_description.pc'
+[11.298s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/lib/python3.10/site-packages'
+[11.298s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_description/bin'
+[11.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.ps1'
+[11.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.dsv'
+[11.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.sh'
+[11.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.bash'
+[11.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_description/share/zivid_description/package.zsh'
+[11.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_description/share/colcon-core/packages/zivid_description)
+[11.300s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_description' finished with '0'
+[11.300s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_interfaces'
+[11.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_interfaces' with build type 'ament_cmake'
+[11.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_interfaces'
+[11.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_interfaces
+[11.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_interfaces
+[11.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_interfaces
+[11.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_interfaces)
+[11.620s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces' for CMake module files
+[11.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_interfaces
+[11.621s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces' for CMake config files
+[11.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_interfaces', 'cmake_prefix_path')
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.ps1'
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.dsv'
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.sh'
+[11.622s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib'
+[11.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_interfaces', 'ld_library_path_lib')
+[11.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.ps1'
+[11.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.dsv'
+[11.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.sh'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/bin'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib/pkgconfig/zivid_interfaces.pc'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib/python3.10/site-packages'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/bin'
+[11.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.ps1'
+[11.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.dsv'
+[11.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.sh'
+[11.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.bash'
+[11.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.zsh'
+[11.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_interfaces/share/colcon-core/packages/zivid_interfaces)
+[11.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_interfaces)
+[11.625s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces' for CMake module files
+[11.625s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces' for CMake config files
+[11.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_interfaces', 'cmake_prefix_path')
+[11.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.ps1'
+[11.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.dsv'
+[11.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/cmake_prefix_path.sh'
+[11.626s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib'
+[11.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_interfaces', 'ld_library_path_lib')
+[11.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.ps1'
+[11.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.dsv'
+[11.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/hook/ld_library_path_lib.sh'
+[11.627s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/bin'
+[11.627s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib/pkgconfig/zivid_interfaces.pc'
+[11.627s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/lib/python3.10/site-packages'
+[11.627s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_interfaces/bin'
+[11.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.ps1'
+[11.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.dsv'
+[11.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.sh'
+[11.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.bash'
+[11.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/package.zsh'
+[11.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_interfaces/share/colcon-core/packages/zivid_interfaces)
+[11.629s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_interfaces' finished with '0'
+[11.629s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_camera'
+[11.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_camera' with build type 'ament_cmake'
+[11.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_camera'
+[11.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+[11.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+[11.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera
+[11.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_camera)
+[11.743s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera' for CMake module files
+[11.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera
+[11.744s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera' for CMake config files
+[11.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_camera', 'cmake_prefix_path')
+[11.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.ps1'
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.dsv'
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.sh'
+[11.746s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib'
+[11.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_camera', 'ld_library_path_lib')
+[11.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.ps1'
+[11.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.dsv'
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.sh'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/bin'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib/pkgconfig/zivid_camera.pc'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib/python3.10/site-packages'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/bin'
+[11.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.ps1'
+[11.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.dsv'
+[11.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.sh'
+[11.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.bash'
+[11.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.zsh'
+[11.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_camera/share/colcon-core/packages/zivid_camera)
+[11.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_camera)
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera' for CMake module files
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera' for CMake config files
+[11.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_camera', 'cmake_prefix_path')
+[11.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.ps1'
+[11.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.dsv'
+[11.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/cmake_prefix_path.sh'
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib'
+[11.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_camera', 'ld_library_path_lib')
+[11.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.ps1'
+[11.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.dsv'
+[11.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/hook/ld_library_path_lib.sh'
+[11.751s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/bin'
+[11.751s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib/pkgconfig/zivid_camera.pc'
+[11.751s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/lib/python3.10/site-packages'
+[11.751s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_camera/bin'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.ps1'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.dsv'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.sh'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.bash'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.zsh'
+[11.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_camera/share/colcon-core/packages/zivid_camera)
+[11.753s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_camera' finished with '0'
+[11.753s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_rviz_plugin'
+[11.753s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_rviz_plugin' with build type 'ament_cmake'
+[11.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_rviz_plugin'
+[11.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+[11.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+[11.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+[11.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_rviz_plugin)
+[11.878s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin' for CMake module files
+[11.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+[11.879s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin' for CMake config files
+[11.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_rviz_plugin', 'cmake_prefix_path')
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.ps1'
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.dsv'
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.sh'
+[11.880s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib'
+[11.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_rviz_plugin', 'ld_library_path_lib')
+[11.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.ps1'
+[11.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.dsv'
+[11.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.sh'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/bin'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib/pkgconfig/zivid_rviz_plugin.pc'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib/python3.10/site-packages'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/bin'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.ps1'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.dsv'
+[11.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.sh'
+[11.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.bash'
+[11.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.zsh'
+[11.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/colcon-core/packages/zivid_rviz_plugin)
+[11.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_rviz_plugin)
+[11.882s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin' for CMake module files
+[11.883s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin' for CMake config files
+[11.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_rviz_plugin', 'cmake_prefix_path')
+[11.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.ps1'
+[11.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.dsv'
+[11.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/cmake_prefix_path.sh'
+[11.884s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib'
+[11.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_rviz_plugin', 'ld_library_path_lib')
+[11.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.ps1'
+[11.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.dsv'
+[11.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/hook/ld_library_path_lib.sh'
+[11.884s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/bin'
+[11.884s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib/pkgconfig/zivid_rviz_plugin.pc'
+[11.885s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib/python3.10/site-packages'
+[11.885s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/bin'
+[11.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.ps1'
+[11.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.dsv'
+[11.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.sh'
+[11.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.bash'
+[11.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.zsh'
+[11.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_rviz_plugin/share/colcon-core/packages/zivid_rviz_plugin)
+[11.887s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_rviz_plugin' finished with '0'
+[11.887s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_samples'
+[11.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_samples' with build type 'ament_cmake'
+[11.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hoapham/ros2_ws/src/zivid-ros/zivid_samples'
+[11.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_samples': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_samples
+[17.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_samples' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_samples
+[17.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hoapham/ros2_ws/build/zivid_samples': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_samples
+[17.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_samples)
+[17.806s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples' for CMake module files
+[17.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hoapham/ros2_ws/build/zivid_samples' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_samples
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples' for CMake config files
+[17.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_samples', 'cmake_prefix_path')
+[17.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.ps1'
+[17.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.dsv'
+[17.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.sh'
+[17.808s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib'
+[17.808s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/bin'
+[17.808s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib/pkgconfig/zivid_samples.pc'
+[17.808s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib/python3.10/site-packages'
+[17.809s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/bin'
+[17.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.ps1'
+[17.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.dsv'
+[17.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.sh'
+[17.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.bash'
+[17.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.zsh'
+[17.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_samples/share/colcon-core/packages/zivid_samples)
+[17.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zivid_samples)
+[17.810s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples' for CMake module files
+[17.810s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples' for CMake config files
+[17.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('zivid_samples', 'cmake_prefix_path')
+[17.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.ps1'
+[17.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.dsv'
+[17.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/hook/cmake_prefix_path.sh'
+[17.811s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib'
+[17.811s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/bin'
+[17.811s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib/pkgconfig/zivid_samples.pc'
+[17.812s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/lib/python3.10/site-packages'
+[17.812s] Level 1:colcon.colcon_core.environment:checking '/home/hoapham/ros2_ws/install/zivid_samples/bin'
+[17.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.ps1'
+[17.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.dsv'
+[17.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.sh'
+[17.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.bash'
+[17.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.zsh'
+[17.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hoapham/ros2_ws/install/zivid_samples/share/colcon-core/packages/zivid_samples)
+[17.813s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'zivid_samples' finished with '0'
+[17.813s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[17.814s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[17.814s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.818s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.818s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.818s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.826s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hoapham/ros2_ws/install/local_setup.ps1'
+[17.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hoapham/ros2_ws/install/_local_setup_util_ps1.py'
+[17.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hoapham/ros2_ws/install/setup.ps1'
+[17.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hoapham/ros2_ws/install/local_setup.sh'
+[17.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hoapham/ros2_ws/install/_local_setup_util_sh.py'
+[17.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hoapham/ros2_ws/install/setup.sh'
+[17.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hoapham/ros2_ws/install/local_setup.bash'
+[17.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hoapham/ros2_ws/install/setup.bash'
+[17.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hoapham/ros2_ws/install/local_setup.zsh'
+[17.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hoapham/ros2_ws/install/setup.zsh'

@@ -1,0 +1,9 @@
+setup.py
+rviz_cloud_annotation/__init__.py
+rviz_cloud_annotation.egg-info/PKG-INFO
+rviz_cloud_annotation.egg-info/SOURCES.txt
+rviz_cloud_annotation.egg-info/dependency_links.txt
+rviz_cloud_annotation.egg-info/top_level.txt
+rviz_cloud_annotation/msg/__init__.py
+rviz_cloud_annotation/msg/_rectangle_selection_viewport.py
+rviz_cloud_annotation/msg/_undo_redo_state.py

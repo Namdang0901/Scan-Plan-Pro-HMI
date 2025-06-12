@@ -1,0 +1,17 @@
+/home/hoapham/ur_ws/install/ur_moveit_control/lib/ur_moveit_control/move_joint
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/launch/move_joint.launch.py
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ament_index/resource_index/package_run_dependencies/ur_moveit_control
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ament_index/resource_index/parent_prefix_path/ur_moveit_control
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/environment/ament_prefix_path.sh
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/environment/ament_prefix_path.dsv
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/environment/path.sh
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/environment/path.dsv
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/local_setup.bash
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/local_setup.sh
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/local_setup.zsh
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/local_setup.dsv
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/package.dsv
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ament_index/resource_index/packages/ur_moveit_control
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/cmake/ur_moveit_controlConfig.cmake
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/cmake/ur_moveit_controlConfig-version.cmake
+/home/hoapham/ur_ws/install/ur_moveit_control/share/ur_moveit_control/package.xml

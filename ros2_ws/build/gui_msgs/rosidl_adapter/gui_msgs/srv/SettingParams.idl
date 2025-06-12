@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gui_msgs/srv/SettingParams.srv
+// generated code does not contain a copyright notice
+
+
+module gui_msgs {
+  module srv {
+    struct SettingParams_Request {
+      boolean req;
+    };
+    struct SettingParams_Response {
+      int32 linear;
+
+      int32 rotation;
+
+      int32 grinding_speed;
+
+      int32 grinding_force;
+
+      int32 spindle_speed;
+    };
+  };
+};

@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (-) JobUnselected: {'identifier': 'fake_livox_publisher'}
+[0.000463] (-) JobUnselected: {'identifier': 'gui_msgs'}
+[0.000477] (-) JobUnselected: {'identifier': 'pcd_visualizer'}
+[0.000490] (-) JobUnselected: {'identifier': 'pointcloud_marker'}
+[0.000502] (-) JobUnselected: {'identifier': 'ros2_qt_rviz2'}
+[0.000518] (-) JobUnselected: {'identifier': 'ros2_qt_template'}
+[0.000528] (-) JobUnselected: {'identifier': 'rviz_3d_view_controller'}
+[0.000540] (-) JobUnselected: {'identifier': 'rviz_cloud_annotation'}
+[0.000552] (-) JobUnselected: {'identifier': 'rviz_embed_test'}
+[0.000563] (-) JobUnselected: {'identifier': 'zivid_camera'}
+[0.000575] (-) JobUnselected: {'identifier': 'zivid_description'}
+[0.000587] (-) JobUnselected: {'identifier': 'zivid_interfaces'}
+[0.000598] (-) JobUnselected: {'identifier': 'zivid_rviz_plugin'}
+[0.000610] (-) JobUnselected: {'identifier': 'zivid_samples'}
+[0.000623] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000642] (gui) JobStarted: {'identifier': 'gui'}
+[0.008748] (gui) JobProgress: {'identifier': 'gui', 'progress': 'cmake'}
+[0.009895] (gui) JobProgress: {'identifier': 'gui', 'progress': 'build'}
+[0.009968] (gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hoapham/ros2_ws/build/gui', '--', '-j16', '-l16'], 'cwd': '/home/hoapham/ros2_ws/build/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_US:en'), ('USER', 'hoapham'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/hoapham'), ('OLDPWD', '/home/hoapham'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'vi_VN'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hoapham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hoapham'), ('OSH', '/home/hoapham/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hoapham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/hoapham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hoapham:@/tmp/.ICE-unix/2587,unix/hoapham:/tmp/.ICE-unix/2587'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c61967_0df5_4dad_a6fe_837570a1185b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.232'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hoapham/ros2_ws/build/gui'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hoapham/ros2_ws/install/zivid_interfaces/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages:/home/hoapham/ros2_ws/install/gui_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/usr/lib/zivid/genicam'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble')]), 'shell': False}
+[0.050909] (gui) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099747] (-) TimerEvent: {}
+[0.137861] (gui) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.150903] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.152191] (gui) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.155368] (gui) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.160615] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167286] (gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.184600] (gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.185550] (gui) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.195115] (gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199868] (-) TimerEvent: {}
+[0.220802] (gui) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.241930] (gui) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.5 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[0.249093] (gui) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.253367] (gui) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.260134] (gui) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[0.300002] (-) TimerEvent: {}
+[0.352391] (gui) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.354462] (gui) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.358054] (gui) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.358830] (gui) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.358911] (gui) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.359004] (gui) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.359041] (gui) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.359079] (gui) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.359136] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.359169] (gui) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.359199] (gui) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.359230] (gui) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.359261] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.359291] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.359321] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.359352] (gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.393953] (gui) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.400139] (-) TimerEvent: {}
+[0.430437] (gui) StdoutLine: {'line': b'-- Found gui_msgs: 1.1.0 (/home/hoapham/ros2_ws/install/gui_msgs/share/gui_msgs/cmake)\n'}
+[0.442798] (gui) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.454389] (gui) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500327] (-) TimerEvent: {}
+[0.516906] (gui) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.518167] (gui) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.518416] (gui) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hoapham/ros2_ws/src/gui/include\n'}
+[0.518481] (gui) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.519557] (gui) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.519608] (gui) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.519828] (gui) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.520260] (gui) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.520512] (gui) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.521804] (gui) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.521901] (gui) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.521951] (gui) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.522562] (gui) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.561970] (gui) StdoutLine: {'line': b'-- Generating done\n'}
+[0.566168] (gui) StdoutLine: {'line': b'-- Build files have been written to: /home/hoapham/ros2_ws/build/gui\n'}
+[0.600510] (-) TimerEvent: {}
+[0.606964] (gui) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target gui\x1b[0m\n'}
+[0.700697] (-) TimerEvent: {}
+[0.801190] (-) TimerEvent: {}
+[0.900443] (gui) StdoutLine: {'line': b'[ 11%] Built target gui_autogen\n'}
+[0.901293] (-) TimerEvent: {}
+[0.914694] (gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gui\x1b[0m\n'}
+[0.956524] (gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/rviz_preparation.cpp.o\x1b[0m\n'}
+[0.956813] (gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.956917] (gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o\x1b[0m\n'}
+[0.964940] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgui/RvizPreparation.h: No such file or directory\n'}
+[0.965165] (gui) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"gui/RvizPreparation.h"\x1b[m\x1b[K\n'}
+[0.965219] (gui) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.965256] (gui) StderrLine: {'line': b'compilation terminated.\n'}
+[0.966567] (gui) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/rviz_preparation.cpp.o] Error 1\n'}
+[0.966637] (gui) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.001449] (-) TimerEvent: {}
+[1.101855] (-) TimerEvent: {}
+[1.126344] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krviz_preparation.h: No such file or directory\n'}
+[1.126614] (gui) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"rviz_preparation.h"\x1b[m\x1b[K\n'}
+[1.126713] (gui) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.126792] (gui) StderrLine: {'line': b'compilation terminated.\n'}
+[1.131348] (gui) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1\n'}
+[1.202060] (-) TimerEvent: {}
+[1.302522] (-) TimerEvent: {}
+[1.403009] (-) TimerEvent: {}
+[1.503490] (-) TimerEvent: {}
+[1.603983] (-) TimerEvent: {}
+[1.704472] (-) TimerEvent: {}
+[1.805046] (-) TimerEvent: {}
+[1.905540] (-) TimerEvent: {}
+[2.006026] (-) TimerEvent: {}
+[2.106485] (-) TimerEvent: {}
+[2.206981] (-) TimerEvent: {}
+[2.307550] (-) TimerEvent: {}
+[2.407990] (-) TimerEvent: {}
+[2.508371] (-) TimerEvent: {}
+[2.608746] (-) TimerEvent: {}
+[2.709148] (-) TimerEvent: {}
+[2.809521] (-) TimerEvent: {}
+[2.909885] (-) TimerEvent: {}
+[3.010280] (-) TimerEvent: {}
+[3.110651] (-) TimerEvent: {}
+[3.211020] (-) TimerEvent: {}
+[3.311389] (-) TimerEvent: {}
+[3.411753] (-) TimerEvent: {}
+[3.512165] (-) TimerEvent: {}
+[3.612542] (-) TimerEvent: {}
+[3.712916] (-) TimerEvent: {}
+[3.813351] (-) TimerEvent: {}
+[3.913672] (-) TimerEvent: {}
+[4.014004] (-) TimerEvent: {}
+[4.114349] (-) TimerEvent: {}
+[4.214736] (-) TimerEvent: {}
+[4.315125] (-) TimerEvent: {}
+[4.415498] (-) TimerEvent: {}
+[4.515874] (-) TimerEvent: {}
+[4.616271] (-) TimerEvent: {}
+[4.716632] (-) TimerEvent: {}
+[4.817065] (-) TimerEvent: {}
+[4.917452] (-) TimerEvent: {}
+[5.017812] (-) TimerEvent: {}
+[5.118208] (-) TimerEvent: {}
+[5.218594] (-) TimerEvent: {}
+[5.260887] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:5\x1b[m\x1b[K:\n'}
+[5.261147] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:73:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.261248] (gui) StderrLine: {'line': b'   73 | void \x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)\n'}
+[5.261330] (gui) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.269873] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid qt_static_metacall(QObject*, QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.270424] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:76:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.270524] (gui) StderrLine: {'line': b'   76 |         auto *_t = static_cast<\x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K *>(_o);\n'}
+[5.270607] (gui) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.270684] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:76:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.270759] (gui) StderrLine: {'line': b'   76 |         auto *_t = static_cast<RvizPreparation \x1b[01;31m\x1b[K*\x1b[m\x1b[K>(_o);\n'}
+[5.270832] (gui) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.270902] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:76:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.270978] (gui) StderrLine: {'line': b'   76 |         auto *_t = static_cast<RvizPreparation \x1b[01;31m\x1b[K*\x1b[m\x1b[K>(_o);\n'}
+[5.271010] (gui) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.271038] (gui) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[5.271076] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:76:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.271106] (gui) StderrLine: {'line': b'   76 |         auto *_t = static_cast<RvizPreparation *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(_o);\n'}
+[5.271134] (gui) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.271168] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:76:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.271197] (gui) StderrLine: {'line': b'   76 |         auto *_t = static_cast<RvizPreparation *>(_o)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[5.271226] (gui) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.271255] (gui) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.271284] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.271316] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:86:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.271349] (gui) StderrLine: {'line': b'   86 | QT_INIT_METAOBJECT const QMetaObject \x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K::staticMetaObject = { {\n'}
+[5.271379] (gui) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.271412] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:96:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.271443] (gui) StderrLine: {'line': b'   96 | const QMetaObject *\x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K::metaObject() const\n'}
+[5.271471] (gui) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.271505] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:96:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-member function \xe2\x80\x98\x1b[01m\x1b[Kconst QMetaObject* metaObject()\x1b[m\x1b[K\xe2\x80\x99 cannot have cv-qualifier\n'}
+[5.271536] (gui) StderrLine: {'line': b'   96 | const QMetaObject *RvizPreparation::metaObject() \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K\n'}
+[5.271564] (gui) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.271593] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst QMetaObject* metaObject()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.271625] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:98:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQScopedPointer<QObjectData> QObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[5.271657] (gui) StderrLine: {'line': b'   98 |     return QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;\n'}
+[5.271686] (gui) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.271716] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[5.271749] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[5.271778] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[5.271806] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/hello_gui.h:4\x1b[m\x1b[K,\n'}
+[5.271835] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_hello_gui.cpp:10\x1b[m\x1b[K,\n'}
+[5.271867] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2\x1b[m\x1b[K:\n'}
+[5.271895] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[5.271925] (gui) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[5.271965] (gui) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.271995] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:5\x1b[m\x1b[K:\n'}
+[5.272024] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:98:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[KQObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.272053] (gui) StderrLine: {'line': b'   98 |     return QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;\n'}
+[5.272083] (gui) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.272111] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[5.272140] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[5.272173] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[5.272202] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/hello_gui.h:4\x1b[m\x1b[K,\n'}
+[5.272231] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_hello_gui.cpp:10\x1b[m\x1b[K,\n'}
+[5.272261] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2\x1b[m\x1b[K:\n'}
+[5.272289] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.272318] (gui) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[5.272349] (gui) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.272377] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:5\x1b[m\x1b[K:\n'}
+[5.272406] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:98:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQScopedPointer<QObjectData> QObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[5.272434] (gui) StderrLine: {'line': b'   98 |     return QObject::d_ptr->metaObject ? QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->dynamicMetaObject() : &staticMetaObject;\n'}
+[5.272468] (gui) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.272496] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[5.272528] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[5.272557] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[5.272585] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/hello_gui.h:4\x1b[m\x1b[K,\n'}
+[5.272617] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_hello_gui.cpp:10\x1b[m\x1b[K,\n'}
+[5.272647] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2\x1b[m\x1b[K:\n'}
+[5.272675] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[5.272705] (gui) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[5.272734] (gui) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.272762] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:5\x1b[m\x1b[K:\n'}
+[5.272791] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:98:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[KQObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.272820] (gui) StderrLine: {'line': b'   98 |     return QObject::d_ptr->metaObject ? QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->dynamicMetaObject() : &staticMetaObject;\n'}
+[5.272849] (gui) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.272877] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[5.272907] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[5.272944] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[5.272976] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/../../../../src/gui/include/gui/hello_gui.h:4\x1b[m\x1b[K,\n'}
+[5.273004] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_hello_gui.cpp:10\x1b[m\x1b[K,\n'}
+[5.273034] (gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:2\x1b[m\x1b[K:\n'}
+[5.273062] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.273091] (gui) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[5.273121] (gui) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.273149] (gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/mocs_compilation.cpp:5\x1b[m\x1b[K:\n'}
+[5.273178] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.273206] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:101:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.273242] (gui) StderrLine: {'line': b'  101 | void *\x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K::qt_metacast(const char *_clname)\n'}
+[5.273271] (gui) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.273300] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* qt_metacast(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.273328] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:105:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[5.273360] (gui) StderrLine: {'line': b'  105 |         return static_cast<void*>(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K);\n'}
+[5.273390] (gui) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.273419] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:107:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[5.273448] (gui) StderrLine: {'line': b'  107 |        return static_cast< rviz_common::WindowManagerInterface*>(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K);\n'}
+[5.273477] (gui) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.273506] (gui) StderrLine: {'line': b'\n'}
+[5.273536] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:108:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void* QMainWindow::qt_metacast(const char*)\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[5.273566] (gui) StderrLine: {'line': b'  108 |     return \x1b[01;31m\x1b[KQMainWindow::qt_metacast(_clname)\x1b[m\x1b[K;\n'}
+[5.273594] (gui) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.273623] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.273655] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:111:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRvizPreparation\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.273683] (gui) StderrLine: {'line': b'  111 | int \x1b[01;31m\x1b[KRvizPreparation\x1b[m\x1b[K::qt_metacall(QMetaObject::Call _c, int _id, void **_a)\n'}
+[5.273713] (gui) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.273744] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint qt_metacall(QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.273774] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:113:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int QMainWindow::qt_metacall(QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[5.273803] (gui) StderrLine: {'line': b'  113 |     _id = \x1b[01;31m\x1b[KQMainWindow::qt_metacall(_c, _id, _a)\x1b[m\x1b[K;\n'}
+[5.273833] (gui) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.273861] (gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hoapham/ros2_ws/build/gui/gui_autogen/BMPI5EA7AM/moc_rviz_preparation.cpp:118:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[5.273893] (gui) StderrLine: {'line': b'  118 |             qt_static_metacall(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, _c, _id, _a);\n'}
+[5.273923] (gui) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.318750] (-) TimerEvent: {}
+[5.419138] (-) TimerEvent: {}
+[5.519513] (-) TimerEvent: {}
+[5.619866] (-) TimerEvent: {}
+[5.720261] (-) TimerEvent: {}
+[5.820632] (-) TimerEvent: {}
+[5.921013] (-) TimerEvent: {}
+[6.021379] (-) TimerEvent: {}
+[6.044951] (gui) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gui.dir/build.make:76: CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o] Error 1\n'}
+[6.045463] (gui) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2\n'}
+[6.045816] (gui) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.049597] (gui) CommandEnded: {'returncode': 2}
+[6.057139] (gui) JobEnded: {'identifier': 'gui', 'rc': 2}
+[6.057762] (-) EventReactorShutdown: {}

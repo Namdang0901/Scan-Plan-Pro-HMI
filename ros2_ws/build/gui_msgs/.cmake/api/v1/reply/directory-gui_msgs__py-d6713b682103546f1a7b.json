@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gui_msgs__py",
+		"source" : "/home/hoapham/ros2_ws/build/gui_msgs/gui_msgs__py"
+	}
+}

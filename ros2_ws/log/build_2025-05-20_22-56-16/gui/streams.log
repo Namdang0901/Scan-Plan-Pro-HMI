@@ -1,0 +1,100 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.085s] [ 12%] Built target gui_autogen
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.144s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.814s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.814s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.814s]    50 |                     if (![01;31m[Krobot_model_display_[m[K) {
+[4.814s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.814s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.814s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.814s]       |                                                             [01;36m[K^[m[K
+[4.814s] 
+[4.814s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.814s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.814s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:53:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.815s]    53 |                     [01;31m[Krobot_model_display_[m[K = manager->createDisplay("rviz_default_plugins/RobotModel", "RobotModel", true);
+[4.815s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.815s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.815s]       |                                                             [01;36m[K^[m[K
+[4.815s] 
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.815s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.815s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.815s]    54 |                     [01;31m[Krobot_model_display_[m[K->subProp("Description Topic")->setValue("robot_description");
+[4.815s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.815s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.815s]       |                                                             [01;36m[K^[m[K
+[4.815s] 
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.815s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.815s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.815s]    55 |                     [01;31m[Krobot_model_display_[m[K->subProp("Description Source")->setValue("Topic");
+[4.815s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.815s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.815s]       |                                                             [01;36m[K^[m[K
+[4.815s] 
+[4.815s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.815s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.815s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:57:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.816s]    57 |                     [01;31m[Krobot_model_display_[m[K->subProp("Visual Enabled")->setValue(true);
+[4.816s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.816s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.816s]       |                                                             [01;36m[K^[m[K
+[4.816s] 
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.816s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.816s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:58:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.816s]    58 |                     [01;31m[Krobot_model_display_[m[K->subProp("Collision Enabled")->setValue(false);
+[4.816s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.816s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.816s]       |                                                             [01;36m[K^[m[K
+[4.816s] 
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.816s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.816s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:59:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.816s]    59 |                     [01;31m[Krobot_model_display_[m[K->subProp("Update Interval")->setValue(0.0);  // 0 for continuous
+[4.816s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.816s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.816s]       |                                                             [01;36m[K^[m[K
+[4.816s] 
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.816s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.816s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.816s]    68 |                 [01;31m[Krobot_model_display_[m[K->subProp("Visual Enabled")->setValue(false);
+[4.816s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.817s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.817s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.817s]       |                                                             [01;36m[K^[m[K
+[4.817s] 
+[4.817s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.817s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.817s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.817s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:69:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ is not captured
+[4.817s]    69 |                 [01;31m[Krobot_model_display_[m[K->subProp("Collision Enabled")->setValue(false);
+[4.817s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.817s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:40:126:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.817s]    40 | lo_gui, second_window, shared_rviz_widget, shared_rviz_panel[01;36m[K][m[K(int index) {
+[4.817s]       |                                                             [01;36m[K^[m[K
+[4.817s] 
+[4.817s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:39:28:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_common::Display* robot_model_display_[m[K’ declared here
+[4.817s]    39 |     rviz_common::Display * [01;36m[Krobot_model_display_[m[K =nullptr;
+[4.817s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.643s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.644s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.644s] gmake: *** [Makefile:146: all] Error 2
+[5.646s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

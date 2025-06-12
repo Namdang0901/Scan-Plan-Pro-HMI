@@ -1,0 +1,34 @@
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:67:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 | [01;35m[KHelloGui[m[K::HelloGui(
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::load_combobox_value_from_txt()[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:262:16:[m[K [01;31m[Kerror: [m[K‘[01m[KQWidgetData* QWidget::data[m[K’ is private within this context
+  262 |     QFile file([01;31m[Kdata[m[K/combobox_value.txt);
+      |                [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:4[m[K,
+                 from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:747:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+  747 |     QWidgetData *[01;36m[Kdata[m[K;
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:262:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcombobox_value[m[K’ was not declared in this scope
+  262 |     QFile file(data/[01;31m[Kcombobox_value[m[K.txt);
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:275:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint index[m[K’
+  275 |         int [01;31m[Kindex[m[K = ui->comboBox_tool->findText(value);
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:268:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint index[m[K’ previously declared here
+  268 |         int [01;36m[Kindex[m[K = ui->comboBox_setting->findText(value);
+      |             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

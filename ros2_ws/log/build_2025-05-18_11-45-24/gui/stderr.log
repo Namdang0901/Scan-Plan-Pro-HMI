@@ -1,0 +1,16 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:6:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KForm::Form(QWidget*)[m[K’
+    6 | [01;31m[KForm[m[K::Form(
+      | [01;31m[K^~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KForm::Form(const Form&)[m[K’
+   12 | class [01;36m[KForm[m[K : public QMainWindow
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:17:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’
+   17 |     explicit [01;36m[KForm[m[K(QWidget *parent, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node);
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Form[m[K’ defined here
+   12 | class [01;36m[KForm[m[K : public QMainWindow
+      |       [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

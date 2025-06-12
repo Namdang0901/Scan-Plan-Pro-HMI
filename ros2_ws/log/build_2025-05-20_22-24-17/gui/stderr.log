@@ -1,0 +1,7 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ was not declared in this scope
+   68 |                 [01;31m[Krobot_model_display_[m[K->subProp("Visual Enabled")->setValue(false);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

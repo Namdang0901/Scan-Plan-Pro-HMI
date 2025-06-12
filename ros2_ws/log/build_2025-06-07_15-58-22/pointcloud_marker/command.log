@@ -1,0 +1,4 @@
+Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pointcloud_marker -- -j16 -l16
+Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker
+Invoked command in '/home/hoapham/ros2_ws/build/pointcloud_marker' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/pointcloud_marker

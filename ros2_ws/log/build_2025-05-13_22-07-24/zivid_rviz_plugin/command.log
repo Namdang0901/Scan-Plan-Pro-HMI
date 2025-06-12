@@ -1,0 +1,6 @@
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_rviz_plugin -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_rviz_plugin
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_rviz_plugin -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_rviz_plugin
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_rviz_plugin
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_rviz_plugin

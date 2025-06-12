@@ -1,0 +1,2 @@
+Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui
+Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/gui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/gui

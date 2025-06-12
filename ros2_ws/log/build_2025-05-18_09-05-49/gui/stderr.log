@@ -1,0 +1,7 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgui/my_second_window.h: No such file or directory
+    5 | #include [01;31m[K"gui/my_second_window.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

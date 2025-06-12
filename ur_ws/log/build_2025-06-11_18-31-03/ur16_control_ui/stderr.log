@@ -1,0 +1,10 @@
+[01m[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:[m[K In member function ‘[01m[Kvoid JointMoveServer::trigger_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+   48 |     [01;31m[Krobot_state[m[K::RobotStatePtr current_state = move_group_->setStartStateToCurrentState();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ur_ws/src/ur16_control_ui/src/ur16_control_ui_node.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+   49 |     if ([01;31m[Kcurrent_state[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur16_control_ui.dir/build.make:76: CMakeFiles/ur16_control_ui.dir/src/ur16_control_ui_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur16_control_ui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

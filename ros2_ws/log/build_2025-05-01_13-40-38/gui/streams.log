@@ -1,0 +1,41 @@
+[0.031s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.087s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.709s] [ 14%] Built target gui_autogen
+[0.730s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.771s] [ 42%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[0.772s] [ 42%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[0.772s] [ 57%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
+[5.600s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.600s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[5.600s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:67:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.600s]    67 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.601s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.601s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.601s]    19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[5.601s]       |                          [01;35m[K^[m[K
+[5.601s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.601s]    14 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.601s]       | [01;35m[K^~~~~~~~[m[K
+[6.074s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_save_tool_clicked()[m[K’:
+[6.074s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:232:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Ktool_rpm_text[m[K’
+[6.074s]   232 |     uint64_t int_1 = ui->[01;31m[Ktool_rpm_text[m[K->text().toULongLong();
+[6.074s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[6.074s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:233:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Kfeed_rate_text[m[K’
+[6.074s]   233 |     uint64_t int_2 = ui->[01;31m[Kfeed_rate_text[m[K->text().toULongLong();
+[6.075s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.075s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:234:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Ktool_diameter_text[m[K’
+[6.075s]   234 |     uint64_t int_3 = ui->[01;31m[Ktool_diameter_text[m[K->text().toULongLong();
+[6.075s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.075s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:235:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Ktool_length_text[m[K’
+[6.075s]   235 |     uint64_t int_4 = ui->[01;31m[Ktool_length_text[m[K->text().toULongLong();
+[6.075s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.075s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:236:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Ktool_pressure_text[m[K’
+[6.075s]   236 |     uint64_t int_5 = ui->[01;31m[Ktool_pressure_text[m[K->text().toULongLong();
+[6.075s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.075s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:237:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Ksanding_text[m[K’
+[6.075s]   237 |     uint64_t int_6 = ui->[01;31m[Ksanding_text[m[K->text().toULongLong();
+[6.075s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[8.289s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[8.290s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[8.290s] gmake: *** [Makefile:146: all] Error 2
+[8.292s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

@@ -1,0 +1,45 @@
+[0.014s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.082s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.118s] [ 11%] Built target gui_autogen
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.195s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/rviz_preparation.cpp.o[0m
+[3.768s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:1[m[K:
+[3.768s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rviz_preparation.h:[m[K In constructor ‘[01m[KRvizPreparation::RvizPreparation(QApplication*, QWidget*)[m[K’:
+[3.768s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/rviz_preparation.h:65:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KRvizPreparation::app_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.769s]    65 |   QApplication * [01;35m[Kapp_[m[K;
+[3.769s]       |                  [01;35m[K^~~~[m[K
+[3.769s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:16:34:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.769s]    16 |   : app_(app), QMainWindow(parent[01;35m[K)[m[K
+[3.769s]       |                                  [01;35m[K^[m[K
+[3.769s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.769s]    13 | [01;35m[KRvizPreparation[m[K::RvizPreparation(
+[3.769s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.786s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[KQWidget* RvizPreparation::initializeWidget(rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’:
+[3.786s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpreparation_render_panel_[m[K’ was not declared in this scope
+[3.786s]    37 |     main_layout->addWidget([01;31m[Kpreparation_render_panel_[m[K);
+[3.786s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.799s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[Kvoid RvizPreparation::initializeRViz()[m[K’:
+[3.799s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpreparation_render_panel_[m[K’ was not declared in this scope
+[3.799s]    94 |   [01;31m[Kpreparation_render_panel_[m[K = new rviz_common::RenderPanel(rviz_widget);
+[3.799s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.800s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[Kvirtual rviz_common::PanelDockWidget* RvizPreparation::addPane(const QString&, QWidget*, Qt::DockWidgetArea, bool)[m[K’:
+[3.800s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:147:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.800s]   147 |   [01;35m[Kconst QString & name[m[K,
+[3.800s]       |   [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[3.800s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:148:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpane[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.800s]   148 |   [01;35m[KQWidget * pane[m[K,
+[3.801s]       |   [01;35m[K~~~~~~~~~~^~~~[m[K
+[3.801s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:149:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.801s]   149 |   [01;35m[KQt::DockWidgetArea area[m[K,
+[3.801s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.801s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:150:8:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfloating[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.801s]   150 |   [01;35m[Kbool floating[m[K) {
+[3.801s]       |   [01;35m[K~~~~~^~~~~~~~[m[K
+[3.801s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:[m[K In member function ‘[01m[Kvirtual void RvizPreparation::setStatus(const QString&)[m[K’:
+[3.801s] [01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_preparation.cpp:155:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.801s]   155 | void RvizPreparation::setStatus([01;35m[Kconst QString & message[m[K) {
+[3.801s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.690s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/rviz_preparation.cpp.o] Error 1
+[4.690s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[4.691s] gmake: *** [Makefile:146: all] Error 2
+[4.693s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

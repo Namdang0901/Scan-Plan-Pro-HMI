@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.055s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.081s] [ 11%] Built target gui_autogen
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.151s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.717s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.718s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:80:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_page[m[K’ is not captured
+[4.718s]    80 |                 [01;31m[Kexecute_page[m[K->closeRviz();
+[4.718s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[4.718s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:51:175:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.718s]    51 | _rviz_panel, &flag, &robot_model_display_,&last_window_index[01;36m[K][m[K(int index) {
+[4.718s]       |                                                             [01;36m[K^[m[K
+[4.718s] 
+[4.718s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:27:10:[m[K [01;36m[Knote: [m[K‘[01m[KFormHau* execute_page[m[K’ declared here
+[4.718s]    27 |     auto [01;36m[Kexecute_page[m[K = new FormHau(&app, node_weak_ptr, shared_rviz_widget);
+[4.718s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[4.718s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:101:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_page[m[K’ is not captured
+[4.718s]   101 |             [01;31m[Kexecute_page[m[K->openRviz(shared_rviz_widget);
+[4.718s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[4.718s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:51:175:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.718s]    51 | _rviz_panel, &flag, &robot_model_display_,&last_window_index[01;36m[K][m[K(int index) {
+[4.719s]       |                                                             [01;36m[K^[m[K
+[4.719s] 
+[4.719s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:27:10:[m[K [01;36m[Knote: [m[K‘[01m[KFormHau* execute_page[m[K’ declared here
+[4.719s]    27 |     auto [01;36m[Kexecute_page[m[K = new FormHau(&app, node_weak_ptr, shared_rviz_widget);
+[4.719s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[5.630s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.630s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.630s] gmake: *** [Makefile:146: all] Error 2
+[5.633s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

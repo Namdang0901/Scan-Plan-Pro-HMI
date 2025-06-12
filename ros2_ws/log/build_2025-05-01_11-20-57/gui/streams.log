@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.097s] [ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.139s] [ 14%] Built target gui_autogen
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.230s] [ 28%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[5.086s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.086s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[5.086s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:64:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.086s]    64 | z_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[5.086s]       |                                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.086s] 
+[5.086s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:19:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.086s]    19 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[5.086s]       |                          [01;35m[K^[m[K
+[5.086s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.086s]    14 | [01;35m[KHelloGui[m[K::HelloGui(
+[5.086s]       | [01;35m[K^~~~~~~~[m[K
+[5.099s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:105:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Kradio_parameter_enable[m[K’
+[5.099s]   105 |     connect(ui->[01;31m[Kradio_parameter_enable[m[K, &QRadioButton::toggled,
+[5.099s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[KgroupBox_parameter[m[K’
+[5.099s]   106 |         ui->[01;31m[KgroupBox_parameter[m[K, &QGroupBox::setEnabled);
+[5.099s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:107:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[Kradio_tool_enable[m[K’
+[5.099s]   107 |     connect(ui->[01;31m[Kradio_tool_enable[m[K, &QRadioButton::toggled,
+[5.099s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::HelloGui[m[K’ has no member named ‘[01m[KgroupBox_tool[m[K’; did you mean ‘[01m[KgroupBox_3[m[K’?
+[5.099s]   108 |         ui->[01;31m[KgroupBox_tool[m[K, &QGroupBox::setEnabled);
+[5.100s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.100s]       |             [32m[KgroupBox_3[m[K
+[7.829s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[7.830s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[7.830s] gmake: *** [Makefile:146: all] Error 2
+[7.833s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

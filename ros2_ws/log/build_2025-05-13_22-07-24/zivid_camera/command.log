@@ -1,0 +1,6 @@
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_camera -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_camera
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_camera -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_camera
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera
+Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera

@@ -1,0 +1,59 @@
+[0.012s] Invoking command in '/home/hoapham/ros2_ws/build/zivid_samples': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_samples
+[0.059s] [ 50%] Built target sample_capture_and_detect_markers_cpp
+[0.059s] [ 50%] Built target sample_capture_with_settings_from_file_cpp
+[0.059s] [ 50%] Built target sample_capture_and_detect_calibration_board_cpp
+[0.059s] [ 50%] Built target sample_capture_2d_cpp
+[0.060s] [ 55%] Built target sample_capture_and_save_cpp
+[0.060s] [ 66%] Built target sample_infield_correction_cpp
+[0.060s] [ 77%] Built target sample_capture_assistant_cpp
+[0.060s] [ 83%] [32mBuilding CXX object CMakeFiles/sample_capture_cpp.dir/src/sample_capture.cpp.o[0m
+[0.083s] [ 94%] Built target sample_hand_eye_calibration_cpp
+[1.672s] [01m[K/home/hoapham/ros2_ws/src/zivid-ros/zivid_samples/src/sample_capture.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.672s] [01m[K/home/hoapham/ros2_ws/src/zivid-ros/zivid_samples/src/sample_capture.cpp:98:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktrigger_capture[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.672s]    98 |   auto [01;35m[Ktrigger_capture[m[K = [&]() {
+[1.673s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.632s] [100%] [32m[1mLinking CXX executable sample_capture_cpp[0m
+[5.889s] [100%] Built target sample_capture_cpp
+[5.901s] Invoked command in '/home/hoapham/ros2_ws/build/zivid_samples' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_samples
+[5.903s] Invoking command in '/home/hoapham/ros2_ws/build/zivid_samples': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_samples
+[5.909s] -- Install configuration: ""
+[5.910s] -- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp
+[5.914s] -- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp" to ""
+[5.914s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp
+[5.915s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp
+[5.915s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp
+[5.915s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp
+[5.915s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration.py
+[5.916s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction.py
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera_with_rviz.launch
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/sample.launch
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera.launch
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/sample_with_rviz.launch
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/settings
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/settings/camera_settings.yml
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/package_run_dependencies/zivid_samples
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/parent_prefix_path/zivid_samples
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.sh
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.dsv
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/path.sh
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/path.dsv
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.bash
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.sh
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.zsh
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.dsv
+[5.917s] -- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.dsv
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/packages/zivid_samples
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig.cmake
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig-version.cmake
+[5.917s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.xml
+[5.919s] Invoked command in '/home/hoapham/ros2_ws/build/zivid_samples' returned '0': CMAKE_PREFIX_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces:/home/hoapham/ros2_ws/install/zivid_description:/home/hoapham/ros2_ws/install/zivid_samples:/home/hoapham/ros2_ws/install/zivid_rviz_plugin:/home/hoapham/ros2_ws/install/zivid_camera:/home/hoapham/ros2_ws/install/rviz_embed_test:/home/hoapham/ros2_ws/install/rviz_cloud_annotation:/home/hoapham/ros2_ws/install/rviz_3d_view_controller:/home/hoapham/ros2_ws/install/ros2_qt_template:/home/hoapham/ros2_ws/install/ros2_qt_rviz2:/home/hoapham/ros2_ws/install/pointcloud_marker:/home/hoapham/ros2_ws/install/pcd_visualizer:/home/hoapham/ros2_ws/install/gui_msgs:/home/hoapham/ros2_ws/install/gui:/home/hoapham/ros2_ws/install/fake_livox_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hoapham/ros2_ws/install/zivid_interfaces/lib:/home/hoapham/ros2_ws/install/zivid_rviz_plugin/lib:/home/hoapham/ros2_ws/install/zivid_camera/lib:/home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib:/home/hoapham/ros2_ws/install/rviz_3d_view_controller/lib:/home/hoapham/ros2_ws/install/gui_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_samples

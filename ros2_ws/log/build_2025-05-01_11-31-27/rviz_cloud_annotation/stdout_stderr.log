@@ -1,0 +1,214 @@
+[  1%] [34m[1mAutomatic MOC for target rviz_cloud_annotation_points[0m
+[  2%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_generator_c[0m
+[  3%] Built target rviz_cloud_annotation__cpp
+[  3%] Built target ament_cmake_python_copy_rviz_cloud_annotation
+[  3%] Built target rviz_cloud_annotation_points_autogen
+[  4%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_cpp[0m
+[  5%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_introspection_cpp[0m
+[  7%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_fastrtps_cpp[0m
+[  8%] Built target rviz_cloud_annotation__rosidl_generator_c_autogen
+[ 10%] Built target rviz_cloud_annotation__rosidl_typesupport_cpp_autogen
+[ 10%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_cpp_autogen
+[ 11%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_cpp_autogen
+[ 16%] Built target rviz_cloud_annotation__rosidl_generator_c
+[ 27%] Built target rviz_cloud_annotation_points
+[ 34%] Built target rviz_cloud_annotation__rosidl_typesupport_cpp
+[ 36%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_cpp
+[ 40%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_introspection_c[0m
+[ 40%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_c[0m
+[ 40%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c[0m
+[ 44%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_cpp
+[ 45%] [34m[1mAutomatic MOC for target rviz_cloud_annotation_test[0m
+[ 49%] Built target rviz_cloud_annotation__rosidl_typesupport_c_autogen
+[ 49%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c_autogen
+[ 49%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_c_autogen
+[ 49%] Built target rviz_cloud_annotation_test_autogen
+[ 60%] Built target rviz_cloud_annotation_test
+[ 61%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_c
+[ 63%] Built target rviz_cloud_annotation__rosidl_typesupport_c
+[ 67%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c
+[ 67%] Built target rviz_cloud_annotation
+[ 70%] [34m[1mAutomatic MOC for target rviz_cloud_annotation_node[0m
+[ 70%] [34m[1mAutomatic MOC for target rviz_cloud_annotation_plugin[0m
+[ 70%] Built target rviz_cloud_annotation__py
+[ 71%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_generator_py[0m
+[ 71%] Built target rviz_cloud_annotation_node_autogen
+[ 71%] Built target rviz_cloud_annotation_plugin_autogen
+running egg_info
+writing rviz_cloud_annotation.egg-info/PKG-INFO
+writing dependency_links to rviz_cloud_annotation.egg-info/dependency_links.txt
+writing top-level names to rviz_cloud_annotation.egg-info/top_level.txt
+reading manifest file 'rviz_cloud_annotation.egg-info/SOURCES.txt'
+writing manifest file 'rviz_cloud_annotation.egg-info/SOURCES.txt'
+[ 71%] Built target rviz_cloud_annotation__rosidl_generator_py_autogen
+[ 76%] Built target rviz_cloud_annotation_node
+[ 81%] Built target rviz_cloud_annotation_plugin
+[ 85%] Built target rviz_cloud_annotation__rosidl_generator_py
+[ 89%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_introspection_c__pyext[0m
+[ 89%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_c__pyext[0m
+[ 89%] [34m[1mAutomatic MOC for target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 89%] Built target ament_cmake_python_build_rviz_cloud_annotation_egg
+[ 89%] Built target rviz_cloud_annotation__rosidl_typesupport_c__pyext_autogen
+[ 89%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_c__pyext_autogen
+[ 89%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c__pyext_autogen
+[ 96%] Built target rviz_cloud_annotation__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target rviz_cloud_annotation__rosidl_typesupport_c__pyext
+[100%] Built target rviz_cloud_annotation__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/ament_index/resource_index/rosidl_interfaces/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__functions.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__type_support.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__type_support.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__functions.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__functions.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__struct.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__struct.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__functions.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rectangle_selection_viewport.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/undo_redo_state.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/library_path.sh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/library_path.dsv
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_generator_c.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__type_support.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__struct.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__builder.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__builder.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__traits.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__struct.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__type_support.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__traits.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rectangle_selection_viewport.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/undo_redo_state.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/dds_fastrtps
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__type_support.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__type_support.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_c.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__type_support.cpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__type_support.cpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/rectangle_selection_viewport__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/include/rviz_cloud_annotation/rviz_cloud_annotation/msg/detail/undo_redo_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/pythonpath.sh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/pythonpath.dsv
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation-0.0.0-py3.10.egg-info
+-- Installing: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg/__init__.py
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg/_undo_redo_state.py
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg/_undo_redo_state_s.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg/_rectangle_selection_viewport.py
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg/_rectangle_selection_viewport_s.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/__init__.py
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/librviz_cloud_annotation__rosidl_generator_py.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/_rviz_cloud_annotation_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/_rviz_cloud_annotation_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/_rviz_cloud_annotation_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation'...
+Listing '/home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/msg'...
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/local/lib/python3.10/dist-packages/rviz_cloud_annotation/rviz_cloud_annotation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation__rosidl_generator_py.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/msg/UndoRedoState.idl
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/msg/RectangleSelectionViewport.idl
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/msg/UndoRedoState.msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/msg/RectangleSelectionViewport.msg
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/librviz_cloud_annotation_points.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/rviz_cloud_annotation/rviz_cloud_annotation_test
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/rviz_cloud_annotation/librviz_cloud_annotation_plugin.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/rviz_cloud_annotation/rviz_cloud_annotation_node
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/lib/rviz_cloud_annotation/librviz_cloud_annotation_points.so
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/icons
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/icons/classes
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/icons/classes/Annotation.png
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/icons/classes/AnnotationTool.png
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//launch
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//launch/example.launch
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//data
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//data/Zivid3D.pcd
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//data/example.pcd
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//rviz
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation//rviz/annotation.rviz
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/rviz_plugin/plugin_description.xml
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/ament_index/resource_index/package_run_dependencies/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/ament_index/resource_index/parent_prefix_path/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/path.sh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/environment/path.dsv
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/local_setup.bash
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/local_setup.sh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/local_setup.zsh
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/local_setup.dsv
+-- Installing: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.dsv
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/ament_index/resource_index/packages/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_cloud_annotation
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotation__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotation__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotationExport.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/export_rviz_cloud_annotationExport-noconfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotationConfig.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/cmake/rviz_cloud_annotationConfig-version.cmake
+-- Up-to-date: /home/hoapham/ros2_ws/install/rviz_cloud_annotation/share/rviz_cloud_annotation/package.xml

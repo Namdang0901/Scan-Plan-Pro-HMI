@@ -1,0 +1,24 @@
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_gui[m[K’ is not captured
+   41 |             [01;31m[Khello_gui[m[K->closeRviz();
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:38:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+      |                                                             [01;36m[K^[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:24:10:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui* hello_gui[m[K’ declared here
+   24 |     auto [01;36m[Khello_gui[m[K = new HelloGui(&app, node_weak_ptr);
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_gui[m[K’ is not captured
+   44 |             [01;31m[Khello_gui[m[K->openRviz();
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:38:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+      |                                                             [01;36m[K^[m[K
+
+[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:24:10:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui* hello_gui[m[K’ declared here
+   24 |     auto [01;36m[Khello_gui[m[K = new HelloGui(&app, node_weak_ptr);
+      |          [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

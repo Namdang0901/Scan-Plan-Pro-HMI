@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.059s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.087s] [ 12%] Built target gui_autogen
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.148s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.746s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.746s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model_display_[m[K’ was not declared in this scope
+[4.746s]    49 |                     [01;31m[Krobot_model_display_[m[K = manager->createDisplay("rviz_default_plugins/RobotModel", "Robot Model", true);
+[4.746s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.587s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.588s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.588s] gmake: *** [Makefile:146: all] Error 2
+[5.590s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

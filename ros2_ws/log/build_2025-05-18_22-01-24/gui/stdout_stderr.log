@@ -1,0 +1,40 @@
+[ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[ 11%] Built target gui_autogen
+[35m[1mConsolidate compiler generated dependencies of target gui[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/src/rviz_window.cpp.o[0m
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_window.cpp:[m[K In constructor ‘[01m[KRvizWindow::RvizWindow(QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_window.cpp:15:57:[m[K [01;31m[Kerror: [m[K‘[01m[KmakeRawNodeAbstraction[m[K’ is not a member of ‘[01m[Krviz_common::ros_integration[m[K’; did you mean ‘[01m[KRosNodeAbstraction[m[K’?
+   15 |   ros_node_abstraction_ = rviz_common::ros_integration::[01;31m[KmakeRawNodeAbstraction[m[K(raw_ros_node);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[KRosNodeAbstraction[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_window.cpp:23:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz_common::VisualizationManager[m[K’ has no member named ‘[01m[KgetDisplayContext[m[K’; did you mean ‘[01m[KDisplayContext[m[K’?
+   23 |   render_panel_->initialize(manager_->[01;31m[KgetDisplayContext[m[K());
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KDisplayContext[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:8:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KForm::Form(QWidget*)[m[K’
+    8 | [01;31m[KForm[m[K::Form(QWidget *parent)
+      | [01;31m[K^~~~[m[K
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KForm::Form(const Form&)[m[K’
+   12 | class [01;36m[KForm[m[K : public QMainWindow
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:17:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’
+   17 |     explicit [01;36m[KForm[m[K(QWidget *parent, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node);
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Form[m[K’ defined here
+   12 | class [01;36m[KForm[m[K : public QMainWindow
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:15:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Form::onPreparationClicked()[m[K’
+   15 | void [01;31m[KForm[m[K::onPreparationClicked()
+      |      [01;31m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:15:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Form::onPreparationClicked()[m[K’
+In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:1[m[K:
+[01m[K/home/hoapham/ros2_ws/src/gui/include/gui/preparation.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Form[m[K’ defined here
+   12 | class [01;36m[KForm[m[K : public QMainWindow
+      |       [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/rviz_window.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:146: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

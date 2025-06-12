@@ -1,0 +1,126 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found zivid_interfaces: 3.1.0 (/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'clang_format' to check C / C++ code style
+-- Added test 'clang_tidy' to check C / C++ code style
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hoapham/ros2_ws/build/zivid_samples
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_infield_correction_cpp.dir/src/sample_infield_correction.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_cpp.dir/src/sample_capture.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_with_settings_from_file_cpp.dir/src/sample_capture_with_settings_from_file.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_assistant_cpp.dir/src/sample_capture_assistant.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_calibration_board_cpp.dir/src/sample_capture_and_detect_calibration_board.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_and_save_cpp.dir/src/sample_capture_and_save.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_markers_cpp.dir/src/sample_capture_and_detect_markers.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_2d_cpp.dir/src/sample_capture_2d.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable sample_capture_and_detect_calibration_board_cpp[0m
+[ 55%] [32m[1mLinking CXX executable sample_capture_and_save_cpp[0m
+[ 61%] [32m[1mLinking CXX executable sample_capture_and_detect_markers_cpp[0m
+[ 61%] Built target sample_capture_and_detect_calibration_board_cpp
+[ 66%] [32mBuilding CXX object CMakeFiles/sample_hand_eye_calibration_cpp.dir/src/sample_hand_eye_calibration.cpp.o[0m
+[ 66%] Built target sample_capture_and_save_cpp
+[ 66%] Built target sample_capture_and_detect_markers_cpp
+[ 72%] [32m[1mLinking CXX executable sample_infield_correction_cpp[0m
+[ 72%] Built target sample_infield_correction_cpp
+[ 77%] [32m[1mLinking CXX executable sample_capture_2d_cpp[0m
+[ 83%] [32m[1mLinking CXX executable sample_capture_with_settings_from_file_cpp[0m
+[ 88%] [32m[1mLinking CXX executable sample_capture_cpp[0m
+[ 88%] Built target sample_capture_2d_cpp
+[ 88%] Built target sample_capture_cpp
+[ 88%] Built target sample_capture_with_settings_from_file_cpp
+[ 94%] [32m[1mLinking CXX executable sample_hand_eye_calibration_cpp[0m
+[ 94%] Built target sample_hand_eye_calibration_cpp
+[100%] [32m[1mLinking CXX executable sample_capture_assistant_cpp[0m
+[100%] Built target sample_capture_assistant_cpp
+-- Install configuration: ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp
+-- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp" to ""
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction.py
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera_with_rviz.launch
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/sample.launch
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera.launch
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/launch/sample_with_rviz.launch
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/settings
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/settings/camera_settings.yml
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/package_run_dependencies/zivid_samples
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/parent_prefix_path/zivid_samples
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.sh
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.dsv
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/path.sh
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/environment/path.dsv
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.bash
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.sh
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.zsh
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/local_setup.dsv
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.dsv
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/ament_index/resource_index/packages/zivid_samples
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig.cmake
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig-version.cmake
+-- Installing: /home/hoapham/ros2_ws/install/zivid_samples/share/zivid_samples/package.xml

@@ -1,0 +1,77 @@
+[0.008s] Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/ur16_control_ui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/ur16_control_ui
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.437s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.474s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.485s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.559s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.567s] -- Looking for pthread.h
+[0.630s] -- Looking for pthread.h - found
+[0.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.694s] -- Found Threads: TRUE  
+[0.728s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.750s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.873s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.911s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.920s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.923s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.942s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.027s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.053s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.158s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.179s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.254s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.273s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[1.326s] -- Configuring done
+[1.344s] -- Generating done
+[1.349s] -- Build files have been written to: /home/hoapham/ur_ws/build/ur16_control_ui
+[1.363s] Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ur_ws/src/ur16_control_ui -DCMAKE_INSTALL_PREFIX=/home/hoapham/ur_ws/install/ur16_control_ui
+[1.364s] Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui -- -j16 -l16
+[1.405s] [35m[1mConsolidate compiler generated dependencies of target ur16_control_ui[0m
+[1.427s] [100%] Built target ur16_control_ui
+[1.440s] Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ur_ws/build/ur16_control_ui -- -j16 -l16
+[1.450s] Invoking command in '/home/hoapham/ur_ws/build/ur16_control_ui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/ur16_control_ui
+[1.456s] -- Install configuration: ""
+[1.456s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/lib/ur16_control_ui/ur16_control_ui
+[1.456s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/include
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/include/ur16_control_ui
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/include/ur16_control_ui/parser.h
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui//launch
+[1.457s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui//launch/Moveit.launch.py
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui//config
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui//config/config.yaml
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/package_run_dependencies/ur16_control_ui
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/parent_prefix_path/ur16_control_ui
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/ament_prefix_path.sh
+[1.457s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/ament_prefix_path.dsv
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/path.sh
+[1.457s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/environment/path.dsv
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.bash
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.sh
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.zsh
+[1.457s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/local_setup.dsv
+[1.457s] -- Installing: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/package.dsv
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ament_index/resource_index/packages/ur16_control_ui
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ur16_control_uiConfig.cmake
+[1.457s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/cmake/ur16_control_uiConfig-version.cmake
+[1.458s] -- Up-to-date: /home/hoapham/ur_ws/install/ur16_control_ui/share/ur16_control_ui/package.xml
+[1.459s] Invoked command in '/home/hoapham/ur_ws/build/ur16_control_ui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ur_ws/build/ur16_control_ui

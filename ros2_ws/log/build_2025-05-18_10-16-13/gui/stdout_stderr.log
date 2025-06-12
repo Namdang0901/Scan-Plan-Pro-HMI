@@ -1,0 +1,41 @@
+[ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[ 11%] Built target gui_autogen
+[35m[1mConsolidate compiler generated dependencies of target gui[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gui.dir/src/preparation.cpp.o[0m
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*)[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:9:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KForm[m[K’ does not have any field named ‘[01m[Knode_weak_ptr_[m[K’
+    9 |     [01;31m[Knode_weak_ptr_[m[K(rviz_preparation_node),
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_panel[m[K’ was not declared in this scope
+   17 |     [01;31m[Krviz_panel[m[K = std::make_shared<RvizPanel>(app_);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:35:[m[K [01;31m[Kerror: [m[K‘[01m[KRvizPanel[m[K’ was not declared in this scope
+   17 |     rviz_panel = std::make_shared<[01;31m[KRvizPanel[m[K>(app_);
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp_[m[K’ was not declared in this scope
+   17 |     rviz_panel = std::make_shared<RvizPanel>([01;31m[Kapp_[m[K);
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:18:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_weak_ptr_[m[K’ was not declared in this scope
+   18 |     QWidget *rviz_widget = rviz_panel->initializeWidget([01;31m[Knode_weak_ptr_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   24 |     [01;31m[Knode[m[K = node_weak_ptr_.lock()->get_raw_node();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_timer[m[K’ was not declared in this scope
+   26 |     [01;31m[Kros_timer[m[K = new QTimer(this);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_timer[m[K’ was not declared in this scope
+   30 |     [01;31m[Kcount_timer[m[K = new QTimer(this);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In member function ‘[01m[Kvoid Form::spin_once()[m[K’:
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp_[m[K’ was not declared in this scope
+   41 |         [01;31m[Kapp_[m[K->processEvents();
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp_[m[K’ was not declared in this scope
+   43 |         [01;31m[Kapp_[m[K->quit();
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

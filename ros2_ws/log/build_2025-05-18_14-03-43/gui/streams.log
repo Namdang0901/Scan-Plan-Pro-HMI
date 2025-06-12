@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.058s] [ 10%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.068s] 
+[0.068s] AutoGen error
+[0.068s] -------------
+[0.068s] Info error in info file
+[0.068s] "/home/hoapham/ros2_ws/build/gui/CMakeFiles/gui_autogen.dir/AutogenInfo.json":
+[0.068s] The header file "SRC:/include/gui/RvizWindow.h" does not exist.
+[0.068s] 
+[0.069s] gmake[2]: *** [CMakeFiles/gui_autogen.dir/build.make:71: CMakeFiles/gui_autogen] Error 1
+[0.069s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/gui_autogen.dir/all] Error 2
+[0.070s] gmake: *** [Makefile:146: all] Error 2
+[0.072s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

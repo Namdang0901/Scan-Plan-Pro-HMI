@@ -1,0 +1,3 @@
+source;share/rviz_3d_view_controller/environment/ament_prefix_path.sh
+source;share/rviz_3d_view_controller/environment/library_path.sh
+source;share/rviz_3d_view_controller/environment/path.sh

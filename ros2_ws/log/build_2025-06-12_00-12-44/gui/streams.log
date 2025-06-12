@@ -1,0 +1,151 @@
+[0.011s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.061s] [ 11%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.092s] [ 11%] Built target gui_autogen
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.160s] [ 22%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
+[4.960s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.960s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:[m[K In constructor ‘[01m[KHelloGui::HelloGui(QApplication*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr, QWidget*, std::shared_ptr<RvizPanel>, QWidget*)[m[K’:
+[4.961s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:96:68:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::node_weak_ptr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.961s]    96 |     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr [01;35m[Knode_weak_ptr_[m[K;
+[4.961s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.961s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:94:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQWidget* HelloGui::rviz_widget[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.961s]    94 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.961s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.961s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.961s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.961s]       | [01;35m[K^~~~~~~~[m[K
+[4.961s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:94:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::rviz_widget[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    94 |     QWidget* [01;35m[Krviz_widget[m[K = nullptr;
+[4.962s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:93:32:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::shared_ptr<RvizPanel> HelloGui::shared_rviz_panel_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    93 |     std::shared_ptr<RvizPanel> [01;35m[Kshared_rviz_panel_[m[K;
+[4.962s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.962s]       | [01;35m[K^~~~~~~~[m[K
+[4.962s] In file included from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:93:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KHelloGui::shared_rviz_panel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    93 |     std::shared_ptr<RvizPanel> [01;35m[Kshared_rviz_panel_[m[K;
+[4.962s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:22:26:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQMainWindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    22 |     , ui(new Ui::HelloGui[01;35m[K)[m[K
+[4.962s]       |                          [01;35m[K^[m[K
+[4.962s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.962s]    15 | [01;35m[KHelloGui[m[K::HelloGui(
+[4.962s]       | [01;35m[K^~~~~~~~[m[K
+[4.988s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box1_changed(int)[m[K’:
+[4.988s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:211:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.989s]   211 | void HelloGui::on_combo_box1_changed([01;35m[Kint index[m[K)
+[4.989s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[4.990s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box2_changed(int)[m[K’:
+[4.990s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:224:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.990s]   224 | void HelloGui::on_combo_box2_changed([01;35m[Kint index[m[K)
+[4.990s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[4.993s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_combo_box0_changed(int)[m[K’:
+[4.993s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:243:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.994s]   243 | void HelloGui::on_combo_box0_changed([01;35m[Kint index[m[K)
+[4.994s]       |                                      [01;35m[K~~~~^~~~~[m[K
+[5.060s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In lambda function:
+[5.060s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:328:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.060s]   328 |         [this]([01;35m[Krclcpp::Client<std_srvs::srv::Empty>::SharedFuture result[m[K) {
+[5.060s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.065s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.066s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:9[m[K,
+[5.066s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.066s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::on_test_service_clicked()[m[K’:
+[5.067s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kfront[m[K’
+[5.067s]   352 |     RCLCPP_INFO(node.[01;31m[Kfront[m[K()->get_logger(), "Waiting for response" );
+[5.067s]       |                      [01;31m[K^~~~~[m[K
+[5.067s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kfront[m[K’
+[5.067s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.067s]   352 |     [01;31m[KRCLCPP_INFO[m[K(node.front()->get_logger(), "Waiting for response" );
+[5.067s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.067s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.067s]   352 |     [01;31m[KRCLCPP_INFO[m[K(node.front()->get_logger(), "Waiting for response" );
+[5.067s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.067s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.067s]   352 |     [01;31m[KRCLCPP_INFO[m[K(node.front()->get_logger(), "Waiting for response" );
+[5.067s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.067s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.067s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:9[m[K,
+[5.068s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.068s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kfront[m[K’
+[5.068s]   352 |     RCLCPP_INFO(node.[01;31m[Kfront[m[K()->get_logger(), "Waiting for response" );
+[5.068s]       |                      [01;31m[K^~~~~[m[K
+[5.068s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kfront[m[K’
+[5.068s]   352 |     RCLCPP_INFO(node.[01;31m[Kfront[m[K()->get_logger(), "Waiting for response" );
+[5.068s]       |                      [01;31m[K^~~~~[m[K
+[5.068s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:353:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Kback[m[K’
+[5.068s]   353 |     if (rclcpp::spin_until_future_complete(node.[01;31m[Kback[m[K(), result) ==
+[5.068s]       |                                                 [01;31m[K^~~~[m[K
+[5.075s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.076s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:9[m[K,
+[5.076s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.076s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:357:21:[m[K [01;31m[Kerror: [m[K‘[01m[Km_nodes[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[5.076s]   357 |         RCLCPP_INFO([01;31m[Km_nodes[m[K.front()->get_logger(), "Got response: %s", answer->message.c_str());
+[5.077s]       |                     [01;31m[K^~~~~~~[m[K
+[5.077s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:357:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.077s]   357 |         [01;31m[KRCLCPP_INFO[m[K(m_nodes.front()->get_logger(), "Got response: %s", answer->message.c_str());
+[5.077s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.077s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:357:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.077s]   357 |         [01;31m[KRCLCPP_INFO[m[K(m_nodes.front()->get_logger(), "Got response: %s", answer->message.c_str());
+[5.077s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.077s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:357:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.077s]   357 |         [01;31m[KRCLCPP_INFO[m[K(m_nodes.front()->get_logger(), "Got response: %s", answer->message.c_str());
+[5.077s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.077s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.077s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/include/gui/hello_gui.h:9[m[K,
+[5.077s]                  from [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:3[m[K:
+[5.077s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:357:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct gui_msgs::srv::SettingParams_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct gui_msgs::srv::SettingParams_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmessage[m[K’
+[5.077s]   357 |         RCLCPP_INFO(m_nodes.front()->get_logger(), "Got response: %s", answer->[01;31m[Kmessage[m[K.c_str());
+[5.077s]       |                                                                                [01;31m[K^~~~~~~[m[K
+[5.082s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:[m[K In member function ‘[01m[Kvoid HelloGui::TrajectorySettingSrv(std::shared_ptr<gui_msgs::srv::TrajectorySetting_Request_<std::allocator<void> > >, std::shared_ptr<gui_msgs::srv::TrajectorySetting_Response_<std::allocator<void> > >)[m[K’:
+[5.082s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:391:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.083s]   391 | void HelloGui::TrajectorySettingSrv([01;35m[Kconst std::shared_ptr<gui_msgs::srv::TrajectorySetting::Request> request[m[K,
+[5.083s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.083s] [01m[K/home/hoapham/ros2_ws/src/gui/src/hello_gui.cpp:392:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.083s]   392 |             [01;35m[Kstd::shared_ptr<gui_msgs::srv::TrajectorySetting::Response> response[m[K)
+[5.083s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.015s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:104: CMakeFiles/gui.dir/src/hello_gui.cpp.o] Error 1
+[7.016s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[7.016s] gmake: *** [Makefile:146: all] Error 2
+[7.019s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

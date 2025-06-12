@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/rviz_cloud_annotation_points/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/rviz_cloud_annotation_points/librviz_cloud_annotation_points.so"
+			],
+			"targetId" : "rviz_cloud_annotation_points::@381ded7e77906d6a850f",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/rviz_cloud_annotation",
+			"paths" : 
+			[
+				"src/rviz_cloud_annotation_points/rviz_cloud_annotation_test"
+			],
+			"targetId" : "rviz_cloud_annotation_test::@381ded7e77906d6a850f",
+			"targetIndex" : 33,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/rviz_cloud_annotation_points",
+		"source" : "src/rviz_cloud_annotation_points"
+	}
+}

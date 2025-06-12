@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.057s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.083s] [ 12%] Built target gui_autogen
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.143s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.732s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.732s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmanager[m[K’?
+[4.732s]    72 |         [01;31m[Kmanager_[m[K->startUpdate();
+[4.732s]       |         [01;31m[K^~~~~~~~[m[K
+[4.732s]       |         [32m[Kmanager[m[K
+[5.563s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.563s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.563s] gmake: *** [Makefile:146: all] Error 2
+[5.566s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16

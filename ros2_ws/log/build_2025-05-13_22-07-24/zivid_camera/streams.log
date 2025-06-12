@@ -1,0 +1,111 @@
+[0.008s] Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_camera -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_camera
+[0.016s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.119s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.121s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.154s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.155s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.165s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.191s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.201s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.206s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.222s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.236s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.237s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.270s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.272s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.273s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.274s] -- Found zivid_interfaces: 3.1.0 (/home/hoapham/ros2_ws/install/zivid_interfaces/share/zivid_interfaces/cmake)
+[0.286s] -- Found Zivid SDK version 2.15.0
+[0.292s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.357s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.389s] -- The C compiler identification is GNU 11.4.0
+[0.393s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.461s] -- Added test 'clang_tidy' to check C / C++ code style
+[0.461s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.463s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hoapham/ros2_ws/src/zivid-ros/zivid_camera/include>;/home/hoapham/ros2_ws/src/zivid-ros/zivid_camera/test/include
+[0.463s] -- Configured cppcheck exclude dirs and/or files: 
+[0.464s] -- Added test 'lint_cmake' to check CMake code style
+[0.465s] -- Added test 'xmllint' to check XML markup files
+[0.466s] -- Configuring done
+[0.484s] -- Generating done
+[0.489s] -- Build files have been written to: /home/hoapham/ros2_ws/build/zivid_camera
+[0.499s] Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/zivid-ros/zivid_camera -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/zivid_camera
+[0.500s] Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+[0.543s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.543s] [ 33%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/infield_correction_controller.cpp.o[0m
+[0.543s] [ 33%] [32mBuilding CXX object CMakeFiles/zivid_camera.dir/rclcpp_components/node_main_zivid_camera.cpp.o[0m
+[0.543s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.543s] [ 38%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/hand_eye_calibration_controller.cpp.o[0m
+[0.543s] [ 38%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/controller_interface.cpp.o[0m
+[0.543s] [ 38%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/detector_controller.cpp.o[0m
+[0.543s] [ 44%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/utility.cpp.o[0m
+[1.140s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.214s] [ 50%] Built target gtest_main
+[1.224s] [ 55%] [32mBuilding CXX object CMakeFiles/zivid_camera_component.dir/src/zivid_camera.cpp.o[0m
+[2.762s] [ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.867s] [ 61%] Built target gtest
+[2.888s] [ 66%] [32m[1mLinking CXX executable zivid_camera[0m
+[2.996s] [ 66%] Built target zivid_camera
+[9.213s] [ 72%] [32m[1mLinking CXX shared library libzivid_camera_component.so[0m
+[10.005s] [ 72%] Built target zivid_camera_component
+[10.026s] [ 94%] [32mBuilding CXX object CMakeFiles/zivid_camera_test.dir/test/test_infield_correction.cpp.o[0m
+[10.026s] [ 94%] [32mBuilding CXX object CMakeFiles/zivid_camera_test.dir/test/test_zivid_camera.cpp.o[0m
+[10.026s] [ 94%] [32mBuilding CXX object CMakeFiles/zivid_camera_test.dir/test/test_detector.cpp.o[0m
+[10.026s] [ 94%] [32mBuilding CXX object CMakeFiles/zivid_camera_test.dir/test/test_hand_eye_calibration.cpp.o[0m
+[23.966s] [100%] [32m[1mLinking CXX executable zivid_camera_test[0m
+[26.261s] [100%] Built target zivid_camera_test
+[26.272s] Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/zivid_camera
+[26.274s] Invoking command in '/home/hoapham/ros2_ws/build/zivid_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera
+[26.279s] -- Install configuration: ""
+[26.279s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/lib/zivid_camera/zivid_camera
+[26.279s] -- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_camera/lib/zivid_camera/zivid_camera" to ""
+[26.279s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/lib/libzivid_camera_component.so
+[26.297s] -- Set runtime path of "/home/hoapham/ros2_ws/install/zivid_camera/lib/libzivid_camera_component.so" to ""
+[26.297s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include
+[26.297s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera
+[26.297s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/capture_settings_controller.hpp
+[26.297s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/hand_eye_calibration_controller.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/detector_controller.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/controller_interface.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/zivid_camera.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/utility.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/visibility.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/include/zivid_camera/infield_correction_controller.hpp
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/launch
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/launch/visualize.launch
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/config
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/config/rviz
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/config/rviz/zivid.rviz
+[26.298s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/library_path.sh
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/library_path.dsv
+[26.299s] -- Up-to-date: /home/hoapham/ros2_ws/install/zivid_camera/lib/libzivid_camera_component.so
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/ament_index/resource_index/package_run_dependencies/zivid_camera
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/ament_index/resource_index/parent_prefix_path/zivid_camera
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/ament_prefix_path.sh
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/ament_prefix_path.dsv
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/path.sh
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/environment/path.dsv
+[26.299s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/local_setup.bash
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/local_setup.sh
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/local_setup.zsh
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/local_setup.dsv
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.dsv
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/ament_index/resource_index/packages/zivid_camera
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/ament_index/resource_index/rclcpp_components/zivid_camera
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraTargetsExport.cmake
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraTargetsExport-noconfig.cmake
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/ament_cmake_export_targets-extras.cmake
+[26.300s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.301s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraConfig.cmake
+[26.301s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraConfig-version.cmake
+[26.301s] -- Installing: /home/hoapham/ros2_ws/install/zivid_camera/share/zivid_camera/package.xml
+[26.304s] Invoked command in '/home/hoapham/ros2_ws/build/zivid_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/zivid_camera

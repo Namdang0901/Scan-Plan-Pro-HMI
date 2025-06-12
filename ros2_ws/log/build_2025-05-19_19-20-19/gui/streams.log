@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/hoapham/ros2_ws/build/gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
+[0.057s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui[0m
+[0.083s] [ 12%] Built target gui_autogen
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target gui[0m
+[0.145s] [ 25%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
+[4.753s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
+[4.753s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_gui[m[K’ is not captured
+[4.753s]    41 |             [01;31m[Khello_gui[m[K->closeRviz();
+[4.753s]       |             [01;31m[K^~~~~~~~~[m[K
+[4.754s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:38:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.754s]    38 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+[4.754s]       |                                                             [01;36m[K^[m[K
+[4.754s] 
+[4.754s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:24:10:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui* hello_gui[m[K’ declared here
+[4.754s]    24 |     auto [01;36m[Khello_gui[m[K = new HelloGui(&app, node_weak_ptr);
+[4.754s]       |          [01;36m[K^~~~~~~~~[m[K
+[4.754s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_gui[m[K’ is not captured
+[4.754s]    44 |             [01;31m[Khello_gui[m[K->openRviz();
+[4.754s]       |             [01;31m[K^~~~~~~~~[m[K
+[4.754s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:38:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[4.754s]    38 |   QObject::connect(stack, &QStackedWidget::currentChanged, [[01;36m[K][m[K(int index) {
+[4.754s]       |                                                             [01;36m[K^[m[K
+[4.754s] 
+[4.754s] [01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:24:10:[m[K [01;36m[Knote: [m[K‘[01m[KHelloGui* hello_gui[m[K’ declared here
+[4.754s]    24 |     auto [01;36m[Khello_gui[m[K = new HelloGui(&app, node_weak_ptr);
+[4.754s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.631s] gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
+[5.631s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
+[5.631s] gmake: *** [Makefile:146: all] Error 2
+[5.634s] Invoked command in '/home/hoapham/ros2_ws/build/gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/gui -- -j16 -l16
