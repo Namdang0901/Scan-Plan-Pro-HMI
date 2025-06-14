@@ -1,8 +1,0 @@
-[01m[K/home/hoapham/ros2_ws/src/gui/src/rviz_window.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krviz_window.hpp: No such file or directory
-    2 | #include [01;31m[K"rviz_window.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/gui.dir/build.make:174: CMakeFiles/gui.dir/src/rviz_window.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

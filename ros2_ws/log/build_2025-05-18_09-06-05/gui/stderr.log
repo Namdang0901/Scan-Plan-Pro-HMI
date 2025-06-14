@@ -1,7 +1,0 @@
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:20:30:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KMySecondWindow[m[K’
-   20 |     auto second_window = new [01;31m[KMySecondWindow[m[K();
-      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

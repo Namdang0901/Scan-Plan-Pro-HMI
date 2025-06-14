@@ -349,13 +349,7 @@ void HelloGui::on_test_service_clicked()
 
     auto result = client->async_send_request(request);
 
-    RCLCPP_INFO(node.front()->get_logger(), "Waiting for response" );
-    if (rclcpp::spin_until_future_complete(node.back(), result) ==
-        rclcpp::FutureReturnCode::SUCCESS)
-    {
-        auto answer = result.get();
-        RCLCPP_INFO(node.front()->get_logger(), "Got response: %d", answer->linear);
-    }
+
 }
 
 void HelloGui::testcallback(const rclcpp::Client<gui_msgs::srv::SettingParams>::SharedFuture result)

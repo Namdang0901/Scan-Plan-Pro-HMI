@@ -1,4 +1,0 @@
-[0.021s] Invoking command in '/home/hoapham/ros2_ws/build/pcd_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/pcd_visualizer -- -j16 -l16
-[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_publisher.dir/src/pcd_publisher.cpp.o[0m
-[10.812s] [100%] [32m[1mLinking CXX executable pcd_publisher[0m
-[11.414s] [100%] Built target pcd_publisher

@@ -3,6 +3,7 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <ur16_control_ui/parser.h>
 #include <fstream>
+#include <cmath>
 
 class JointMoveServer
 {
@@ -40,15 +41,28 @@ private:
     RCLCPP_INFO(node_->get_logger(), "⚡ Trigger received. Planning to joint goal...");
 
     // Load joint config
-    if (!load_joint_config(response)) {
-      return;
+    joint_goal_.clear();
+    config.load(config_path_);
+    static const std::vector<std::string> joint_names = {
+      "joint1", "joint2", "joint3", "joint4", "joint5", "joint6"
+    };
+    
+    for (const auto &name : joint_names) {
+      joint_goal_.push_back(std::stod(config.get("robot_description", name)));
     }
 
     // Plan and execute
     move_group_->setStartStateToCurrentState();
     move_group_->setPlanningTime(10.0);
-    move_group_->setGoalTolerance(0.01);
+    move_group_->setGoalTolerance(0.05);
+    move_group_->setMaxVelocityScalingFactor(0.1);
+    move_group_->setMaxAccelerationScalingFactor(0.1);
+
+    // std::vector<double> target_joint_values = {0.0, -1.57, 0.5, 0.5, 1.57, 0.0};  // Example target
     move_group_->setJointValueTarget(joint_goal_);
+    RCLCPP_INFO(node_->get_logger(), "📍 Joint goal: [%f, %f, %f, %f, %f, %f]",
+    joint_goal_[0], joint_goal_[1], joint_goal_[2],
+    joint_goal_[3], joint_goal_[4], joint_goal_[5]);
 
     moveit::planning_interface::MoveGroupInterface::Plan plan;
     auto success = move_group_->plan(plan);
@@ -60,42 +74,12 @@ private:
       response->success = false;
       response->message = "❌ Planning failed with error code: " + std::to_string(success.val);
       RCLCPP_ERROR(node_->get_logger(), "❌ Planning failed. Error code: %d", success.val);
-}
+    }
 
   }
 
-  bool load_joint_config(std::shared_ptr<std_srvs::srv::Trigger::Response> &response)
-  {
-    joint_goal_.clear();
-
-    if (!config.load(config_path_)) {
-      RCLCPP_ERROR(node_->get_logger(), "❌ Failed to load config file: %s", config_path_.c_str());
-      response->success = false;
-      response->message = "Failed to load config file.";
-      return false;
-    }
-
-    try {
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint1")));
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint2")));
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint3")));
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint4")));
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint5")));
-      joint_goal_.push_back(std::stod(config.get("robot_description", "joint6")));
-
-      RCLCPP_INFO(node_->get_logger(), "📍 Joint goal: [%f, %f, %f, %f, %f, %f]",
-                  joint_goal_[0], joint_goal_[1], joint_goal_[2],
-                  joint_goal_[3], joint_goal_[4], joint_goal_[5]);
-    } catch (const std::exception &e) {
-      RCLCPP_ERROR(node_->get_logger(), "❌ Error parsing joint config: %s", e.what());
-      response->success = false;
-      response->message = "Error parsing joint configuration.";
-      return false;
-    }
-
-    return true;
-  }
 };
+
 
 int main(int argc, char **argv)
 {

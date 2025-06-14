@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
     auto node_weak_ptr = std::weak_ptr<rviz_common::ros_integration::RosNodeAbstractionIface>(node_shared_ptr);
 
     // ✅ Setup ROS executor and spin thread
-    auto ros_node = node_shared_ptr->get_raw_node();
-    auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();
-    // executor->add_node(ros_node);
-    std::thread spin_thread([executor]() {
-        executor->spin();
-    });
+    // auto ros_node = node_shared_ptr->get_raw_node();
+    // auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();
+    // // executor->add_node(ros_node);
+    // std::thread spin_thread([executor]() {
+    //     executor->spin();
+    // });
 
     // GUI setup
     auto shared_rviz_panel = std::make_shared<RvizPanel>(&app);
@@ -68,14 +68,13 @@ int main(int argc, char *argv[])
 
             if (manager) {
                 manager->setFixedFrame("base_link");
-                if (!robot_model_display_) {
                     robot_model_display_ = manager->createDisplay("rviz_default_plugins/RobotModel", "Robot Model", true);
                     robot_model_display_->subProp("Description Topic")->setValue("robot_description");
                     robot_model_display_->subProp("Description Source")->setValue("Topic");
                     robot_model_display_->subProp("Visual Enabled")->setValue(true);
                     robot_model_display_->subProp("Collision Enabled")->setValue(false);
                     robot_model_display_->subProp("Update Interval")->setValue(0.0);
-                }
+                
             }
         } else if (index == 0) { // HelloGui
             if (last_window_index == 1) {
@@ -103,22 +102,18 @@ int main(int argc, char *argv[])
 
             if (manager) {
                 manager->setFixedFrame("base_link");
-                if (!robot_model_display_) {
                     robot_model_display_ = manager->createDisplay("rviz_default_plugins/RobotModel", "Robot Model", true);
                     robot_model_display_->subProp("Description Topic")->setValue("robot_description");
                     robot_model_display_->subProp("Description Source")->setValue("Topic");
                     robot_model_display_->subProp("Visual Enabled")->setValue(true);
                     robot_model_display_->subProp("Collision Enabled")->setValue(false);
                     robot_model_display_->subProp("Update Interval")->setValue(0.0);
-                }
             }
         }
 
         last_window_index = index;
 
-        if (manager) {
-            manager->startUpdate();
-        }
+        manager->startUpdate();
     });
 
     stack->setWindowTitle("Stacked Window Example");
@@ -128,9 +123,9 @@ int main(int argc, char *argv[])
     int result = app.exec();
 
     // ✅ Gracefully stop ROS executor
-    executor->cancel();
-    spin_thread.join();
-    rclcpp::shutdown();
+    // executor->cancel();
+    // spin_thread.join();
+    // rclcpp::shutdown();
 
     return result;
 }

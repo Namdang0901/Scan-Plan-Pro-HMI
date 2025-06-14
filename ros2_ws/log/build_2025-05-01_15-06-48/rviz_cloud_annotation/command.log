@@ -1,4 +1,0 @@
-Invoking command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_cloud_annotation -- -j16 -l16
-Invoked command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/rviz_cloud_annotation -- -j16 -l16
-Invoking command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_cloud_annotation
-Invoked command in '/home/hoapham/ros2_ws/build/rviz_cloud_annotation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoapham/ros2_ws/build/rviz_cloud_annotation

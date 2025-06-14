@@ -3,13 +3,6 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        # Node 1: Your custom PCD publisher
-        Node(
-            package='pcd_visualizer',    # 🔁 Replace with your package name
-            executable='pcd_publisher',     # 🔁 Replace with your executable name
-            name='pcd_publisher',
-            output='screen',
-        ),
 
         # Node 2: RViz2 with optional config
         Node(

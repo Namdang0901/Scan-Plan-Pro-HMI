@@ -1,1 +1,0 @@
-Invoking command in '/home/hoapham/ros2_ws/build/pcd_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/pcd_visualizer -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/pcd_visualizer

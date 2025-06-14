@@ -1,6 +1,0 @@
-[ 25%] [34m[1mAutomatic MOC for target rviz_3d_view_controller[0m
-[ 25%] Built target rviz_3d_view_controller_autogen
-[ 50%] [32mBuilding CXX object CMakeFiles/rviz_3d_view_controller.dir/rviz_3d_view_controller_autogen/mocs_compilation.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/rviz_3d_view_controller.dir/src/rviz_orbit3d_view_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library librviz_3d_view_controller.so[0m
-[100%] Built target rviz_3d_view_controller

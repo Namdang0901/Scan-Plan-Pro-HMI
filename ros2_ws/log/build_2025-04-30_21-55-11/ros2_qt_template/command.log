@@ -1,1 +1,0 @@
-Invoking command in '/home/hoapham/ros2_ws/build/ros2_qt_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hoapham/ros2_ws/build/ros2_qt_template -- -j16 -l16

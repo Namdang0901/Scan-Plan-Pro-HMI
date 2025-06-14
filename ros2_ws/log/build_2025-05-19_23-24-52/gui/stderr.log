@@ -1,8 +1,0 @@
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmanager[m[K’?
-   59 |                 [01;31m[Kmanager_[m[K->getRootDisplayGroup()->removeChild(robot_model_display_);
-      |                 [01;31m[K^~~~~~~~[m[K
-      |                 [32m[Kmanager[m[K
-gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

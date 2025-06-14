@@ -1,5 +1,0 @@
-linear: 30
-rotation: 45
-grinding speed: 34
-grinding force: 43
-spindle speed: 34

@@ -1,7 +1,0 @@
-[ 14%] [34m[1mAutomatic MOC and UIC for target gui[0m
-[ 14%] Built target gui_autogen
-[35m[1mConsolidate compiler generated dependencies of target gui[0m
-[ 42%] [32mBuilding CXX object CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o[0m
-[ 42%] [32mBuilding CXX object CMakeFiles/gui.dir/src/main.cpp.o[0m
-[ 57%] [32mBuilding CXX object CMakeFiles/gui.dir/src/hello_gui.cpp.o[0m
-[ 71%] [32m[1mLinking CXX executable gui[0m

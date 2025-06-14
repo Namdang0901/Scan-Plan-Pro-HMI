@@ -1,7 +1,0 @@
--I/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template/include
--I/home/hoapham/ros2_ws/build/ros2_qt_template
--I/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template
--I/home/hoapham/ros2_ws/build/ros2_qt_template
--o
-/home/hoapham/ros2_ws/build/ros2_qt_template/include/moc_mainwindow.cpp
-/home/hoapham/ros2_ws/src/ros2_qt_template/ros2_qt_template/include/mainwindow.h

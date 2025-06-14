@@ -1,5 +1,0 @@
-linear: 1
-rotation: 1000
-grinding speed: 1000
-grinding force: 1000
-spindle speed: 34

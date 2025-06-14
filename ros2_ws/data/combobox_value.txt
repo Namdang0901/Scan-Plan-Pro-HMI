@@ -1,2 +1,0 @@
-comboBox_setting=0
-comboBox_tool=1

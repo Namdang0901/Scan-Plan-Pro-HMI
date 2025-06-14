@@ -1,1 +1,0 @@
-Invoking command in '/home/hoapham/ros2_ws/build/pointcloud_marker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hoapham/ros2_ws/src/pointcloud_marker -DCMAKE_INSTALL_PREFIX=/home/hoapham/ros2_ws/install/pointcloud_marker

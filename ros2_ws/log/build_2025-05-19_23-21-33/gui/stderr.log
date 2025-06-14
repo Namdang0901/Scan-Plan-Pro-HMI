@@ -1,8 +1,0 @@
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:[m[K In lambda function:
-[01m[K/home/hoapham/ros2_ws/src/gui/src/main.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz_common::VisualizationManager[m[K’ has no member named ‘[01m[KremoveDisplay[m[K’; did you mean ‘[01m[KcreateDisplay[m[K’?
-   59 |                 manager->[01;31m[KremoveDisplay[m[K(robot_model_display_);
-      |                          [01;31m[K^~~~~~~~~~~~~[m[K
-      |                          [32m[KcreateDisplay[m[K
-gmake[2]: *** [CMakeFiles/gui.dir/build.make:90: CMakeFiles/gui.dir/src/main.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,0 @@
-source;share/rviz_cloud_annotation/environment/ament_prefix_path.sh
-source;share/rviz_cloud_annotation/environment/library_path.sh
-source;share/rviz_cloud_annotation/environment/path.sh
-source;share/rviz_cloud_annotation/environment/pythonpath.sh

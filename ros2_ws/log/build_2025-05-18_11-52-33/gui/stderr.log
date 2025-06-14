@@ -1,8 +1,0 @@
-[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:[m[K In constructor ‘[01m[KForm::Form(QWidget*, rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr)[m[K’:
-[01m[K/home/hoapham/ros2_ws/src/gui/src/preparation.cpp:31:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rviz_common::VisualizationManager[m[K’ has no member named ‘[01m[KgetDisplayContext[m[K’; did you mean ‘[01m[KDisplayContext[m[K’?
-   31 |     render_panel_->initialize(viz_manager_->[01;31m[KgetDisplayContext[m[K());
-      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
-      |                                             [32m[KDisplayContext[m[K
-gmake[2]: *** [CMakeFiles/gui.dir/build.make:160: CMakeFiles/gui.dir/src/preparation.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
