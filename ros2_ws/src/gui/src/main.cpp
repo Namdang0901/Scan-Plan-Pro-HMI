@@ -122,10 +122,5 @@ int main(int argc, char *argv[])
 
     int result = app.exec();
 
-    // ✅ Gracefully stop ROS executor
-    // executor->cancel();
-    // spin_thread.join();
-    // rclcpp::shutdown();
-
     return result;
 }
