@@ -28,9 +28,9 @@ def generate_launch_description():
             executable='zivid_camera',
             name='zivid_camera',
             output='screen',
-            parameters=[
-                {'camera_model': 'file_camera'},
-                {'file_camera_path': '/home/hoapham/ros2_ws/FileCameraZivid2M70.zfc'},
-            ]
+           # parameters=[
+              #  {'camera_model': 'file_camera'},
+               # {'file_camera_path': '/home/nam/ros2_ws/FileCameraZivid2M70.zfc'},
+           # ]
         ),
     ])
