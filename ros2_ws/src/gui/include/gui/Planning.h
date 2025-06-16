@@ -46,4 +46,5 @@ private:
     InitConfig config;
     std::filesystem::file_time_type last_time;
     void checkFileChange();
+    double radiansToDegrees(double);
 };

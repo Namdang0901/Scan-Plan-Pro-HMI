@@ -30,7 +30,7 @@
 #include "gui/rvizpanel.h"
 
 #include "gui/parser.h"
-#include "gui/preparation.h" 
+#include "gui/Planning.h" 
 #include "gui/ExecutePage.h"
 
 QT_BEGIN_NAMESPACE

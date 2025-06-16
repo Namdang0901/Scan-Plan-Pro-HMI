@@ -48,7 +48,7 @@ private:
     };
     
     for (const auto &name : joint_names) {
-      joint_goal_.push_back(std::stod(config.get("robot_description", name)));
+      joint_goal_.push_back((std::stod(config.get("robot_description", name)))/(M_PI/180.0));
     }
 
     // Plan and execute

@@ -32,8 +32,8 @@ set(PROJECT_SOURCES
   include/gui/rvizpanel.h
   include/gui/parser.h
 
-  src/preparation.cpp
-  include/gui/preparation.h
+  src/Planning.cpp
+  include/gui/Planning.h
   src/input.ui
   src/ExecutePage.ui
   include/gui/ExecutePage.h

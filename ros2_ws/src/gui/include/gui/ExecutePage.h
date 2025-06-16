@@ -34,7 +34,7 @@ class QwtPlotDirectPainter;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
-class FormHau;
+class ExecuteForm;
 }
 QT_END_NAMESPACE
 
@@ -67,15 +67,15 @@ private:
 
 //=======================================================================
 
-class FormHau : public QMainWindow
+class ExecuteForm : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit FormHau(QApplication *app,
+    explicit ExecuteForm(QApplication *app,
                      rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr rviz_ros_node,
                      QWidget* shared_rviz_widget,
                      QWidget *parent = nullptr);
-    ~FormHau();
+    ~ExecuteForm();
     void closeRviz();
     void openRviz(QWidget* shared_rviz_widget);
 public slots:
@@ -88,7 +88,7 @@ signals:
 
 private:
     QApplication * app_;
-    Ui::FormHau *ui;
+    Ui::ExecuteForm *ui;
     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr node_weak_ptr_;
     rclcpp::Node::SharedPtr node;
     QWidget* rviz_widget = nullptr;

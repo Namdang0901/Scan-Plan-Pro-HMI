@@ -100,7 +100,7 @@ HelloGui::HelloGui(
     connect(ui->radio_tool, &QRadioButton::toggled,
         ui->groupBox_tool, &QGroupBox::setEnabled);
 
-        connect(ui->preparation_btn, &QPushButton::clicked, this, [this]() {
+        connect(ui->planning_btn, &QPushButton::clicked, this, [this]() {
 
             emit switchToSecondWindow();
         });

@@ -937,7 +937,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QPushButton" name="preparation_btn">
+   <widget class="QPushButton" name="planning_btn">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -947,7 +947,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Preparation page</string>
+     <string>Planning page</string>
     </property>
    </widget>
    <widget class="QPushButton" name="ExecutePage_btn">

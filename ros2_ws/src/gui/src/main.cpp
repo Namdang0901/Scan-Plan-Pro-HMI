@@ -3,7 +3,7 @@
 #include <thread>
 
 #include "gui/hello_gui.h"
-#include "gui/preparation.h"
+#include "gui/Planning.h"
 #include "rclcpp/rclcpp.hpp"
 #include "rviz_common/ros_integration/ros_node_abstraction.hpp"
 #include <rviz_common/display_group.hpp>
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
     auto hello_gui = new HelloGui(&app, node_weak_ptr, shared_rviz_widget, shared_rviz_panel);
     auto second_window = new Form(&app, node_weak_ptr, shared_rviz_widget);
-    auto execute_page = new FormHau(&app, node_weak_ptr, shared_rviz_widget);
+    auto execute_page = new ExecuteForm(&app, node_weak_ptr, shared_rviz_widget);
 
     stack->addWidget(hello_gui);  
     stack->addWidget(second_window);
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     QObject::connect(second_window, &Form::backToMainWindow, stack, [stack]() {
         stack->setCurrentIndex(0);
     });
-    QObject::connect(execute_page, &FormHau::backToMainWindow, stack, [stack]() {
+    QObject::connect(execute_page, &ExecuteForm::backToMainWindow, stack, [stack]() {
         stack->setCurrentIndex(0);
     });
 
