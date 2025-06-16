@@ -13,7 +13,7 @@ public:
     move_group_(std::make_shared<moveit::planning_interface::MoveGroupInterface>(node_, "ur_manipulator"))
   {
     // Declare and get config path parameter
-    node_->declare_parameter<std::string>("joint_config_path", "/home/hoapham/ros2_ws/config/joint_state.conf");
+    node_->declare_parameter<std::string>("joint_config_path", "/home/nam/ros2_ws/config/joint_state.conf"); //Fix your file path
     node_->get_parameter("joint_config_path", config_path_);
 
     // Create service
