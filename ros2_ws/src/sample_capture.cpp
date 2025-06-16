@@ -23,18 +23,80 @@ void set_settings(const std::shared_ptr<rclcpp::Node> & node)
     R"(
 __version__:
   serializer: 1
-  data: 22
+  data: 25
 Settings:
   Acquisitions:
     - Acquisition:
-        Aperture: 5.66
-        ExposureTime: 8333
+        Aperture: 2.64
+        Brightness: 2.5
+        ExposureTime: 10000
+        Gain: 1
+  Diagnostics:
+    Enabled: no
+  Engine: omni
   Processing:
+    Color:
+      Balance:
+        Blue: 1
+        Green: 1
+        Red: 1
+      Experimental:
+        Mode: automatic
+      Gamma: 1
     Filters:
+      Cluster:
+        Removal:
+          Enabled: yes
+          MaxNeighborDistance: 6
+          MinArea: 500
+      Experimental:
+        ContrastDistortion:
+          Correction:
+            Enabled: no
+            Strength: 0
+          Removal:
+            Enabled: no
+            Threshold: 0.4
+      Hole:
+        Repair:
+          Enabled: yes
+          HoleSize: 0.7
+          Strictness: 1
+      Noise:
+        Removal:
+          Enabled: yes
+          Threshold: 2
+        Repair:
+          Enabled: yes
+        Suppression:
+          Enabled: yes
       Outlier:
         Removal:
           Enabled: yes
-          Threshold: 5
+          Threshold: 10
+      Reflection:
+        Removal:
+          Enabled: yes
+          Mode: global
+      Smoothing:
+        Gaussian:
+          Enabled: yes
+          Sigma: 1.5
+    Resampling:
+      Mode: disabled
+  RegionOfInterest:
+    Box:
+      Enabled: no
+      Extents: [-10, 100]
+      PointA: [0, 0, 0]
+      PointB: [0, 0, 0]
+      PointO: [0, 0, 0]
+    Depth:
+      Enabled: no
+      Range: [300, 1100]
+  Sampling:
+    Color: rgb
+    Pixel: blueSubsample2x2
 )";
 
   auto param_client = std::make_shared<rclcpp::AsyncParametersClient>(node, "zivid_camera");
