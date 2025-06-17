@@ -85,3 +85,9 @@ ros2 run add_collision_object add_collision_object_node //run the collision obje
 
 e. Run the ur16 controller node:
 ros2 run ur16_control_ui ur16_control_ui //run the ur16 controller node for the scanning button function.
+
+NOTE: The Moveit.launch.py launch file is at the launch folder of ur16_control_ui. 
+The Moveit.launch.py includes the launch file of the gazebo and Moveit 2 simulation, the add_collision_object node and the ur16_control_ui node.
+For real robot interaction, first run the ur_robot_driver, and run the URcap program on the teach pendant. Then launch the Moveit.launch.py. 
+
+The 3D point marker coordiante is saved at the log folder of gui package. 
