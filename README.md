@@ -90,4 +90,4 @@ NOTE: The Moveit.launch.py launch file is at the launch folder of ur16_control_u
 The Moveit.launch.py includes the launch file of the gazebo and Moveit 2 simulation, the add_collision_object node and the ur16_control_ui node.
 For real robot interaction, first run the ur_robot_driver, and run the URcap program on the teach pendant. Then launch the Moveit.launch.py. 
 
-The 3D point marker coordiante is saved at the log folder of gui package. 
+The 3D point marker coordiante is saved at the log folder of ros2_ws. 
