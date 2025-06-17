@@ -58,7 +58,7 @@ colcon build --packages-select gui
 colcon build
 source install/setup.bash
 
-3. Move to the moveit_ws, build and source the package by following the order:
+3. Move to the ur_ws, build and source the package by following the order:
 
 export MAKEFLAGS="-j8" 
 colcon build --executor sequential
@@ -73,7 +73,7 @@ ros2 launch gui gui.launch.py
 note: Remember to connect to the camera before launching the gui launch file.
 
 b. Launch the robot driver:
-cd UR16_UI_ZIVID/moveit_ws/
+cd UR16_UI_ZIVID/ur_ws/
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur16e robot_ip:=192.168.56.101
 note: the launch file above is the driver to link to the real UR16e robot arm. It is mandatory to set and run the URcap external control to the robot arm before launching the driver.
 
@@ -87,7 +87,9 @@ e. Run the ur16 controller node:
 ros2 run ur16_control_ui ur16_control_ui //run the ur16 controller node for the scanning button function.
 
 NOTE: The Moveit.launch.py launch file is at the launch folder of ur16_control_ui. 
-The Moveit.launch.py includes the launch file of the gazebo and Moveit 2 simulation, the add_collision_object node and the ur16_control_ui node.
+The Moveit.launch.py includes the launch file of the gazebo and Moveit 2 simulations, the add_collision_object node and the ur16_control_ui node.
+cd ur_ws
+ros2 launch ur16_control_ui Moveit.launch.py
 For real robot interaction, first run the ur_robot_driver, and run the URcap program on the teach pendant. Then launch the Moveit.launch.py. 
 
 The 3D point marker coordiante is saved at the log folder of ros2_ws. 
