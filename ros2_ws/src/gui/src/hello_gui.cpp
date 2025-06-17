@@ -182,7 +182,7 @@ void HelloGui::on_save_param_clicked()
     config.set(section,"rotation", ui->rb_rotation_text->text().toStdString());
     config.set(section,"spindle_speed", ui->spindle_speed_text->text().toStdString());
     config.save("config/params.conf");
-    // --- Save to a .txt file ---
+    // --- Save to a config file ---
     RCLCPP_INFO(node->get_logger(), "Saved param");
 }
 
@@ -210,7 +210,7 @@ void HelloGui::on_save_tool_clicked()
 
 void HelloGui::on_combo_box1_changed(int index)
 {
-    // Lấy giá trị của comboBox khi thay đổi
+    // Use the combo box value when it changes
     std::string selectedValue = std::to_string(ui->comboBox_setting->currentIndex());
 
     config.set("ComboBox","comboBox_setting", selectedValue);
@@ -223,7 +223,7 @@ void HelloGui::on_combo_box1_changed(int index)
 
 void HelloGui::on_combo_box2_changed(int index)
 {
-    // Lấy giá trị của comboBox khi thay đổi
+    // Use the combo box value when it changes
     std::string selectedValue = std::to_string(ui->comboBox_tool->currentIndex());
     config.set("ComboBox","comboBox_tool", selectedValue);
     ui->tool_rpm_text->setText(config.getQString("Tool" + selectedValue, "tool_rpm"));
@@ -236,13 +236,13 @@ void HelloGui::on_combo_box2_changed(int index)
     ui->comboBox_tooltype->setCurrentIndex(config.getQString("Tool" + selectedValue, "comboBox_tooltype").toInt());
     ui->comboBox_toolgeometry->setCurrentIndex(config.getQString("Tool" + selectedValue, "comboBox_toolgeometry").toInt());
 
-    // Lưu giá trị này vào file .txt
+    // Save to the config file
     config.save("config/params.conf");
 }
 
 void HelloGui::on_combo_box0_changed(int index)
 {
-    // Lấy giá trị của comboBox khi thay đổi
+    // Use the combo box value when it changes
     std::string selectedValue = std::to_string(ui->cb_line_id->currentIndex());
     config.set("ComboBox","comboBox_line", selectedValue);
     std::string line_parameter_name = config.get("LineSetting" + selectedValue, "parameters");
@@ -250,7 +250,7 @@ void HelloGui::on_combo_box0_changed(int index)
 
     ui->cb_line_param->setCurrentIndex(config.getQString("LineSetting" + selectedValue, "parameters").toInt());
     ui->cb_line_tool->setCurrentIndex(config.getQString("LineSetting" + selectedValue, "tool").toInt());
-    // Lưu giá trị này vào file .txt
+    // Save to the config file
     config.save("config/params.conf");
     ui->textBrowser->clear();
     ui->textBrowser->append("Parameters: ");
