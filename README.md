@@ -58,6 +58,24 @@ colcon build --packages-select gui
 colcon build
 source install/setup.bash
 
+NOTE: If there is no real camera, the user can test the capture function by changing the parameter path of the camera node in the gui.launch.py launch file.
+Then, the user has to set up the camera parameters in the sample_capture.cpp node in the zivid_samples pkg as below:
+
+__version__:
+  serializer: 1
+  data: 22
+Settings:
+  Acquisitions:
+    - Acquisition:
+        Aperture: 5.66
+        ExposureTime: 8333
+  Processing:
+    Filters:
+      Outlier:
+        Removal:
+          Enabled: yes
+          Threshold: 5
+
 3. Move to the ur_ws, build and source the package by following the order:
 
 export MAKEFLAGS="-j8" 
