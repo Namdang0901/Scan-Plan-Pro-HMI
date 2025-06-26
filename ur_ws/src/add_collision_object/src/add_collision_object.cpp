@@ -15,12 +15,12 @@ void AddCollisionNode::addCollisionObject() {
   std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
   std::string frame_id = move_group.getPlanningFrame();
 
-  double frame_size = 1.5;       // chiều rộng/dài khung
-  double bar_thickness = 0.05;   // độ dày thanh
-  double height = 1.5;           // chiều cao khung
-  double base_thickness = 0.02;  // độ dày đế
+  double frame_size = 1.5;       // The length of the frame
+  double bar_thickness = 0.05;   // The thickness of the bar
+  double height = 1.5;           // The height of the frame
+  double base_thickness = 0.02;  // The thickness of the base
 
-  // 4 thanh dọc (cột)
+  // 4 columns 
   std::vector<std::pair<std::string, geometry_msgs::msg::Pose>> vertical_bars = {
       {"frame_post_1", PoseAt(-frame_size / 2, -frame_size / 2, height / 2)},
       {"frame_post_2", PoseAt( frame_size / 2, -frame_size / 2, height / 2)},
@@ -44,7 +44,7 @@ void AddCollisionNode::addCollisionObject() {
     collision_objects.push_back(post);
   }
 
-  // Thanh ngang trên (z = height)
+  // The upper bar (z = height)
   std::vector<std::pair<std::string, geometry_msgs::msg::Pose>> horizontal_bars_top = {
       {"frame_horizontal_front_top", PoseAt(0.0, -frame_size / 2, height)},
       {"frame_horizontal_back_top",  PoseAt(0.0,  frame_size / 2, height)},
@@ -52,7 +52,7 @@ void AddCollisionNode::addCollisionObject() {
       {"frame_horizontal_right_top",PoseAt(frame_size / 2, 0.0, height)},
   };
 
-  // Thanh ngang dưới (z = bar_thickness/2), nối chân các cột
+  // Beneath bar (z = bar_thickness/2), Connect the leg of columns
   std::vector<std::pair<std::string, geometry_msgs::msg::Pose>> horizontal_bars_bottom = {
       {"frame_horizontal_front_bottom", PoseAt(0.0, -frame_size / 2, bar_thickness / 2)},
       {"frame_horizontal_back_bottom",  PoseAt(0.0,  frame_size / 2, bar_thickness / 2)},
@@ -60,7 +60,7 @@ void AddCollisionNode::addCollisionObject() {
       {"frame_horizontal_right_bottom",PoseAt(frame_size / 2, 0.0, bar_thickness / 2)},
   };
 
-  // Hàm thêm thanh ngang (dùng chung cho trên và dưới)
+  // Add horizontal bars (For the upper and the beneath)
   auto add_horizontal_bars = [&](const std::vector<std::pair<std::string, geometry_msgs::msg::Pose>>& bars){
     for (const auto& [id, pose] : bars) {
       moveit_msgs::msg::CollisionObject bar;
@@ -71,10 +71,10 @@ void AddCollisionNode::addCollisionObject() {
       primitive.type = primitive.BOX;
 
       if (id.find("front") != std::string::npos || id.find("back") != std::string::npos) {
-        // Thanh ngang trước sau (dài theo X)
+        // The front and the back bars (the length is based on X axis)
         primitive.dimensions = {frame_size, bar_thickness, bar_thickness};
       } else {
-        // Thanh ngang trái phải (dài theo Y)
+        // The right and left bars (Set based on Y axis)
         primitive.dimensions = {bar_thickness, frame_size, bar_thickness};
       }
 
@@ -89,7 +89,7 @@ void AddCollisionNode::addCollisionObject() {
   add_horizontal_bars(horizontal_bars_top);
   add_horizontal_bars(horizontal_bars_bottom);
 
-  // Thêm đế (base plate) - hộp rộng 2m x 2m, dày base_thickness, đặt dưới cùng
+  // Add base plate (base plate) - The box is 2m x 2m, base_thickness, set at the bottom
   moveit_msgs::msg::CollisionObject base_plate;
   base_plate.header.frame_id = frame_id;
   base_plate.id = "frame_base_plate";
@@ -102,7 +102,7 @@ void AddCollisionNode::addCollisionObject() {
   base_pose.orientation.w = 1.0;
   base_pose.position.x = 0.5;
   base_pose.position.y = 0.0;
-  base_pose.position.z = base_thickness / 2.0 - 0.03;  // đặt sát mặt đất
+  base_pose.position.z = base_thickness / 2.0 - 0.03;  // Set the base close to the ground
 
   base_plate.primitives.push_back(base_primitive);
   base_plate.primitive_poses.push_back(base_pose);
