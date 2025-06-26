@@ -19,7 +19,26 @@ void fatal_error(const rclcpp::Logger & logger, const std::string & message)
 void set_settings(const std::shared_ptr<rclcpp::Node> & node)
 {
   RCLCPP_INFO(node->get_logger(), "Setting parameter 'settings_yaml'");
-  const std::string settings_yml =
+  const bool simulate_capture = true;
+  const std::string simulated_settings_yml = 
+    R"(
+__version__:
+  serializer: 1
+  data: 22
+Settings:
+  Acquisitions:
+    - Acquisition:
+        Aperture: 5.66
+        ExposureTime: 8333
+  Processing:
+    Filters:
+      Outlier:
+        Removal:
+          Enabled: yes
+          Threshold: 5
+)";
+  
+  const std::string real_settings_yml =
     R"(
 __version__:
   serializer: 1
@@ -98,6 +117,7 @@ Settings:
     Color: rgb
     Pixel: blueSubsample2x2
 )";
+  const std::string settings_yml = simulate_capture ? simulated_settings_yml : real_settings_yml;
 
   auto param_client = std::make_shared<rclcpp::AsyncParametersClient>(node, "zivid_camera");
   while (!param_client->wait_for_service(std::chrono::seconds(3))) {
